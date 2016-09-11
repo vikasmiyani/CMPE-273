@@ -1,14 +1,15 @@
-\HomeworkJava\.settings
-\HomeworkJava\bin
-\HomeworkJava\.classpath
-\HomeworkJava\.project
+HomeWorkJS/build
+HomeWorkJS/src
+HomeWorkJS/.settings
+HomeWorkJS/.classpath
+HomeWorkJS/.project
+HomeWorkJS/WebContent/WEB-INF
 
-\HomeWorkJS\build
-\HomeWorkJS\src
-\HomeWorkJS\.settings
-\HomeWorkJS\.classpath
-\HomeWorkJS\.project
-
+HomeworkJava/.settings
+HomeworkJava/bin
+HomeworkJava/.classpath
+HomeworkJava/.project
+HomeworkJava/src/com/permutation
 
 # Windows image file caches
 Thumbs.db

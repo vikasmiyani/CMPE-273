@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+
+<script type="text/javascript">
+	function findSqureValWithoutSM() {
+		var x = document.getElementById("number").value;
+		eval("var squareVal = x * x");
+		document.getElementById("answer").innerHTML = squareVal;
+	}
+
+	function findSqureValWithSM() {
+		"use strict";
+		eval("var squareVal = x * x");
+		document.getElementById("answer").innerHTML = squareVal;
+	}
+</script>
+</head>
+
+<span>Find the square value of given number.</span>
+<br />
+<span>Without strict mode.</span>
+<br />
+<input type="number" id="number" />
+<br />
+<button onclick="findSqureValWithoutSM()">Get Square value
+	without SM</button>
+<hr>
+<span>With strict mode.</span>
+<br />
+<button onclick="findSqureValWithSM()">Get Square value with SM</button>
+<br />
+<hr>
+<span id="answer"></span>
+
+</body>
+</html>

@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>JSON</title>
+<script type="text/javascript">
+	var bookJSON = '{ "books" : ['
+			+ '{ "id":"B01" , "name":"Twisted", "ISBN":"1477829482", "author":"Andrew E. Kaufman"},'
+			+ '{ "id":"B02" , "name":"Winner Take All", "ISBN":"1477820825", "author":"Barry Eisler"},'
+			+ '{ "id":"B03" , "name":"Follow you Home", "ISBN":"1503944379","author":"Mark Edwards"},'
+			+ '{ "id":"B04" , "name":"Take Me With You", "ISBN":"1477820019", "author":" Catherine Ryan Hyde"} ]}';
+
+	function getBookInfo() {
+
+		var bookID = document.getElementById("bookInfo").value;
+
+		obj = JSON.parse(bookJSON);
+
+		for (i = 0; i < obj.books.length; i++) {
+			if (bookID === obj.books[i].id) {
+				document.getElementById("result").innerHTML = "ID :"
+						+ obj.books[i].id + "<br/>Name :" + obj.books[i].name
+						+ "<br/> ISBN :" + obj.books[i].ISBN + "<br/>Author :"
+						+ obj.books[i].author;
+			}
+		}
+
+	}
+</script>
+</head>
+<body>
+
+	<H3>Book Information</H3>
+	<br />
+	<select id="bookInfo" onchange="getBookInfo()">
+		<option value="B01">Book 1</option>
+		<option value="B02">Book 2</option>
+		<option value="B03">Book 3</option>
+		<option value="B04">Book 4</option>
+	</select>
+
+	<p>
+		<span id="result"></span>
+	</p>
+</body>
+</html>

@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Variable</title>
+
+<script type="text/javascript">
+	function enrollUser() {
+
+		var name = document.getElementById("name").value;
+		var email = document.getElementById("emailId").value;
+
+		if (name !== "" && name !== null && email !== "" && email !== null) {
+			document.getElementById("enrolled").innerHTML = "Yayee! You are enrolled <b>"
+					+ name
+					+ "</b> and we will mail you on this <b>"
+					+ email
+					+ "</b>.";
+		} else {
+			document.getElementById("enrolled").innerHTML = "Please provide your name/email id.";
+		}
+
+	}
+</script>
+</head>
+<body>
+
+	Welcome!!!
+	<br />
+	<br /> Enroll yourself for the greatest event. Thank you.
+	<br />
+	<br />
+
+	<form>
+		<label for="name">*Name</label>&nbsp;&nbsp;<input type="text"
+			id="name" /> <br /> <label for="emailId">*Email id</label>&nbsp;&nbsp;<input
+			type="email" id="emailId" /> <br /> <input type="button"
+			value="Click to enroll" onclick="enrollUser()" />
+
+	</form>
+
+
+	<p>
+		<span id="enrolled"></span>
+	</p>
+</body>
+</html>

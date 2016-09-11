@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Objects</title>
+
+<script type="text/javascript">
+	function getVitaminInfo(id) {
+
+		var vitamin = document.getElementById(id.id).innerHTML;
+		var vitaminInfoObj;
+		switch (vitamin) {
+		case "Vitamin A":
+
+			vitaminInfoObj = {
+				vitaminName : vitamin,
+				info : "Vitamin A helps cell reproduction. It also stimulates immunity and is needed for formation of some hormones.",
+				source : "Cantaloupes, Grapefruit, Guava, Mango."
+			};
+			break;
+		case "Vitamin C":
+
+			vitaminInfoObj = {
+				vitaminName : vitamin,
+				info : "Vitamin C is one of the most important of all vitamins. It plays a significant role as an antioxidant, thereby protecting body tissue from the damage of oxidation. ",
+				source : "Black Currants, Breadfruit, Grapefruit, Kiwi."
+			};
+			break;
+		case "Vitamin D":
+
+			vitaminInfoObj = {
+				vitaminName : vitamin,
+				info : "Vitamin D is known as the sunshine vitamin since it is manufactured by the body after being exposed to sunshine.",
+				source : "Mushrooms, Cheddar Cheese, Eggs, Yogurt."
+			};
+			break;
+		case "Vitamin E":
+
+			vitaminInfoObj = {
+				vitaminName : vitamin,
+				info : "Like vitamin C, vitamin E plays a significant role as an antioxidant, thereby protecting body tissue from the damage of oxidation.",
+				source : "Avocado, Cranberries, Papaya, Pomegranate."
+			};
+			break;
+		}
+
+		document.getElementById("vitaminInfo").innerHTML = "Vitamin name: "
+				+ vitaminInfoObj.vitaminName
+				+ "<br/><br/>Vitamin information: " + vitaminInfoObj.info
+				+ "<br/><br/>Vitamin source: " + vitaminInfoObj.source;
+	}
+</script>
+</head>
+<body>
+
+	Hello!!!
+	<br />
+	<br /> Find the resource and information by clicking on the below
+	vitamins.
+	<br />
+	<br />
+
+	<form>
+		<span id="vitA" onclick="getVitaminInfo(this)">Vitamin A</span>&emsp;
+		<span id="vitC" onclick="getVitaminInfo(this)">Vitamin C</span>&emsp;
+		<span id="vitD" onclick="getVitaminInfo(this)">Vitamin D</span>&emsp;
+		<span id="vitE" onclick="getVitaminInfo(this)">Vitamin E</span>
+	</form>
+
+
+	<p>
+		<span id="vitaminInfo"></span>
+	</p>
+</body>
+</html>

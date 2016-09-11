@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Events</title>
+
+<script type="text/javascript">
+	function displayRegistered() {
+
+		var name = document.getElementById("name").value;
+		var occupation = document.getElementById("occupation").value;
+
+		if (name !== "" && name !== null && isNaN(name) && occupation !== ""
+				&& occupation !== null && isNaN(occupation)) {
+			document.getElementById("greetingText").innerHTML = "Thanks for the registration.";
+		} else {
+			document.getElementById("greetingText").innerHTML = "Both the fields are manadatory and alphabetic only. Thanks!!!";
+		}
+
+		return false;
+	}
+
+	function changeText(idObj) {
+		document.getElementById(idObj.id).style.font = "italic bold 10px arial,serif";
+	}
+</script>
+</head>
+<body>
+
+	Please enter your info to register.
+
+	<form onsubmit="return displayRegistered()" method="post">
+
+		*Name: <input type="text" id="name" onblur="changeText(this)" /><br />
+		*Occupation: <input type="text" id="occupation"
+			onblur="changeText(this)" /><br /> <input type="submit"
+			value="Register" /> <input type="reset" value="Reset" />
+	</form>
+
+	<p>
+		<span id="greetingText"></span>
+	</p>
+</body>
+</html>

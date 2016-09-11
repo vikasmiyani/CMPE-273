@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+<script type="text/javascript">
+	function sum() {
+		try {
+			document.getElementById("answer").innerHTML = " ";
+			var num1 = document.getElementById("number1").value;
+			var num2 = document.getElementById("number2").value;
+
+			if (num1 !== "" && num1 !== null && num2 !== "" && num2 !== null) {
+				if (isNaN(num1) || isNaN(num2)) {
+					throw "one of the number is not a number";
+				} else {
+					var sum = parseInt(num1) + parseInt(num2);
+					document.getElementById("answer").innerHTML = sum;
+
+				}
+			}
+		} catch (msg) {
+			document.getElementById("answer").innerHTML = msg;
+		}
+
+	}
+</script>
+</head>
+<body>
+
+
+	<span></span>
+	<br />
+	<span></span>
+	<br /> Number 1:&emsp;
+	<input type="text" id="number1" />
+	<br /> Number 2:&emsp;
+	<input type="text" id="number2" />
+	<br />
+	<button onclick="sum()">Addition</button>
+	<br />
+	<hr>
+	<span id="answer"></span>
+
+</body>
+</html>

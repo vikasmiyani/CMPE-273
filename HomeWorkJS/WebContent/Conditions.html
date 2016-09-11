@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Condition</title>
+
+<script type="text/javascript">
+
+function getGradeInfo(){
+	
+	var percentage = document.getElementById("percentage").value;
+	
+	if(percentage !== "" && percentage !== null && !isNaN(percentage) && percentage >= 0){
+		var grade;
+		if(90 <= percentage && percentage <= 100  ){
+			grade = 'A';
+		}else if (80 <= percentage && percentage < 90  ) {
+			grade = 'B';
+		}else if (70 <= percentage && percentage < 80  ) {
+			grade = 'C';
+		}else if (60 <= percentage && percentage < 70  ) {
+			grade = 'D';
+		}else{
+			grade = 'E';
+		}	
+		
+		document.getElementById("yourGrade").innerHTML = "Your grade is "+ grade;
+	}else{
+		document.getElementById("yourGrade").innerHTML = "Enter percentage between 0-100.";
+	}
+	
+}
+</script>
+
+</head>
+<body>
+
+Find your grade by entering your percentage.
+<br/>
+<br/>
+
+Your percentage: <input type="number" id="percentage"/>&emsp;
+
+
+<button onclick="getGradeInfo()">Click for grade</button>
+
+<br/>
+<br/>
+
+<span id="yourGrade"></span>
+
+</body>
+</html>

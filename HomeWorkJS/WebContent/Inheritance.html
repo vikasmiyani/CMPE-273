@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Inheritance</title>
+
+<script type="text/javascript">
+	function CollegeMemeber() {
+		this.collegeId = "SJXXXX";
+		this.occupation = function occupation() {
+			document.getElementById("occupation").innerHTML = "Every college member has different occupation";
+		}
+	}
+	function Professors() {
+		this.occupation = function occupation() {
+			document.getElementById("occupation").innerHTML = "Occupation: Teaching perticular subject to many students";
+		}
+	}
+	function Students() {
+		this.occupation = function occupation() {
+			document.getElementById("occupation").innerHTML = "Occupation: Learning many subject from many professors";
+		}
+	}
+
+	Professors.prototype = new CollegeMemeber();
+	var prof = new Professors();
+	Professors.prototype.collegeId = (prof.collegeId);
+	function profInfo() {
+		prof.occupation();
+		document.getElementById("collegeId").innerHTML = "Professor's id "
+				+ prof.collegeId;
+	}
+
+	Students.prototype = new CollegeMemeber();
+	var student = new Students();
+	Students.prototype.collegeId = (student.collegeId);
+	function studentInfo() {
+		student.occupation();
+		document.getElementById("collegeId").innerHTML = "Student's id "
+				+ student.collegeId;
+	}
+</script>
+</head>
+
+<body>
+
+	<h2>Inheritance</h2>
+	<br />
+
+	<button onclick="profInfo()">Professor Info</button>
+	<br />
+	<button onclick="studentInfo()">Student Info</button>
+	<br />
+	<span id="collegeId"></span>
+	<br />
+	<span id="occupation"></span>
+
+
+
+</body>
+</html>

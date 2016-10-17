@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Account setting</title>
+<link rel="shortcut icon" href="">
+<link rel="stylesheet" href="/stylesheets/style.css">
+<link rel="stylesheet" href="/bootstrap/dist/css/bootstrap.css">
+</head>
+<body ng-app="app">
+	<% include navbar.ejs %>
+	<div class="container topMargin100  col-md-8"
+		ng-controller="accountController" ng-init="accountDetails()">
+
+		<div class="panel panel-default col-md-offset-6">
+			<div class="panel-heading">Account setting</div>
+			<div class="panel-body">
+				<form ng-submit="update()" role="form">
+					<div class="form-group">
+						<label for="first_name" class="col-form-label">First name</label>
+						<input class="form-control" type="text" value="" id="first_name"
+							ng-model="first_name" required="required">
+
+					</div>
+					<div class="form-group">
+						<label for="last_name" class="col-form-label">Last name</label> <input
+							class="form-control" type="text" value="" id="last_name"
+							ng-model="last_name">
+
+					</div>
+					<div class="form-group ">
+						<label for="ebay_handle" class=" col-form-label">Ebay
+							handle</label> <input class="form-control" type="text" value=""
+							id="ebay_handle" ng-model="ebay_handle" disabled>
+
+					</div>
+					<div class="form-group">
+						<label for="dob" class=" col-form-label">Birth date</label> <input
+							class="form-control" type="text" value="0" id="dob"
+							ng-model="dob" placeholder="yyyy-mm-dd">
+
+					</div>
+					<div class="form-group">
+						<label for="email_id" class="col-form-label">Email id</label> <input
+							class="form-control" type="email" id="email_id"
+							ng-model="email_id" required="required">
+
+					</div>
+					<div class="form-group ">
+						<label for="contact_info" class=" col-form-label">Contact
+							info</label> <input class="form-control" type="text" id="contact_info"
+							ng-model="contact_info">
+
+					</div>
+					<div class="form-group ">
+						<label for="address" class=" col-form-label">Address</label> <input
+							class="form-control" type="text" id="address" ng-model="address">
+
+					</div>
+					<div class="form-group ">
+						<label for="city" class=" col-form-label">City</label> <input
+							class="form-control" type="text" id="city" ng-model="city">
+
+					</div>
+					<div class="form-group">
+						<label for="zip" class=" col-form-label">Zip</label> <input
+							class="form-control" type="text" id="zip" ng-model="zip">
+
+					</div>
+					<div class="form-group">
+
+						<input type="submit" class="btn btn-primary" value="Update" />
+
+					</div>
+
+
+				</form>
+			</div>
+		</div>
+		<div class="bs-example col-md-5 col-md-offset-6" ng-show="isError">
+			<div class="alert alert-danger fade in">
+				<a href="#" class="close" data-dismiss="alert">&times;</a> <strong>Error!</strong>
+				{{isErrorMsg}}
+			</div>
+
+	</div>
+	<script src="/angular/angular.js"></script>
+	<script src="/angular-route/angular-route.js"></script>
+	<script src="/jquery/dist/jquery.min.js"></script>
+	<script src="/bootstrap/dist/js/bootstrap.js"></script>
+	<script src="/controller/profile-controller.js"></script>
+	<script src="/controller/navbar-controller.js"></script>
+</body>
+</html>

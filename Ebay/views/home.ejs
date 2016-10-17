@@ -1,0 +1,84 @@
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Ebay home</title>
+	<link rel="shortcut icon" href="">
+	<link rel="stylesheet"  href="/stylesheets/style.css">
+    <link rel="stylesheet" href="/bootstrap/dist/css/bootstrap.css">
+</head>
+<body ng-app="app" >
+<% include navbar.ejs %>
+  <div class="container" ng-controller="homeController" ng-init="getItemList()">
+    <div class="well well-sm" style="margin-left: 16px;
+margin-right: -13px;">
+        <strong>Category Title</strong>
+        <div class="btn-group">
+            <a href="#" id="list" class="btn btn-default btn-sm"><span class="glyphicon glyphicon-th-list">
+            </span>List</a> <a href="#" id="grid" class="btn btn-default btn-sm"><span
+                class="glyphicon glyphicon-th"></span>Grid</a>
+        </div>
+    </div>
+    
+    <div class="container">
+    <div id="products" class="row list-group">
+    <div ng-repeat="i in items">
+    
+        <div class="item  col-xs-4 col-lg-4" >
+            <div class="thumbnail">
+                <img class="group list-group-image" src="/image/300x300.png" alt="product image" />
+                <div class="caption">
+                
+                	 <div ng-if="i.isSold === 0"><a href="/detailPg/{{i.s_id}}"><h4 id={{i.s_id}} class="group inner list-group-item-heading">
+                       {{i.item_name}}</h4></a></div>
+                       <div ng-if="i.isSold === 1"> <a href><h4 id={{i.s_id}} class="group inner list-group-item-heading">
+                       {{i.item_name}}</h4></a></div>
+        
+                    <span name="item" ng-attr-id="{{ 'item-'+ i.id }}" style="display: none;" >{{i}}</span>
+                    <p class="group inner list-group-item-text">
+                       {{i.item_desc}}</p>
+                    <p class="group inner list-group-item-text">
+                      {{i.first_name}} shipping from {{i.city}}</p>
+                    <div class="row">
+                    	<div ng-if="i.isBidding === 1"> 
+                        	<div class="col-xs-12 col-md-6">
+                            	<p class="lead">
+                               ${{i.bidding_price}}</p>
+                        	</div>
+                        </div>
+                        <div ng-if="i.isBidding === 0"> 
+                        	<div class="col-xs-12 col-md-6">
+                            	<p class="lead">
+                               ${{i.price}}</p>
+                        	</div>
+                        </div>
+                        <div class="col-xs-12 col-md-6">
+                        	<div ng-if="i.isSold === 1"><p class=" group inner list-group-item-text">
+                      			sold</p></div>
+                            <div ng-if="i.isSold === 0 && i.isBidding === 0"><p class=" group inner list-group-item-text">
+                      			{{i.quantity}} pieces left</p></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            </div>
+            </div>
+        </div>
+  </div>
+  </div>
+
+	<script src="/angular/angular.js"></script>
+	<script src="/angular-route/angular-route.js"></script>
+	<script src="/jquery/dist/jquery.min.js"></script>
+	<script src="/bootstrap/dist/js/bootstrap.js"></script>
+	<script src="/controller/home-controller.js"></script> 
+	<script src="/controller/navbar-controller.js"></script>
+	
+  <script>
+
+$(document).ready(function() {
+    $('#list').click(function(event){event.preventDefault();$('#products .item').addClass('list-group-item');});
+    $('#grid').click(function(event){event.preventDefault();$('#products .item').removeClass('list-group-item');$('#products .item').addClass('grid-group-item');});
+});
+</script>
+</body>
+</html>

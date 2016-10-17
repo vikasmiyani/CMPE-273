@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+<link rel="shortcut icon" href="">
+<link rel="stylesheet" href="/stylesheets/style.css">
+<link rel="stylesheet" href="/bootstrap/dist/css/bootstrap.css">
+</head>
+<body ng-app="app">
+	<% include navbar.ejs %>
+	<div class="container col-md-offset-2"
+		ng-controller="shoppingController" ng-init="fetchShoppingDetail()">
+
+		<div class="col-md-12">
+			<h1>Your eBay Shopping Cart</h1>
+		</div>
+		<div class="centalArea col-md-12">
+			<div class="leftSection col-md-8">
+				<div class="bs-example" ng-show="isError">
+					<div class="alert alert-danger fade in">
+						<a href="#" class="close" data-dismiss="alert">&times;</a> <strong>Error!</strong>
+						{{errorMsg}}
+					</div>
+				</div>
+				<div class="cartSection">
+					<div class="shopCart whiteBg borderRound">
+						<div ng-repeat=" i in shoppingItem_list track by $index">
+							<div id="div{{$index}}" class="panel panel-default">
+								<div class="panel-heading">
+									<span ng-model="seller_info">Seller: {{i.first_name}}</span>
+								</div>
+								<div class="">
+									<table class="table table-hover">
+										<tr>
+											<td class="col-md-2">
+												<div class="media">
+													<span class="thumbnail pull-left" href> <img
+														class="media-object" src="/image/600x400.png"
+														style="width: 72px; height: 72px;">
+													</span>
+
+												</div>
+											</td>
+											<td class="col-md-3">
+												<div class="media-body">
+													<h4 class="media-heading">
+														<span ng-model="item_name">{{i.item_name}}</span>
+													</h4>
+													<h5 class="media-heading">
+														<span ng-model="item_desc">{{i.item_desc}}<span>
+													</h5>
+
+												</div>
+											</td>
+											<td class="col-md-1" style="text-align: center"><lable>quantity</lable>
+											</td>
+											<td class="col-md-1"><input type="text"
+												class="form-control" id="quantity" ng-model="qty"
+												ng-value={{i.ord_quantity}} min="0"
+												;  ng-blur="update($index)"></td>
+											<td class="col-md-1 text-center"><strong><span
+													ng-model="subtotal">${{i.subtotal}}</span></strong></td>
+											<!-- <input type="hidden" ng-init="$parent.total = $parent.total + (i.price * i.ord_quantity)"/> -->
+										</tr>
+										<tr>
+											<td colspan="5" class="col-md-1" style="text-align: right">
+												<a href ng-click="removeItem($index)"> <span
+													class="glyphicon glyphicon-remove"></span> Remove
+											</a>
+											</td>
+										</tr>
+
+									</table>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="cartSummary whiteBg borderRound"
+						style="margin-top: 10px">
+						<table>
+							<tr>
+
+								<td><h5>Subtotal</h5></td>
+								<td class="text-right"><h5>
+										<strong><span ng-bind="total"></span></strong>
+									</h5></td>
+							</tr>
+							<tr>
+
+								<td><h5>Sales tax</h5></td>
+								<td class="text-right"><h5>
+										<strong><span ng-bind="sales_tax"></span></strong>
+									</h5></td>
+							</tr>
+							<tr>
+
+								<td><h3>Total</h3></td>
+								<td class="text-right"><h3>
+										<strong><span ng-bind="grandtotal"></span></strong>
+									</h3></td>
+							</tr>
+							<tr>
+
+								<td style="padding: 5px">
+									<a href="/" type="button" class="btn btn-default">
+										<span class="glyphicon glyphicon-shopping-cart"></span>
+										Continue Shopping
+									</a>
+								</td>
+								<td>
+									<button ng-click="checkout()" type="button" class="btn btn-success">
+										Checkout <span class="glyphicon glyphicon-play"></span>
+									</button>
+								</td>
+							</tr>
+						</table>
+
+					</div>
+				</div>
+
+			</div>
+			<div class="rightSection col-md-3">
+				<div class="whiteBg borderRound">
+					<div style="font-size: 20px">
+						<span>Cart summary</span>
+					</div>
+					<div>
+						<hr>
+					</div>
+					<div style="font-size: 20px">
+						<span>Total: </span> <span ng-bind="grandtotal"></span>
+					</div>
+					<div>
+						<a class="btn btn-primary width100" href ng-click="checkout()"
+							role="button">Proceed to checkout</a>
+					</div>
+					<div style="margin: 10px">
+						<img
+							src="http://ir.ebaystatic.com/pictures/aw/pics/shoppingcart/eMBG_stacked.gif"
+							alt="Learn more about eBay Money Back Guarantee" width="150"
+							height="35">
+					</div>
+					<div>
+						Covers your purchase price plus original shipping on virtually all
+						items.<br> Get the item you ordered or get your money back.
+					</div>
+				</div>
+
+			</div>
+
+
+		</div>
+
+	</div>
+	<script src="/angular/angular.js"></script>
+	<script src="/angular-route/angular-route.js"></script>
+	<script src="/jquery/dist/jquery.min.js"></script>
+	<script src="/bootstrap/dist/js/bootstrap.js"></script>
+	<script src="/controller/shopping-controller.js"></script>
+	<script src="/controller/navbar-controller.js"></script>
+</body>
+</html>

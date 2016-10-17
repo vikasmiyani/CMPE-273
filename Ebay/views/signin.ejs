@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Sign in</title>
+	<link rel="shortcut icon" href="">
+	<link rel="stylesheet"  href="/stylesheets/style.css">
+    <link rel="stylesheet" href="/bootstrap/dist/css/bootstrap.css">
+</head>
+<body ng-app="app" ng-controller="signinController">
+		<div class="container">
+		 <table style="width:100%">
+        	<tbody>
+       		 <tr>
+            <td>
+                <h1>
+                    <a href="/" ><font color="#f8f8f8">!</font>
+                        <img role="presentation" width="250" height="200" style="clip:rect(47px, 118px, 95px, 0px); position:absolute; top:60px;left:600px" alt="" src="/image/logo.png" id="gh-logo">
+                    </a>
+                </h1>
+            </td>
+            </tr>
+            <tr>
+            <td>
+            <div class="col-md-4 col-md-offset-4 topMargin100">
+					<div class="panel panel-login">
+						<div class="panel-heading">
+							<div class="row">
+								<div class="col-xs-6">
+									<a href="#" class="active" id="login-form-link">Login</a>
+								</div>
+								<div class="col-xs-6">
+									<a href="#" id="register-form-link">Register</a>
+								</div>
+							</div>
+							<hr>
+						</div>
+						<div class="panel-body">
+							<div class="row">
+								<div class="col-lg-12">
+									<form id="login-form" name="loginForm"role="form" style="display: block;">
+												<div class="form-group"
+													ng-class="{ 'has-error' :loginForm.email_id.$invalid && !loginForm.email_id.$pristine }">
+													<input type="email" ng-model="email_id" name="email_id"
+														id="email_id" tabindex="1" class="form-control"
+														placeholder="Email id" required="required" ng-pattern="emailPattern">
+													<p	ng-show="loginForm.email_id.$invalid && !loginForm.email_id.$pristine"
+														class="help-block">Email address is required.</p>
+													<p	ng-show="loginForm.email_id.$error.email"
+														class="help-block">Not valid email.</p>
+					
+												</div>
+												<div class="form-group" ng-class="{ 'has-error' :loginForm.password.$invalid && !loginForm.password.$pristine }" >
+													<input type="password" ng-model="password" name="password"
+														id="password" tabindex="2" class="form-control"
+														placeholder="Password"  ng-minlength="4"
+														ng-maxlength="20" required="required">
+														<p	ng-show="loginForm.password.$invalid && !loginForm.password.$pristine"
+														class="help-block">Password is required.</p>
+													<p ng-show="loginForm.password.$error.minlength"
+														class="help-block">Password is too short.</p>
+													<p ng-show="loginForm.password.$error.maxlength"
+														class="help-block">Password is too long.</p>
+												<!-- 	<p ng-show="loginForm.password.$error.password"
+														class="help-block">The password's first character must be a letter, it must contain at least 4 characters and no more than 15 characters and no characters other than letters, numbers and the underscore may be used</p> -->
+												</div>
+												<div class="form-group">
+											<div class="row">
+												<div class="col-sm-6 col-sm-offset-4">
+													<input type="submit" tabindex="4" class="btn btn-login"
+														value="Sign In" ng-click="signin()" ng-disabled="loginForm.$invalid"/>
+												</div>
+											</div>
+										</div>
+									</form>
+									<form id="register-form" method="post" role="form" style="display: none;" name="rForm">
+												<div class="form-group"
+													ng-class="{ 'has-error' :rForm.f_name.$invalid && !rForm.f_name.$pristine }">
+													<input type="text" ng-model="f_name" name="f_name"
+														id="f_name" tabindex="1" class="form-control"
+														placeholder="First name" required="required">
+													<p
+														ng-show="rForm.f_name.$invalid && !rForm.f_name.$pristine"
+														class="help-block">First name is required.</p>
+												</div>
+												<div class="form-group">
+													<input type="text" ng-model="l_name" name="l_name"
+														id="l_name" tabindex="1" class="form-control"
+														placeholder="Last name" value="">
+												</div>
+										<div class="form-group"
+											ng-class="{ 'has-error' :rForm.email_id.$invalid && !rForm.email_id.$pristine }">
+											<input type="email" ng-model="email_id" name="email_id"
+												id="email_id" tabindex="1" class="form-control"
+												placeholder="Email id" required="required" ng-pattern="emailPattern">
+											<p ng-show="rForm.email_id.$invalid && !rForm.email_id.$pristine"
+												class="help-block">Email is required.</p>
+													<p	ng-show="rForm.email_id.$error.email"
+														class="help-block">Not valid email.</p>
+										</div>
+										<div class="form-group" ng-class="{ 'has-error' :rForm.password.$invalid && !rForm.password.$pristine }">
+											<input type="password" ng-model="password" name="password" id="password"
+												tabindex="2" class="form-control" placeholder="Password"  ng-minlength="4"
+												ng-maxlength="20">
+												<p ng-show="rForm.password.$invalid && !rForm.password.$pristine"
+												class="help-block">Password is required.</p>
+												<p ng-show="rForm.password.$error.minlength"
+														class="help-block">Password is too short.</p>
+												<p ng-show="rForm.password.$error.maxlength"
+														class="help-block">Password is too long.</p>
+											<!-- 	<p ng-show="rForm.password.$error.password"
+														class="help-block">The password's first character must be a letter, it must contain at least 4 characters and no more than 15 characters and no characters other than letters, numbers and the underscore may be used</p>
+												 -->		
+										</div>
+										<div class="form-group" ng-class="{ 'has-error' :rForm.confirmpassword.$invalid && !rForm.confirmpasswordd.$pristine }">
+											<input type="password" ng-model="confirmpassword" name="confirmpassword"
+												id="confirmpassword" tabindex="2" class="form-control"
+												placeholder="Confirm Password" required="required"  ng-minlength="4"
+												ng-maxlength="20" ng-paste="$event.preventDefault()">
+													<p
+														ng-show="rForm.confirmpassword.$invalid && !rForm.confirmpassword.$pristine"
+														class="help-block">Confirm password is required.</p>
+													<p ng-show="rForm.confirmpassword.$error.minlength"
+														class="help-block">Confirm password is too short.</p>
+													<p ng-show="rForm.confirmpassword.$error.maxlength"
+														class="help-block">Confirm password is too long.</p>
+													<!-- <p ng-show="rForm.confirmpassword.$error.password"
+														class="help-block">The password's first character must be a letter, it must contain at least 4 characters and no more than 15 characters and no characters other than letters, numbers and the underscore may be used</p>
+												 --></div>
+										<div class="form-group">
+											<div class="row">
+												<div class="col-sm-6 col-sm-offset-4">
+													<input type="submit" tabindex="4" class="btn btn-register"
+														value="Register" ng-click="signup()" ng-disabled="rForm.$invalid"/>
+												</div>
+											</div>
+										</div>
+									</form>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+            </td>
+            </tr>
+             <tr>
+        	<td>
+        		<div class="alert alert-danger fade in col-md-4 col-md-offset-4" ng-show="isError">
+					<a href="#" class="close" data-dismiss="alert">&times;</a> <strong>Error!</strong>
+					{{errorMsg}}
+				</div>
+        	</td>
+        	</tr>
+		</tbody>
+		</table>
+		
+		<!-- <div class="row">
+            <div class="col-md-4 col-md-offset-4">
+		          <img id="gh-logo" width="250" height="200" src="/image/logo.png" alt="" style="clip:rect(47px, 118px, 95px, 0px); position:absolute; top:-100px;left:0" role="presentation">
+		      </div>
+        </div> -->
+			<!-- <div class="row">
+				<div class="col-md-4 col-md-offset-4">
+					<div class="panel panel-login">
+						<div class="panel-heading">
+							<div class="row">
+								<div class="col-xs-6">
+									<a href="#" class="active" id="login-form-link">Login</a>
+								</div>
+								<div class="col-xs-6">
+									<a href="#" id="register-form-link">Register</a>
+								</div>
+							</div>
+							<hr>
+						</div>
+						<div class="panel-body">
+							<div class="row">
+								<div class="col-lg-12">
+									<form id="login-form" role="form" style="display: block;">
+										<div class="form-group">
+											<input type="text" ng-model="email_id" name="email_id" id="email_id" tabindex="1"
+												class="form-control" placeholder="Email id" value="">
+										</div>
+										<div class="form-group">
+											<input type="password" ng-model="password" name="password" id="password"
+												tabindex="2" class="form-control" placeholder="Password">
+										</div>
+										<div class="form-group">
+											<div class="row">
+												<div class="col-sm-6 col-sm-offset-4">
+													<input type="submit" tabindex="4" class="btn btn-login"
+														value="Sign In" ng-click="signin()"/>
+												</div>
+											</div>
+										</div>
+									</form>
+									<form id="register-form" method="post" role="form" style="display: none;">
+										<div class="form-group">
+											<input type="text" ng-model="f_name" name="f_name" id="f_name" tabindex="1"
+												class="form-control" placeholder="First name" value="">
+										</div>
+										<div class="form-group">
+											<input type="text" ng-model="l_name" name="l_name" id="l_name" tabindex="1"
+												class="form-control" placeholder="Last name" value="">
+										</div>
+										<div class="form-group">
+											<input type="email" ng-model="email_id" name="email_id" id="email_id" tabindex="1"
+												class="form-control" placeholder="Email id" value="">
+										</div>
+										<div class="form-group">
+											<input type="password" ng-model="password" name="password" id="password"
+												tabindex="2" class="form-control" placeholder="Password">
+										</div>
+										<div class="form-group">
+											<input type="password" ng-model="confirmpassword" name="confirmpassword"
+												id="confirmpassword" tabindex="2" class="form-control"
+												placeholder="Confirm Password">
+										</div>
+										<div class="form-group">
+											<div class="row">
+												<div class="col-sm-6 col-sm-offset-4">
+													<input type="submit" tabindex="4" class="btn btn-register"
+														value="Register" ng-click="signup()"/>
+												</div>
+											</div>
+										</div>
+									</form>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div> -->
+		</div>
+
+	<script src="/angular/angular.js"></script>
+	<script src="/angular-route/angular-route.js"></script>
+	<script src="/jquery/dist/jquery.min.js"></script>
+	<script src="/bootstrap/dist/js/bootstrap.js"></script>
+	<script src="/js/signin.js"></script>
+	<script src="/controller/signin-controller.js"></script>  
+		<script>
+		$(document).ready(function() {
+		$('#login-form-link').click(function(e) {
+			$("#login-form").delay(100).fadeIn(100);
+			$("#register-form").fadeOut(100);
+			$('#register-form-link').removeClass('active');
+			$(this).addClass('active');
+			e.preventDefault();
+		});
+		$('#register-form-link').click(function(e) {
+			$("#register-form").delay(100).fadeIn(100);
+			$("#login-form").fadeOut(100);
+			$('#login-form-link').removeClass('active');
+			$(this).addClass('active');
+			e.preventDefault();
+		});
+	});	
+	</script>
+</body>
+</html>

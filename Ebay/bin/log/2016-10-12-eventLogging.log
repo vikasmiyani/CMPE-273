@@ -1,0 +1,529 @@
+2016-10-12T16:02:14.079Z - info: Redirecting to shopping cart page || user_id :6
+2016-10-12T16:02:15.220Z - info: Fetching shopping cart items || user_id :6
+2016-10-12T16:06:50.185Z - info: Redirecting to home page || anonymous user
+2016-10-12T16:06:51.021Z - info: Displaying items for home page || anonymous user
+2016-10-12T16:07:06.101Z - info: Redirecting to detail page || anonymous user
+2016-10-12T16:07:07.125Z - info: Displaying items for detail page || anonymous user
+2016-10-12T16:07:16.603Z - info: Redirecting to detail page || anonymous user
+2016-10-12T16:07:17.634Z - info: Displaying items for detail page || anonymous user
+2016-10-12T16:07:20.527Z - info: Redirecting to home page || anonymous user
+2016-10-12T16:07:21.273Z - info: Displaying items for home page || anonymous user
+2016-10-12T16:07:24.441Z - info: Redirecting to home page || anonymous user
+2016-10-12T16:07:25.142Z - info: Displaying items for home page || anonymous user
+2016-10-12T16:08:17.076Z - info: Redirecting to home page || anonymous user
+2016-10-12T16:08:17.818Z - info: Displaying items for home page || anonymous user
+2016-10-12T16:08:58.228Z - info: Redirecting to home page || anonymous user
+2016-10-12T16:08:58.963Z - info: Displaying items for home page || anonymous user
+2016-10-12T16:09:26.497Z - info: Redirecting to home page || anonymous user
+2016-10-12T16:09:27.377Z - info: Redirecting to home page || anonymous user
+2016-10-12T16:09:41.845Z - info: Redirecting to home page || anonymous user
+2016-10-12T16:09:42.633Z - info: Redirecting to home page || anonymous user
+2016-10-12T16:09:46.140Z - info: Redirecting to home page || anonymous user
+2016-10-12T16:09:46.980Z - info: Redirecting to home page || anonymous user
+2016-10-12T16:09:48.589Z - info: Redirecting to home page || anonymous user
+2016-10-12T16:09:49.318Z - info: Redirecting to home page || anonymous user
+2016-10-12T16:23:37.620Z - info: Redirecting to home page || anonymous user
+2016-10-12T16:23:41.586Z - info: Displaying items for home page || anonymous user
+2016-10-12T16:23:44.860Z - info: Redirecting to detail page || anonymous user
+2016-10-12T16:23:45.845Z - info: Displaying items for detail page || anonymous user
+2016-10-12T16:23:50.219Z - info: Redirecting to home page || anonymous user
+2016-10-12T16:23:50.833Z - info: Displaying items for home page || anonymous user
+2016-10-12T16:23:59.204Z - info: Redirecting to detail page || anonymous user
+2016-10-12T16:23:59.981Z - info: Displaying items for detail page || anonymous user
+2016-10-12T16:26:53.515Z - info: Redirecting to home page || anonymous user
+2016-10-12T16:26:54.168Z - info: Displaying items for home page || anonymous user
+2016-10-12T16:26:56.234Z - info: Redirecting to detail page || anonymous user
+2016-10-12T16:26:56.878Z - info: Displaying items for detail page || anonymous user
+2016-10-12T16:32:44.675Z - info: Redirecting to home page || anonymous user
+2016-10-12T16:32:45.335Z - info: Displaying items for home page || anonymous user
+2016-10-12T16:32:47.956Z - info: Redirecting to detail page || anonymous user
+2016-10-12T16:32:48.575Z - info: Displaying items for detail page || anonymous user
+2016-10-12T16:32:50.969Z - info: Redirecting to home page || anonymous user
+2016-10-12T16:32:56.640Z - info: Redirecting to home page || anonymous user
+2016-10-12T16:33:07.909Z - info: Redirecting to home page || anonymous user
+2016-10-12T16:33:23.378Z - info: Redirecting to detail page || anonymous user
+2016-10-12T16:33:24.019Z - info: Displaying items for detail page || anonymous user
+2016-10-12T16:33:26.003Z - info: Redirecting to home page || anonymous user
+2016-10-12T16:34:18.588Z - info: Redirecting to home page || anonymous user
+2016-10-12T16:34:22.623Z - info: Displaying items for home page || anonymous user
+2016-10-12T16:34:24.841Z - info: Redirecting to detail page || anonymous user
+2016-10-12T16:34:25.465Z - info: Displaying items for detail page || anonymous user
+2016-10-12T16:34:26.864Z - info: Redirecting to home page || anonymous user
+2016-10-12T16:34:34.478Z - info: Redirecting to home page || anonymous user
+2016-10-12T16:34:35.505Z - info: Displaying items for home page || anonymous user
+2016-10-12T16:36:13.087Z - info: Redirecting to home page || anonymous user
+2016-10-12T16:36:13.757Z - info: Displaying items for home page || anonymous user
+2016-10-12T16:36:25.623Z - info: Redirecting to detail page || anonymous user
+2016-10-12T16:36:26.391Z - info: Displaying items for detail page || anonymous user
+2016-10-12T16:36:36.470Z - info: Redirecting to home page || anonymous user
+2016-10-12T16:37:54.993Z - info: Redirecting to home page || anonymous user
+2016-10-12T16:37:55.673Z - info: Displaying items for home page || anonymous user
+2016-10-12T16:37:57.770Z - info: Redirecting to detail page || anonymous user
+2016-10-12T16:37:58.517Z - info: Displaying items for detail page || anonymous user
+2016-10-12T16:38:02.254Z - info: Redirecting to home page || anonymous user
+2016-10-12T16:40:44.381Z - info: Redirecting to home page || anonymous user
+2016-10-12T16:40:45.005Z - info: Displaying items for home page || anonymous user
+2016-10-12T16:40:46.742Z - info: Redirecting to login page
+2016-10-12T16:40:50.053Z - info: User logged in ||user_id :6
+2016-10-12T16:40:50.137Z - info: Redirecting to home page || user_id :6
+2016-10-12T16:40:53.542Z - info: Displaying items for home page || user_id :6
+2016-10-12T16:40:55.111Z - info: Redirecting to detail page || user_id :6
+2016-10-12T16:40:55.826Z - info: Displaying items for detail page || user_id :6
+2016-10-12T16:40:58.106Z - info: confirming order and redirecting to payment page || user_id :6
+2016-10-12T16:40:58.179Z - info: Redirecting to payment page || user_id :6
+2016-10-12T16:40:58.830Z - info: Displaying items for detail page || user_id :6
+2016-10-12T16:41:05.190Z - info: Item add to shopping cart page || user_id :6
+2016-10-12T16:41:05.193Z - info: No item for the same user hence inserting to shopping cart page || user_id :6
+2016-10-12T16:41:05.293Z - info: Redirecting to shopping cart page || user_id :6
+2016-10-12T16:41:05.975Z - info: Fetching shopping cart items || user_id :6
+2016-10-12T16:42:18.330Z - info: Redirecting to home page || anonymous user
+2016-10-12T16:42:18.884Z - info: Displaying items for home page || anonymous user
+2016-10-12T16:42:21.764Z - info: Redirecting to login page
+2016-10-12T16:42:25.169Z - info: User logged in ||user_id :6
+2016-10-12T16:42:25.202Z - info: Redirecting to home page || user_id :6
+2016-10-12T16:42:25.757Z - info: Displaying items for home page || user_id :6
+2016-10-12T16:42:29.688Z - info: Redirecting to detail page || user_id :6
+2016-10-12T16:42:30.436Z - info: Displaying items for detail page || user_id :6
+2016-10-12T16:42:32.734Z - info: Item add to shopping cart page || user_id :6
+2016-10-12T16:42:32.739Z - info: Item found for the same user to add to shopping cart page || user_id :6
+2016-10-12T16:42:32.785Z - info: Redirecting to shopping cart page || user_id :6
+2016-10-12T16:42:33.430Z - info: Fetching shopping cart items || user_id :6
+2016-10-12T16:45:28.643Z - info: Redirecting to home page || anonymous user
+2016-10-12T16:45:29.242Z - info: Displaying items for home page || anonymous user
+2016-10-12T16:45:30.509Z - info: Redirecting to login page
+2016-10-12T16:45:33.690Z - info: User logged in ||user_id :6
+2016-10-12T16:45:33.722Z - info: Redirecting to home page || user_id :6
+2016-10-12T16:45:34.262Z - info: Displaying items for home page || user_id :6
+2016-10-12T16:45:37.039Z - info: Redirecting to detail page || user_id :6
+2016-10-12T16:45:37.756Z - info: Displaying items for detail page || user_id :6
+2016-10-12T16:45:43.021Z - info: Item add to shopping cart page || user_id :6
+2016-10-12T16:45:43.026Z - info: Item found for the same user to add to shopping cart page || user_id :6
+2016-10-12T16:45:43.075Z - info: Redirecting to shopping cart page || user_id :6
+2016-10-12T16:45:43.720Z - info: Fetching shopping cart items || user_id :6
+2016-10-12T16:47:36.259Z - info: Redirecting to home page || anonymous user
+2016-10-12T16:47:36.845Z - info: Displaying items for home page || anonymous user
+2016-10-12T16:47:38.172Z - info: Redirecting to login page
+2016-10-12T16:47:41.421Z - info: User logged in ||user_id :6
+2016-10-12T16:47:41.450Z - info: Redirecting to home page || user_id :6
+2016-10-12T16:47:42.011Z - info: Displaying items for home page || user_id :6
+2016-10-12T16:47:42.960Z - info: Redirecting to shopping cart page || user_id :6
+2016-10-12T16:47:43.540Z - info: Fetching shopping cart items || user_id :6
+2016-10-12T16:51:39.738Z - info: Redirecting to home page || anonymous user
+2016-10-12T16:51:40.349Z - info: Displaying items for home page || anonymous user
+2016-10-12T16:51:42.599Z - info: Redirecting to home page || anonymous user
+2016-10-12T16:51:43.180Z - info: Displaying items for home page || anonymous user
+2016-10-12T16:51:44.157Z - info: Redirecting to login page
+2016-10-12T16:51:47.399Z - info: User logged in ||user_id :6
+2016-10-12T16:51:47.424Z - info: Redirecting to home page || user_id :6
+2016-10-12T16:51:47.961Z - info: Displaying items for home page || user_id :6
+2016-10-12T16:51:49.358Z - info: Redirecting to shopping cart page || user_id :6
+2016-10-12T16:51:52.186Z - info: Fetching shopping cart items || user_id :6
+2016-10-12T16:53:35.385Z - info: Redirecting to home page || anonymous user
+2016-10-12T16:53:35.991Z - info: Displaying items for home page || anonymous user
+2016-10-12T16:53:38.424Z - info: Redirecting to login page
+2016-10-12T16:53:42.411Z - info: User logged in ||user_id :6
+2016-10-12T16:53:42.444Z - info: Redirecting to home page || user_id :6
+2016-10-12T16:53:45.390Z - info: Displaying items for home page || user_id :6
+2016-10-12T16:53:46.348Z - info: Redirecting to shopping cart page || user_id :6
+2016-10-12T16:53:46.965Z - info: Fetching shopping cart items || user_id :6
+2016-10-12T16:54:59.143Z - info: Redirecting to home page || anonymous user
+2016-10-12T16:54:59.752Z - info: Displaying items for home page || anonymous user
+2016-10-12T16:55:00.820Z - info: Redirecting to login page
+2016-10-12T16:55:04.142Z - info: User logged in ||user_id :6
+2016-10-12T16:55:04.169Z - info: Redirecting to home page || user_id :6
+2016-10-12T16:55:04.963Z - info: Displaying items for home page || user_id :6
+2016-10-12T16:55:06.444Z - info: Redirecting to shopping cart page || user_id :6
+2016-10-12T16:55:07.064Z - info: Fetching shopping cart items || user_id :6
+2016-10-12T16:57:38.437Z - info: Redirecting to home page || anonymous user
+2016-10-12T16:57:39.036Z - info: Displaying items for home page || anonymous user
+2016-10-12T16:57:41.051Z - info: Redirecting to login page
+2016-10-12T16:57:44.018Z - info: User logged in ||user_id :6
+2016-10-12T16:57:44.052Z - info: Redirecting to home page || user_id :6
+2016-10-12T16:57:44.611Z - info: Displaying items for home page || user_id :6
+2016-10-12T16:57:46.603Z - info: Redirecting to shopping cart page || user_id :6
+2016-10-12T16:57:50.404Z - info: Fetching shopping cart items || user_id :6
+2016-10-12T16:57:53.731Z - info: updating item in shopping cart || user_id :6
+2016-10-12T16:57:59.731Z - info: updating item in shopping cart || user_id :6
+2016-10-12T16:58:01.708Z - info: Deleting item from shopping cart || user_id :6
+2016-10-12T16:58:04.083Z - info: confirming order and redirecting to payment page || user_id :6
+2016-10-12T16:58:04.113Z - info: Redirecting to payment page || user_id :6
+2016-10-12T16:58:04.731Z - info: Fetching shopping cart items || user_id :6
+2016-10-12T16:59:56.922Z - info: Redirecting to home page || user_id :6
+2016-10-12T16:59:57.487Z - info: Displaying items for home page || user_id :6
+2016-10-12T17:00:00.602Z - info: User sigining out ||user_id :6
+2016-10-12T17:00:00.620Z - info: Redirecting to home page || anonymous user
+2016-10-12T17:00:01.163Z - info: Displaying items for home page || anonymous user
+2016-10-12T17:00:03.229Z - info: Redirecting to login page
+2016-10-12T17:00:45.707Z - info: Redirecting to login page
+2016-10-12T17:00:55.795Z - info: Redirecting to home page || anonymous user
+2016-10-12T17:00:56.402Z - info: Displaying items for home page || anonymous user
+2016-10-12T17:01:08.975Z - info: Redirecting to login page
+2016-10-12T17:01:12.072Z - info: User logged in ||user_id :6
+2016-10-12T17:01:12.100Z - info: Redirecting to home page || user_id :6
+2016-10-12T17:01:14.825Z - info: Displaying items for home page || user_id :6
+2016-10-12T17:01:15.882Z - info: Redirecting to detail page || user_id :6
+2016-10-12T17:01:16.596Z - info: Displaying items for detail page || user_id :6
+2016-10-12T17:01:18.574Z - info: confirming order and redirecting to payment page || user_id :6
+2016-10-12T17:01:18.615Z - info: Redirecting to payment page || user_id :6
+2016-10-12T17:01:19.228Z - info: Displaying items for detail page || user_id :6
+2016-10-12T17:01:26.869Z - info: User sigining out ||user_id :6
+2016-10-12T17:01:26.885Z - info: Redirecting to home page || anonymous user
+2016-10-12T17:01:27.480Z - info: Displaying items for home page || anonymous user
+2016-10-12T17:01:41.757Z - info: Redirecting to home page || anonymous user
+2016-10-12T17:01:42.284Z - info: Displaying items for home page || anonymous user
+2016-10-12T17:01:51.137Z - info: Redirecting to login page
+2016-10-12T17:01:54.379Z - info: User logged in ||user_id :6
+2016-10-12T17:01:54.403Z - info: Redirecting to home page || user_id :6
+2016-10-12T17:01:56.187Z - info: Displaying items for home page || user_id :6
+2016-10-12T17:01:57.366Z - info: Redirecting to detail page || user_id :6
+2016-10-12T17:01:58.075Z - info: Displaying items for detail page || user_id :6
+2016-10-12T17:01:59.785Z - info: confirming order and redirecting to payment page || user_id :6
+2016-10-12T17:01:59.816Z - info: Redirecting to payment page || user_id :6
+2016-10-12T17:02:00.467Z - info: Displaying items for detail page || user_id :6
+2016-10-12T17:02:12.739Z - info: Validating card for payment page || user_id :6
+2016-10-12T17:02:12.739Z - info: Valid card || user_id :6
+2016-10-12T17:02:15.231Z - info: placing order and redirecting to home page || user_id :6
+2016-10-12T17:02:15.499Z - info: Redirecting to home page || user_id :6
+2016-10-12T17:02:16.189Z - info: Displaying items for home page || user_id :6
+2016-10-12T17:02:18.854Z - info: User sigining out ||user_id :6
+2016-10-12T17:02:18.863Z - info: Redirecting to home page || anonymous user
+2016-10-12T17:02:19.460Z - info: Displaying items for home page || anonymous user
+2016-10-12T17:03:00.347Z - info: Redirecting to home page || anonymous user
+2016-10-12T17:08:15.306Z - info: Redirecting to home page || anonymous user
+2016-10-12T17:08:15.895Z - info: Displaying items for home page || anonymous user
+2016-10-12T17:08:16.880Z - info: Redirecting to login page
+2016-10-12T17:08:21.964Z - info: User logged in ||user_id :6
+2016-10-12T17:08:22.009Z - info: Redirecting to home page || user_id :6
+2016-10-12T17:08:25.634Z - info: Displaying items for home page || user_id :6
+2016-10-12T17:08:28.829Z - info: Redirecting to shopping cart page || user_id :6
+2016-10-12T17:08:29.473Z - info: Fetching shopping cart items || user_id :6
+2016-10-12T17:08:31.730Z - info: Redirecting to home page || user_id :6
+2016-10-12T17:08:35.546Z - info: Displaying items for home page || user_id :6
+2016-10-12T17:08:36.713Z - info: Redirecting to detail page || user_id :6
+2016-10-12T17:08:37.377Z - info: Displaying items for detail page || user_id :6
+2016-10-12T17:08:39.253Z - info: Item add to shopping cart page || user_id :6
+2016-10-12T17:08:39.290Z - info: No item for the same user hence inserting to shopping cart page || user_id :6
+2016-10-12T17:08:39.388Z - info: Redirecting to shopping cart page || user_id :6
+2016-10-12T17:08:40.034Z - info: Fetching shopping cart items || user_id :6
+2016-10-12T17:08:43.480Z - info: updating item in shopping cart || user_id :6
+2016-10-12T17:08:46.093Z - info: User sigining out ||user_id :6
+2016-10-12T17:08:46.112Z - info: Redirecting to home page || anonymous user
+2016-10-12T17:08:46.716Z - info: Displaying items for home page || anonymous user
+2016-10-12T17:08:54.988Z - info: Redirecting to home page || anonymous user
+2016-10-12T17:09:23.251Z - info: Redirecting to home page || anonymous user
+2016-10-12T17:09:27.518Z - info: Redirecting to home page || anonymous user
+2016-10-12T17:10:03.556Z - info: Redirecting to home page || anonymous user
+2016-10-12T17:10:03.614Z - info: Redirecting to home page || anonymous user
+2016-10-12T17:10:04.225Z - info: Displaying items for home page || anonymous user
+2016-10-12T17:10:05.779Z - info: Redirecting to login page
+2016-10-12T17:10:19.119Z - info: Redirecting to search page || anonymous user
+2016-10-12T17:10:19.766Z - info: Displaying items for search page || anonymous user
+2016-10-12T17:10:22.548Z - info: Redirecting to login page
+2016-10-12T17:10:29.634Z - info: User logged in ||user_id :6
+2016-10-12T17:10:29.660Z - info: Redirecting to home page || user_id :6
+2016-10-12T17:10:30.228Z - info: Displaying items for home page || user_id :6
+2016-10-12T17:10:35.199Z - info: Displaying my collection details || user_id :6
+2016-10-12T17:10:35.861Z - info: Displaying  my collection details for order history || user_id :6
+2016-10-12T17:10:44.364Z - info: Displaying  my collection details for selling history || user_id :6
+2016-10-12T17:20:41.507Z - info: Redirecting to home page || anonymous user
+2016-10-12T17:20:42.215Z - info: Displaying items for home page || anonymous user
+2016-10-12T17:20:44.165Z - info: Redirecting to login page
+2016-10-12T17:20:47.481Z - info: User logged in ||user_id :6
+2016-10-12T17:20:47.512Z - info: Redirecting to home page || user_id :6
+2016-10-12T17:20:48.122Z - info: Displaying items for home page || user_id :6
+2016-10-12T17:20:52.095Z - info: Redirecting to detail page || user_id :6
+2016-10-12T17:20:53.093Z - info: Displaying items for detail page || user_id :6
+2016-10-12T17:20:56.885Z - info: User sigining out ||user_id :6
+2016-10-12T17:20:56.920Z - info: Redirecting to home page || anonymous user
+2016-10-12T17:20:57.547Z - info: Displaying items for home page || anonymous user
+2016-10-12T17:21:00.149Z - info: Redirecting to detail page || anonymous user
+2016-10-12T17:21:00.870Z - info: Displaying items for detail page || anonymous user
+2016-10-12T17:21:02.580Z - info: Redirecting to home page || anonymous user
+2016-10-12T17:24:35.840Z - info: Redirecting to home page || anonymous user
+2016-10-12T17:24:36.503Z - info: Displaying items for home page || anonymous user
+2016-10-12T17:24:37.637Z - info: Redirecting to login page
+2016-10-12T17:24:40.511Z - info: User logged in ||user_id :6
+2016-10-12T17:24:40.544Z - info: Redirecting to home page || user_id :6
+2016-10-12T17:24:41.147Z - info: Displaying items for home page || user_id :6
+2016-10-12T17:26:00.678Z - info: Redirecting to home page || anonymous user
+2016-10-12T17:26:01.303Z - info: Displaying items for home page || anonymous user
+2016-10-12T17:26:02.169Z - info: Redirecting to login page
+2016-10-12T17:26:05.580Z - info: User logged in ||user_id :6
+2016-10-12T17:26:05.615Z - info: Redirecting to home page || user_id :6
+2016-10-12T17:26:06.223Z - info: Displaying items for home page || user_id :6
+2016-10-12T17:26:07.321Z - info: Redirecting to detail page || user_id :6
+2016-10-12T17:26:08.107Z - info: Displaying items for detail page || user_id :6
+2016-10-12T17:26:10.592Z - info: confirming order and redirecting to payment page || user_id :6
+2016-10-12T17:26:10.664Z - info: Redirecting to payment page || user_id :6
+2016-10-12T17:26:11.530Z - info: Displaying items for detail page || user_id :6
+2016-10-12T17:26:17.772Z - info: Validating card for payment page || user_id :6
+2016-10-12T17:26:17.772Z - info: Valid card || user_id :6
+2016-10-12T17:26:17.845Z - info: Validating card for payment page || user_id :6
+2016-10-12T17:26:17.845Z - info: Valid card || user_id :6
+2016-10-12T17:26:19.167Z - info: placing order and redirecting to home page || user_id :6
+2016-10-12T17:26:19.349Z - info: Redirecting to home page || user_id :6
+2016-10-12T17:26:21.978Z - info: Displaying items for home page || user_id :6
+2016-10-12T17:26:23.129Z - info: User sigining out ||user_id :6
+2016-10-12T17:26:23.146Z - info: Redirecting to home page || anonymous user
+2016-10-12T17:26:23.730Z - info: Displaying items for home page || anonymous user
+2016-10-12T17:27:03.598Z - info: Redirecting to home page || anonymous user
+2016-10-12T17:27:04.265Z - info: Displaying items for home page || anonymous user
+2016-10-12T17:27:05.557Z - info: Redirecting to login page
+2016-10-12T17:27:08.608Z - info: User logged in ||user_id :6
+2016-10-12T17:27:08.642Z - info: Redirecting to home page || user_id :6
+2016-10-12T17:27:09.224Z - info: Displaying items for home page || user_id :6
+2016-10-12T17:27:10.702Z - info: Redirecting to detail page || user_id :6
+2016-10-12T17:27:11.466Z - info: Displaying items for detail page || user_id :6
+2016-10-12T17:27:13.250Z - info: confirming order and redirecting to payment page || user_id :6
+2016-10-12T17:27:13.306Z - info: Redirecting to payment page || user_id :6
+2016-10-12T17:27:14.068Z - info: Displaying items for detail page || user_id :6
+2016-10-12T17:27:19.854Z - info: Validating card for payment page || user_id :6
+2016-10-12T17:27:19.855Z - info: Valid card || user_id :6
+2016-10-12T17:27:20.886Z - info: placing order and redirecting to home page || user_id :6
+2016-10-12T17:27:21.085Z - info: Redirecting to home page || user_id :6
+2016-10-12T17:27:24.542Z - info: Displaying items for home page || user_id :6
+2016-10-12T17:27:26.455Z - info: User sigining out ||user_id :6
+2016-10-12T17:27:26.472Z - info: Redirecting to home page || anonymous user
+2016-10-12T17:27:27.064Z - info: Displaying items for home page || anonymous user
+2016-10-12T17:27:28.790Z - info: Redirecting to home page || anonymous user
+2016-10-12T17:27:29.307Z - info: Displaying items for home page || anonymous user
+2016-10-12T17:27:30.729Z - info: Redirecting to home page || anonymous user
+2016-10-12T17:27:35.103Z - info: Displaying items for home page || anonymous user
+2016-10-12T17:27:38.259Z - info: Redirecting to home page || anonymous user
+2016-10-12T17:27:38.774Z - info: Displaying items for home page || anonymous user
+2016-10-12T17:35:00.782Z - info: Redirecting to home page || anonymous user
+2016-10-12T17:35:01.503Z - info: Displaying items for home page || anonymous user
+2016-10-12T17:35:42.018Z - info: Redirecting to home page || anonymous user
+2016-10-12T17:35:42.667Z - info: Displaying items for home page || anonymous user
+2016-10-12T17:36:05.080Z - info: Redirecting to home page || anonymous user
+2016-10-12T17:36:05.756Z - info: Displaying items for home page || anonymous user
+2016-10-12T17:44:59.789Z - info: Redirecting to home page || anonymous user
+2016-10-12T17:45:00.743Z - info: Displaying items for home page || anonymous user
+2016-10-12T17:45:25.108Z - info: Redirecting to home page || anonymous user
+2016-10-12T17:45:26.171Z - info: Displaying items for home page || anonymous user
+2016-10-12T17:46:52.829Z - info: Redirecting to home page || anonymous user
+2016-10-12T17:46:53.733Z - info: Displaying items for home page || anonymous user
+2016-10-12T17:50:58.914Z - info: Redirecting to home page || anonymous user
+2016-10-12T17:50:59.890Z - info: Displaying items for home page || anonymous user
+2016-10-12T17:51:06.273Z - info: Redirecting to home page || anonymous user
+2016-10-12T17:51:07.084Z - info: Displaying items for home page || anonymous user
+2016-10-12T17:56:00.910Z - info: Redirecting to home page || anonymous user
+2016-10-12T17:56:01.940Z - info: Displaying items for home page || anonymous user
+2016-10-12T17:56:32.337Z - info: Redirecting to home page || anonymous user
+2016-10-12T17:56:33.373Z - info: Displaying items for home page || anonymous user
+2016-10-12T17:56:36.558Z - info: Redirecting to detail page || anonymous user
+2016-10-12T17:56:37.791Z - info: Displaying items for detail page || anonymous user
+2016-10-12T18:44:46.644Z - info: Redirecting to home page || anonymous user
+2016-10-12T18:44:47.349Z - info: Displaying items for home page || anonymous user
+2016-10-12T18:44:49.334Z - info: Redirecting to detail page || anonymous user
+2016-10-12T18:44:50.099Z - info: Displaying items for detail page || anonymous user
+2016-10-12T18:44:53.449Z - info: Redirecting to home page || anonymous user
+2016-10-12T18:44:54.692Z - info: Displaying items for home page || anonymous user
+2016-10-12T18:44:56.414Z - info: Redirecting to detail page || anonymous user
+2016-10-12T18:44:57.305Z - info: Displaying items for detail page || anonymous user
+2016-10-12T18:45:09.155Z - info: Redirecting to detail page || anonymous user
+2016-10-12T18:45:09.797Z - info: Displaying items for detail page || anonymous user
+2016-10-12T18:46:08.467Z - info: Redirecting to detail page || anonymous user
+2016-10-12T18:46:09.716Z - info: Displaying items for detail page || anonymous user
+2016-10-12T18:52:51.976Z - info: Redirecting to detail page || anonymous user
+2016-10-12T18:52:53.155Z - info: Displaying items for detail page || anonymous user
+2016-10-12T18:53:00.450Z - info: Redirecting to home page || anonymous user
+2016-10-12T18:53:03.870Z - info: Displaying items for home page || anonymous user
+2016-10-12T18:53:06.663Z - info: Redirecting to detail page || anonymous user
+2016-10-12T18:53:08.164Z - info: Displaying items for detail page || anonymous user
+2016-10-12T18:53:29.907Z - info: Redirecting to detail page || anonymous user
+2016-10-12T18:53:30.609Z - info: Displaying items for detail page || anonymous user
+2016-10-12T18:58:37.126Z - info: Redirecting to detail page || anonymous user
+2016-10-12T18:58:38.297Z - info: Displaying items for detail page || anonymous user
+2016-10-12T18:59:33.713Z - info: Redirecting to detail page || anonymous user
+2016-10-12T18:59:37.366Z - info: Displaying items for detail page || anonymous user
+2016-10-12T18:59:47.737Z - info: Redirecting to detail page || anonymous user
+2016-10-12T18:59:48.998Z - info: Displaying items for detail page || anonymous user
+2016-10-12T19:00:10.256Z - info: Redirecting to detail page || anonymous user
+2016-10-12T19:00:11.146Z - info: Displaying items for detail page || anonymous user
+2016-10-12T19:01:08.060Z - info: Redirecting to home page || anonymous user
+2016-10-12T19:01:10.619Z - info: Displaying items for home page || anonymous user
+2016-10-12T19:01:12.766Z - info: Redirecting to detail page || anonymous user
+2016-10-12T19:01:14.147Z - info: Displaying items for detail page || anonymous user
+2016-10-12T19:02:32.771Z - info: Redirecting to detail page || anonymous user
+2016-10-12T19:02:35.249Z - info: Displaying items for detail page || anonymous user
+2016-10-12T19:04:35.740Z - info: Redirecting to detail page || anonymous user
+2016-10-12T19:04:36.938Z - info: Displaying items for detail page || anonymous user
+2016-10-12T19:05:53.124Z - info: Redirecting to home page || anonymous user
+2016-10-12T19:05:53.726Z - info: Displaying items for home page || anonymous user
+2016-10-12T19:05:55.118Z - info: Redirecting to detail page || anonymous user
+2016-10-12T19:05:55.966Z - info: Displaying items for detail page || anonymous user
+2016-10-12T19:08:49.180Z - info: Redirecting to detail page || anonymous user
+2016-10-12T19:08:50.341Z - info: Displaying items for detail page || anonymous user
+2016-10-12T19:09:17.192Z - info: Redirecting to detail page || anonymous user
+2016-10-12T19:09:19.217Z - info: Displaying items for detail page || anonymous user
+2016-10-12T19:11:36.927Z - info: Redirecting to detail page || anonymous user
+2016-10-12T19:11:38.098Z - info: Displaying items for detail page || anonymous user
+2016-10-12T19:12:22.545Z - info: Redirecting to detail page || anonymous user
+2016-10-12T19:12:23.711Z - info: Displaying items for detail page || anonymous user
+2016-10-12T19:17:40.195Z - info: Redirecting to detail page || anonymous user
+2016-10-12T19:17:41.341Z - info: Displaying items for detail page || anonymous user
+2016-10-12T19:19:08.173Z - info: Redirecting to detail page || anonymous user
+2016-10-12T19:19:10.568Z - info: Displaying items for detail page || anonymous user
+2016-10-12T19:20:23.633Z - info: Redirecting to detail page || anonymous user
+2016-10-12T19:20:25.050Z - info: Displaying items for detail page || anonymous user
+2016-10-12T19:22:28.465Z - info: Redirecting to detail page || anonymous user
+2016-10-12T19:22:29.800Z - info: Displaying items for detail page || anonymous user
+2016-10-12T19:25:47.659Z - info: Redirecting to home page || anonymous user
+2016-10-12T19:25:48.671Z - info: Displaying items for home page || anonymous user
+2016-10-12T19:25:51.083Z - info: Redirecting to detail page || anonymous user
+2016-10-12T19:25:52.277Z - info: Displaying items for detail page || anonymous user
+2016-10-12T19:26:25.547Z - info: Redirecting to detail page || anonymous user
+2016-10-12T19:26:27.800Z - info: Displaying items for detail page || anonymous user
+2016-10-12T19:29:40.479Z - info: Redirecting to detail page || anonymous user
+2016-10-12T19:29:45.681Z - info: Displaying items for detail page || anonymous user
+2016-10-12T19:30:14.439Z - info: Redirecting to detail page || anonymous user
+2016-10-12T19:30:17.241Z - info: Displaying items for detail page || anonymous user
+2016-10-12T19:31:50.286Z - info: Redirecting to detail page || anonymous user
+2016-10-12T19:31:51.645Z - info: Displaying items for detail page || anonymous user
+2016-10-12T19:32:52.777Z - info: Redirecting to detail page || anonymous user
+2016-10-12T19:32:55.652Z - info: Displaying items for detail page || anonymous user
+2016-10-12T19:36:15.652Z - info: Redirecting to detail page || anonymous user
+2016-10-12T19:36:17.019Z - info: Displaying items for detail page || anonymous user
+2016-10-12T19:36:21.389Z - info: Redirecting to home page || anonymous user
+2016-10-12T19:36:22.498Z - info: Displaying items for home page || anonymous user
+2016-10-12T19:36:24.618Z - info: Redirecting to detail page || anonymous user
+2016-10-12T19:36:25.816Z - info: Displaying items for detail page || anonymous user
+2016-10-12T19:39:36.493Z - info: Redirecting to detail page || anonymous user
+2016-10-12T19:39:37.877Z - info: Displaying items for detail page || anonymous user
+2016-10-12T19:40:17.175Z - info: Redirecting to detail page || anonymous user
+2016-10-12T19:40:18.563Z - info: Displaying items for detail page || anonymous user
+2016-10-12T19:40:50.191Z - info: Redirecting to detail page || anonymous user
+2016-10-12T19:40:52.577Z - info: Displaying items for detail page || anonymous user
+2016-10-12T19:40:55.803Z - info: Redirecting to home page || anonymous user
+2016-10-12T19:40:56.790Z - info: Displaying items for home page || anonymous user
+2016-10-12T19:40:58.896Z - info: Redirecting to detail page || anonymous user
+2016-10-12T19:41:01.949Z - info: Displaying items for detail page || anonymous user
+2016-10-12T19:41:33.147Z - info: Redirecting to detail page || anonymous user
+2016-10-12T19:41:34.044Z - info: Displaying items for detail page || anonymous user
+2016-10-12T19:59:16.754Z - info: Redirecting to detail page || anonymous user
+2016-10-12T19:59:17.497Z - info: Displaying items for detail page || anonymous user
+2016-10-12T19:59:29.083Z - info: Redirecting to detail page || anonymous user
+2016-10-12T19:59:29.879Z - info: Displaying items for detail page || anonymous user
+2016-10-12T19:59:45.332Z - info: Redirecting to detail page || anonymous user
+2016-10-12T19:59:46.020Z - info: Displaying items for detail page || anonymous user
+2016-10-12T20:01:57.984Z - info: Redirecting to detail page || anonymous user
+2016-10-12T20:01:59.147Z - info: Displaying items for detail page || anonymous user
+2016-10-12T20:02:32.600Z - info: Redirecting to detail page || anonymous user
+2016-10-12T20:02:33.769Z - info: Displaying items for detail page || anonymous user
+2016-10-12T20:02:57.101Z - info: Redirecting to detail page || anonymous user
+2016-10-12T20:02:58.284Z - info: Displaying items for detail page || anonymous user
+2016-10-12T20:03:07.985Z - info: Redirecting to detail page || anonymous user
+2016-10-12T20:03:09.141Z - info: Displaying items for detail page || anonymous user
+2016-10-12T20:04:39.876Z - info: Redirecting to detail page || anonymous user
+2016-10-12T20:04:41.115Z - info: Displaying items for detail page || anonymous user
+2016-10-12T20:04:56.508Z - info: Redirecting to detail page || anonymous user
+2016-10-12T20:04:57.732Z - info: Displaying items for detail page || anonymous user
+2016-10-12T20:05:05.361Z - info: Redirecting to detail page || anonymous user
+2016-10-12T20:05:06.756Z - info: Displaying items for detail page || anonymous user
+2016-10-12T20:07:11.473Z - info: Redirecting to detail page || anonymous user
+2016-10-12T20:07:13.903Z - info: Displaying items for detail page || anonymous user
+2016-10-12T20:07:39.021Z - info: Redirecting to detail page || anonymous user
+2016-10-12T20:07:39.781Z - info: Displaying items for detail page || anonymous user
+2016-10-12T20:08:56.242Z - info: Redirecting to detail page || anonymous user
+2016-10-12T20:08:57.065Z - info: Displaying items for detail page || anonymous user
+2016-10-12T20:10:00.973Z - info: Redirecting to detail page || anonymous user
+2016-10-12T20:10:01.724Z - info: Displaying items for detail page || anonymous user
+2016-10-12T20:12:02.716Z - info: Redirecting to detail page || anonymous user
+2016-10-12T20:12:03.943Z - info: Displaying items for detail page || anonymous user
+2016-10-12T20:12:15.245Z - info: Redirecting to detail page || anonymous user
+2016-10-12T20:12:16.430Z - info: Displaying items for detail page || anonymous user
+2016-10-12T20:12:25.395Z - info: Redirecting to detail page || anonymous user
+2016-10-12T20:12:26.548Z - info: Displaying items for detail page || anonymous user
+2016-10-12T20:14:27.821Z - info: Redirecting to detail page || anonymous user
+2016-10-12T20:14:29.010Z - info: Displaying items for detail page || anonymous user
+2016-10-12T20:14:37.909Z - info: Redirecting to detail page || anonymous user
+2016-10-12T20:14:39.142Z - info: Displaying items for detail page || anonymous user
+2016-10-12T20:14:44.489Z - info: Redirecting to home page || anonymous user
+2016-10-12T20:14:46.914Z - info: Displaying items for home page || anonymous user
+2016-10-12T20:14:48.472Z - info: Redirecting to detail page || anonymous user
+2016-10-12T20:14:49.225Z - info: Displaying items for detail page || anonymous user
+2016-10-12T20:14:51.671Z - info: Redirecting to home page || anonymous user
+2016-10-12T20:14:52.299Z - info: Displaying items for home page || anonymous user
+2016-10-12T20:14:54.127Z - info: Redirecting to detail page || anonymous user
+2016-10-12T20:14:55.122Z - info: Displaying items for detail page || anonymous user
+2016-10-12T20:14:58.172Z - info: Redirecting to home page || anonymous user
+2016-10-12T20:15:00.084Z - info: Displaying items for home page || anonymous user
+2016-10-12T20:15:03.564Z - info: Redirecting to detail page || anonymous user
+2016-10-12T20:15:04.315Z - info: Displaying items for detail page || anonymous user
+2016-10-12T20:15:06.362Z - info: Redirecting to home page || anonymous user
+2016-10-12T20:15:10.505Z - info: Displaying items for home page || anonymous user
+2016-10-12T20:15:13.203Z - info: Redirecting to detail page || anonymous user
+2016-10-12T20:15:13.942Z - info: Displaying items for detail page || anonymous user
+2016-10-12T20:15:41.487Z - info: Redirecting to home page || anonymous user
+2016-10-12T20:15:47.712Z - info: Redirecting to login page
+2016-10-12T20:15:52.846Z - info: User logged in ||user_id :7
+2016-10-12T20:15:52.877Z - info: Redirecting to home page || user_id :7
+2016-10-12T20:15:53.596Z - info: Displaying items for home page || user_id :7
+2016-10-12T20:15:56.050Z - info: Redirecting to detail page || user_id :7
+2016-10-12T20:15:56.892Z - info: Displaying items for detail page || user_id :7
+2016-10-12T20:15:59.461Z - info: confirming order and redirecting to payment page || user_id :7
+2016-10-12T20:15:59.543Z - info: Redirecting to payment page || user_id :7
+2016-10-12T20:16:00.277Z - info: Displaying items for detail page || user_id :7
+2016-10-12T20:16:01.808Z - info: Redirecting to detail page || user_id :7
+2016-10-12T20:16:02.565Z - info: Displaying items for detail page || user_id :7
+2016-10-12T20:16:05.006Z - info: Item add to shopping cart page || user_id :7
+2016-10-12T20:16:05.010Z - info: No item for the same user hence inserting to shopping cart page || user_id :7
+2016-10-12T20:16:05.138Z - info: Redirecting to shopping cart page || user_id :7
+2016-10-12T20:16:05.870Z - info: Fetching shopping cart items || user_id :7
+2016-10-12T20:18:19.267Z - info: Redirecting to shopping cart page || user_id :7
+2016-10-12T20:18:20.290Z - info: Fetching shopping cart items || user_id :7
+2016-10-12T20:18:49.151Z - info: Redirecting to home page || user_id :7
+2016-10-12T20:18:50.144Z - info: Displaying items for home page || user_id :7
+2016-10-12T20:19:24.181Z - info: Redirecting to home page || user_id :7
+2016-10-12T20:19:25.253Z - info: Displaying items for home page || user_id :7
+2016-10-12T20:19:34.413Z - info: Redirecting to home page || user_id :7
+2016-10-12T20:19:35.117Z - info: Displaying items for home page || user_id :7
+2016-10-12T20:22:11.400Z - info: Redirecting to home page || user_id :7
+2016-10-12T20:22:12.432Z - info: Displaying items for home page || user_id :7
+2016-10-12T20:22:25.326Z - info: Redirecting to detail page || user_id :7
+2016-10-12T20:22:26.097Z - info: Displaying items for detail page || user_id :7
+2016-10-12T20:22:59.579Z - info: Redirecting to detail page || user_id :7
+2016-10-12T20:23:00.467Z - info: Displaying items for detail page || user_id :7
+2016-10-12T20:23:25.266Z - info: Redirecting to detail page || user_id :7
+2016-10-12T20:23:27.893Z - info: Displaying items for detail page || user_id :7
+2016-10-12T20:24:07.628Z - info: Redirecting to detail page || user_id :7
+2016-10-12T20:24:08.615Z - info: Displaying items for detail page || user_id :7
+2016-10-12T20:24:22.559Z - info: Redirecting to detail page || user_id :7
+2016-10-12T20:24:23.369Z - info: Displaying items for detail page || user_id :7
+2016-10-12T20:24:43.198Z - info: Redirecting to detail page || user_id :7
+2016-10-12T20:24:43.912Z - info: Displaying items for detail page || user_id :7
+2016-10-12T20:25:27.813Z - info: Redirecting to detail page || user_id :7
+2016-10-12T20:25:28.549Z - info: Displaying items for detail page || user_id :7
+2016-10-12T20:25:34.638Z - info: Redirecting to detail page || user_id :7
+2016-10-12T20:25:35.353Z - info: Displaying items for detail page || user_id :7
+2016-10-12T20:25:41.583Z - info: Redirecting to detail page || user_id :7
+2016-10-12T20:25:42.335Z - info: Displaying items for detail page || user_id :7
+2016-10-12T20:25:48.704Z - info: Redirecting to detail page || user_id :7
+2016-10-12T20:25:49.545Z - info: Displaying items for detail page || user_id :7
+2016-10-12T20:26:06.664Z - info: Redirecting to detail page || user_id :7
+2016-10-12T20:26:07.397Z - info: Displaying items for detail page || user_id :7
+2016-10-12T20:26:22.219Z - info: Redirecting to detail page || user_id :7
+2016-10-12T20:26:23.050Z - info: Displaying items for detail page || user_id :7
+2016-10-12T20:26:43.132Z - info: Redirecting to my account page || user_id :7
+2016-10-12T20:26:43.837Z - info: Displaying account details || user_id :7
+2016-10-12T20:26:54.370Z - info: Updating account details || user_id :7
+2016-10-12T20:26:54.477Z - info: Redirecting to home page || user_id :7
+2016-10-12T20:26:55.463Z - info: Displaying items for home page || user_id :7
+2016-10-12T20:26:59.284Z - info: Redirecting to my account page || user_id :7
+2016-10-12T20:27:00.010Z - info: Displaying account details || user_id :7
+2016-10-12T20:37:00.573Z - info: Redirecting to home page || anonymous user
+2016-10-12T20:37:01.309Z - info: Displaying items for home page || anonymous user
+2016-10-12T20:37:03.008Z - info: Redirecting to login page
+2016-10-12T20:37:16.955Z - info: User logged in ||user_id :6
+2016-10-12T20:37:17.065Z - info: Redirecting to home page || user_id :6
+2016-10-12T20:37:18.787Z - info: Displaying items for home page || user_id :6
+2016-10-12T20:37:20.511Z - info: Redirecting to my account page || user_id :6
+2016-10-12T20:37:21.276Z - info: Displaying account details || user_id :6
+2016-10-12T20:38:07.867Z - info: Redirecting to my account page || user_id :6
+2016-10-12T20:38:08.600Z - info: Displaying account details || user_id :6
+2016-10-12T20:38:51.669Z - info: Redirecting to my account page || user_id :6
+2016-10-12T20:38:52.422Z - info: Displaying account details || user_id :6
+2016-10-12T20:38:54.377Z - info: Updating account details || user_id :6
+2016-10-12T20:38:54.402Z - info: Redirecting to home page || user_id :6
+2016-10-12T20:38:55.145Z - info: Displaying items for home page || user_id :6

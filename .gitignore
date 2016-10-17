@@ -11,6 +11,7 @@ HomeworkJava/.classpath
 HomeworkJava/.project
 HomeworkJava/src/com/permutation
 
+node_module
 # Windows image file caches
 Thumbs.db
 ehthumbs.db

@@ -1,0 +1,196 @@
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Ebay home</title>
+<link rel="shortcut icon" href="">
+<link rel="stylesheet" href="/stylesheets/style.css">
+<link rel="stylesheet" href="/bootstrap/dist/css/bootstrap.css">
+<script>
+	window.isOrderHis = "<%=isOrderHis%>";
+</script>
+</head>
+<body ng-app="app">
+	<% include navbar.ejs %>
+	<div class="container" ng-controller="mycollectionController"
+		ng-init="displayHis()">
+		<h2>Your history</h2>
+
+		<div class="dropdown">
+			<button class="btn btn-default dropdown-toggle" type="button"
+				id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true"
+				aria-expanded="true">
+				Select History<span class="caret"></span>
+			</button>
+			<ul class="dropdown-menu" aria-labelledby="dropdownMenu1">
+				<li><a href ng-click="getOrderHis()">Order history</a></li>
+				<li><a href ng-click="getSellingHis()">Selling history</a></li>
+
+			</ul>
+		</div>
+
+		<br>
+		<!--table-->
+		<div>
+			<h2>{{title}}</h2>
+		</div>
+		<div ng-show="isOrderHis">
+		<div class="panel with-nav-tabs panel-default">
+			<div class="panel-heading padding0">
+				<ul class="nav nav-tabs">
+					<li class="active"><a href="#tab1Order" data-toggle="tab">Baught
+							items</a></li>
+					<li><a href="#tab2Order" data-toggle="tab">Auctioned items</a></li>
+				</ul>
+			</div>
+			<div class="panel-body padding0">
+				<div class="tab-content">
+					<div class="tab-pane fade in active" id="tab1Order">
+						<table class="table table-striped">
+							<thead>
+								<tr class="info">
+									<th>Name</th>
+									<th>Description</th>
+									<th>Price</th>
+									<th>Quantity</th>
+									<th>Total</th>
+								</tr>
+							</thead>
+							<tbody>
+								<tr ng-repeat="i in hisList track by $index"
+									ng-if="i.isBidding === 0">
+									<td>{{i.item_name}}</td>
+									<td>{{i.item_desc}}</td>
+									<td>{{i.price}}</td>
+									<td>{{i.quantity}}</td>
+									<td>{{(i.price * i.quantity)+4.29| number:2}}</td>
+								</tr>
+							</tbody>
+						</table>
+
+					</div>
+					<div class="tab-pane fade" id="tab2Order">
+						<table class="table table-striped">
+							<thead>
+								<tr class="info">
+									<th>Name</th>
+									<th>Description</th>
+									<th>Price</th>
+									<th>Quantity</th>
+									<th>Total</th>
+								</tr>
+							</thead>
+							<tbody>
+								<tr ng-repeat="i in hisList track by $index"
+									ng-if="i.isBidding === 1">
+									<td>{{i.item_name}}</td>
+									<td>{{i.item_desc}}</td>
+									<td>{{i.price}}</td>
+									<td>{{i.quantity}}</td>
+									<td>{{(i.price * i.quantity)+4.29| number:2}}</td>
+								</tr>
+							</tbody>
+						</table>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div ng-show="isSellingHis">
+	<div class="panel with-nav-tabs panel-default">
+			<div class="panel-heading padding0">
+				<ul class="nav nav-tabs">
+					<li class="active"><a href="#tab1Sell" data-toggle="tab">On sell
+							items</a></li>
+					<li><a href="#tab2Sell" data-toggle="tab">On auction</a></li>
+					<li><a href="#tab3Sell" data-toggle="tab">Sold</a></li>
+				</ul>
+			</div>
+			<div class="panel-body padding0">
+				<div class="tab-content">
+					<div class="tab-pane fade in active" id="tab1Sell">
+						<table class="table table-striped">
+							<thead>
+								<tr class="info">
+									<th>Name</th>
+									<th>Description</th>
+									<th>Price</th>
+									<th>Quantity</th>
+									<!-- <th>Total</th> -->
+								</tr>
+							</thead>
+							<tbody>
+								<tr ng-repeat="i in hisList track by $index"
+									ng-if="i.isBidding === 0 && i.isSold === 0">
+									<td>{{i.item_name}}</td>
+									<td>{{i.item_desc}}</td>
+									<td>{{i.price}}</td>
+									<td>{{i.quantity}}</td>
+									<!-- <td>{{(i.price * i.quantity)| number:2}}</td> -->
+								</tr>
+							</tbody>
+						</table>
+
+					</div>
+					<div class="tab-pane fade" id="tab2Sell">
+						<table class="table table-striped">
+							<thead>
+								<tr class="info">
+									<th>Name</th>
+									<th>Description</th>
+									<th>Bidding due Date</th>
+									<th>Price</th>
+									<th>Quantity</th>
+								<!-- 	<th>Total</th> -->
+								</tr>
+							</thead>
+							<tbody>
+								<tr ng-repeat="i in hisList track by $index"
+									ng-if="i.isBidding === 1 && i.isSold === 0" >
+									<td>{{i.item_name}}</td>
+									<td>{{i.item_desc}}</td>
+									<td>{{i.bidding_due_time_stamp}}</td>
+									<td>{{i.price}}</td>
+									<td>{{i.quantity}}</td>
+								<!-- 	<td>{{(i.price * i.quantity)| number:2}}</td> -->
+								</tr>
+							</tbody>
+						</table>
+					</div>
+					<div class="tab-pane fade" id="tab3Sell">
+						<table class="table table-striped">
+							<thead>
+								<tr class="info">
+									<th>Name</th>
+									<th>Description</th>
+									<th>Price</th>
+									<th>Quantity</th>
+									<th>Total</th>
+								</tr>
+							</thead>
+							<tbody>
+								<tr ng-repeat="i in hisList track by $index"
+									ng-if="i.isSold === 1">
+									<td>{{i.item_name}}</td>
+									<td>{{i.item_desc}}</td>
+									<td>{{i.price}}</td>
+									<td>{{i.sold_quantity}}</td>
+									<td>{{(i.price * i.sold_quantity)+4.29| number:2}}</td>
+								</tr>
+							</tbody>
+						</table>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<script src="/angular/angular.js"></script>
+	<script src="/angular-route/angular-route.js"></script>
+	<script src="/jquery/dist/jquery.min.js"></script>
+	<script src="/bootstrap/dist/js/bootstrap.js"></script>
+	<script src="/controller/mycollection-controller.js"></script>
+	<script src="/controller/navbar-controller.js"></script>
+
+</body>
+</html>

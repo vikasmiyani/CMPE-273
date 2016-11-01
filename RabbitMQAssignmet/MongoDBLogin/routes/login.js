@@ -3,15 +3,36 @@
  */
 
 var express = require('express');
-var mongo = require("./mongo"); 
-var mongoLoginURL = "mongodb://localhost:27017/login";
-var mongoSignupURL = "mongodb://localhost:27017/signup";
+var mq_client = require('../rpc/client');
+
 
 exports.doLogin = function(req, res) {
 	var username = req.body.username;
 	var password = req.body.password;
+	var msg_payload = {username:username,password: password};
 	var json_responses;
-	mongo.connect(mongoLoginURL, function() {
+	mq_client.make_request('login_queue',msg_payload, function(err,results){
+		if(err){
+			json_responses = {
+					"statusCode" : 401,
+					"success": false
+				};
+				res.send(json_responses);
+				res.end();
+		}
+		if(results){
+			console.log(results);
+			req.session.username = results.username;
+			json_responses = {
+				"statusCode" : 200,
+				"success" : true
+			};
+			res.send(json_responses);
+			res.end();
+		}
+});
+	
+	/*mongo.connect(mongoLoginURL, function() {
 		var coll = mongo.collection('login');
 		coll.findOne({
 			username : username,
@@ -32,7 +53,7 @@ exports.doLogin = function(req, res) {
 				res.send(json_responses);
 			}
 		});
-	});
+	});*/
 };
 
 exports.doSignup = function(req,res){
@@ -40,7 +61,28 @@ exports.doSignup = function(req,res){
 	var username = req.body.username;
 	var password = req.body.password;
 	var json_responses;
-	mongo.connect(mongoLoginURL, function() {
+	var msg_payload = {username:username,password: password,email: email};
+	mq_client.make_request('signup_queue',msg_payload, function(err,results){
+		if(err){
+			json_responses = {
+					"statusCode" : 401,
+					"success": false
+				};
+				res.send(json_responses);
+				res.end();
+		}
+		if(results){
+			//req.session.username = results.username;
+			json_responses = {
+				"statusCode" : 200,
+				"success" : true
+			};
+			res.send(json_responses);
+			res.end();
+		}
+});
+	
+	/*mongo.connect(mongoLoginURL, function() {
 		var coll = mongo.collection('login');
 		var data = {
 				username : username,
@@ -65,5 +107,5 @@ exports.doSignup = function(req,res){
 				res.end();
 			}
 		});
-	});
+	});*/
 };

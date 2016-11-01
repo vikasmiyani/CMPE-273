@@ -11,6 +11,7 @@ HomeworkJava/.classpath
 HomeworkJava/.project
 HomeworkJava/src/com/permutation
 
+**/**/node_modules/
 **/Ebay/.project
 **/Ebay/.settings/
 **/Ebay/node_modules/

@@ -1,0 +1,32 @@
+<html>
+<head>
+<link rel='stylesheet' href='/stylesheets/style.css' />
+<script
+	src="http://ajax.googleapis.com/ajax/libs/angularjs/1.4.8/angular.min.js"></script>
+<script
+	src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.8/angular-route.min.js"></script>
+<!-- Latest compiled and minified CSS -->
+<link rel="stylesheet"
+	href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+
+<!-- jQuery library -->
+<script
+	src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+
+<!-- Latest compiled JavaScript -->
+<script
+	src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+</head>
+<body>
+	<div class="container">
+		<div class="row">
+			<div class="col-md-12 col-md-offset-3">
+				<form action="logout" method="get">
+					<h4>Welcome to the Portal, <%= username %></h4>
+					<input type="submit" value="Logout" class="btn btn-success" />
+				</form>
+			</div>
+		</div>
+	</div>
+</body>
+</html>

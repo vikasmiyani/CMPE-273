@@ -1,0 +1,80 @@
+<div class="" ng-controller="navbarController">
+<nav class="navbar navbar-default whiteBg fontSize12 height30" >
+  <div class="container-fluid">
+    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+      <ul class="nav navbar-nav customizeNavBar">
+          <% if(user_id !== undefined && user_id !== "") {%>
+       	<li class="dropdown">
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Hi <span class="caret"></span></a>
+
+     
+          <ul class="dropdown-menu">
+            <li><a href ><%= first_name+" "+last_name%></a></li>
+            <li><a href="/displayCollectionPg">My collection</a></li>
+            <li><a href ="/account">Account setting</a></li>
+          </ul>
+         
+        </li>
+        <li><a>|</a><span class="sr-only">(current)</span></li>
+        <li><a href="/sellItemPg">Sell <span class="sr-only">(current)</span></a></li>
+        <li><a>|</a><span class="sr-only">(current)</span></li>
+        <li><a><%= last_access%> <span class="sr-only">(current)</span></a></li>
+        
+        <%}else{%>
+        <li><a href >Hi</a><span class="sr-only">(current)</span></li>
+          <li><a>|</a><span class="sr-only">(current)</span></li>
+         <li><a href="/signinPg" >Sign in</a></li>
+        <%}%>
+          <li><a>|</a><span class="sr-only">(current)</span></li>
+         <li><a href="/signinPg" >Help & Contact</a></li>
+   		  
+      </ul>
+      <ul class="nav navbar-nav navbar-right customizeNavBar">
+        <li><a href="/shoppingCartPg"><span class="glyphicon glyphicon-shopping-cart top4"></span></a></li>
+           <% if(user_id !== undefined && user_id !== "") {%>
+        <li><a>|</a><span class="sr-only">(current)</span></li> 
+        <li><a href="/signout">Sign out</a></li>
+       		<%}%>
+     
+        <!-- <li class="dropdown">
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Dropdown <span class="caret"></span></a>
+          <ul class="dropdown-menu">
+            <li><a href="#">Action</a></li>
+            <li><a href="#">Another action</a></li>
+            <li><a href="#">Something else here</a></li>
+            <li role="separator" class="divider"></li>
+            <li><a href="#">Separated link</a></li>
+          </ul>
+        </li> -->
+      </ul>
+    </div><!-- /.navbar-collapse -->
+  </div><!-- /.container-fluid -->
+</nav>
+<div class="row">
+    <table style="width:100%">
+        <tbody>
+        <tr>
+            <td width="20%">
+                <h1>
+                    <a href="/" ><font color="#f8f8f8">!</font>
+                        <img role="presentation" width="250" height="200" style="clip:rect(47px, 118px, 95px, 0px); position:absolute; top:10px;left:140px" alt="" src="http://ir.ebaystatic.com/rs/v/fxxj3ttftm5ltcqnto1o4baovyl.png" id="gh-logo">
+                    </a><!--<![endif]-->
+                </h1>
+            </td>
+            <td width="49%">
+                <input type="text" name="sitem" ng-model="sitem" class="form-control" placeholder="Search..." style="height: 50px " >
+            </td>
+            <td width="1%">
+            </td>
+            <td width="30%">
+             
+                <a name="searchItemsBtn" class="btn btn-primary" href="/searchItem/{{sitem}}" style="height: 50px;width: 150px;display: table-cell;border: 0px;" ><span class="centerText">Search</span></a>
+               
+            </td>
+        </tr>
+        </tbody>
+    </table>
+</div>
+</div>
+
+

@@ -1,0 +1,212 @@
+
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Detail</title>
+<link rel="shortcut icon" href="">
+<link rel="stylesheet" href="/stylesheets/style.css">
+<link rel="stylesheet" href="/bootstrap/dist/css/bootstrap.css">
+<script>
+	window.x = "<%=item_id%>"
+</script>
+</head>
+<body ng-app="app">
+	<% include navbar.ejs %>
+	<div class="container" ng-controller="detailController"
+		ng-init="fetchDetail()">
+		
+
+		<section id="content-1-2" class="content-block content-1-2">
+			<div class="container topMargin100">
+				<!-- Start Row -->
+				<form>
+					<div class="row">
+						<div class="col-md-5">
+							<img class="img-rounded img-responsive"
+								src="http://placehold.it/600x400">
+						</div>
+						<div class="col-md-5">
+							<div class="editContent">
+								<h2>{{item_name}}</h2>
+							</div>
+							<hr style="width: 150%; border-top: 1px solid #c6c4c4;">
+							<div class="editContent">
+								<p class="lead">{{item_desc}}</p>
+							</div>
+
+
+							<div class="editContent">
+
+								<div style="background-color: #c8c8c8;" ng-hide=isBidding>
+									<table class="width100 marginL">
+										<tr style="width: 100%">
+											<td style="width: 30%; padding: 8px;">
+												<table class="marginR width100">
+
+													<tr>
+														<td><p>
+																<b>Price:</b>
+															</p></td>
+														<td><p style="margin-left: 10px;">{{price}}</p></td>
+													</tr>
+													<tr>
+														<td><p>
+																<b>Item left:</b>
+															</p></td>
+														<td><p style="margin-left: 10px;">{{quantity - sold_quantity}}</p></td>
+													</tr>
+
+													<tr>
+														<td width="100%">
+															<form name="myForm" role="form">
+																<div class="form-group editContent"
+																	ng-class="{ 'has-error' : myForm.order_qty.$invalid && !myForm.order_qty.$pristine }">
+																	<label for="order_qty" class="col-form-label">Quantity</label>
+																	<div class="">
+																		<input class="form-control" type="number" ng-value="1"
+																			id="order_qty" name="order_qty" ng-model="order_qty"
+																			min="1" required>
+																		<p
+																			ng-show="myForm.order_qty.$invalid && !myForm.order_qty.$pristine"
+																			class="help-block">Quantity should be more than
+																			or equal to one.</p>
+																	</div>
+																</div>
+															</form>
+														</td>
+													</tr>
+												</table>
+											</td>
+											<td style="width: 70%">
+												<table>
+													<tr>
+														<td><a href ng-click="buyNow()"
+															class="btn btn-block btn-primary bottomMargin10"><span
+																class="fa fa-cloud-upload"></span> Buy NOW</a></td>
+													</tr>
+													<tr>
+														<td><a href ng-click="addToCart()"
+															class="btn btn-block btn-warning  bottomMargin10"><span
+																class="fa fa-check">Add to shopping cart</span></a></td>
+													</tr>
+												</table>
+											</td>
+										</tr>
+									</table>
+
+								</div>
+								<div style="background-color: #c8c8c8;" ng-show=isBidding>
+									<table class="width100 marginL">
+										<tr style="width: 100%">
+											<td style="width: 30%; padding: 8px;">
+												<table class="marginR20 width100">
+
+													<tr>
+														<td><p>
+																<b>Time Left:</b>
+															</p></td>
+														<td ng-if="diffDays > 1"><p
+																style="margin-left: 10px;">{{diffDays}} days</p></td>
+														<td ng-if="diffDays === 1"><p
+																style="margin-left: 10px;">{{diffHrs}} hour(s)
+																{{diffMins}} minute(s)</p></td>
+														<td ng-if="diffDays === 0"><p
+																style="margin-left: 10px;">0 day</p></td>
+													</tr>
+													<tr>
+														<td><p>
+																<b>Current bid price:</b>
+															</p></td>
+														<td><p style="margin-left: 10px;">{{bidding_price}}</p></td>
+													</tr>
+													<tr>
+														
+														<td><input type="number" ng-model="place_bid" id="place_bid"
+													name="place_bid" /></td>
+													</tr>
+												</table>
+											</td>
+											<td style="width: 70%">
+												<table>
+													<tr>
+														<td><a href="#myModal" data-toggle="modal"
+															ng-click="placeBid()"
+															class="btn btn-block btn-primary bottomMargin10 width150"><span
+																class="fa fa-cloud-upload"></span> Place bid</a></td>
+													</tr>
+												</table>
+											</td>
+										</tr>
+									</table>
+									</div>
+								</div>
+							</div>
+						<div class="col-md-2 whiteBg"
+							style="height: 160px; margin-top: 100px; border: 1px solid #ccc;">
+							<table>
+								<tr>
+									<td style="padding-top:15px;"><b>Seller Information</b></td>
+								</tr>
+								<tr>
+									<td><hr
+											style="width: 100%; margin-top:5px; border-top: 1px solid #c6c4c4;"></td>
+								</tr>
+								<tr>
+									<td><b>{{first_name}}</b> is shipping from <b>{{city}}</b>.</td>
+								</tr>
+								<tr>
+									<td><div style="margin-top:10px; margin-bottom:10px; border-top: 2px dotted #999;"></div></td>
+								</tr>
+								<tr>
+									<td>
+										<span style="">Follow this seller</span>
+									</td>
+								</tr>
+							</table>
+
+						</div>
+
+					</div>
+				</form>
+			</div>
+			<div class="bs-example col-md-5 col-md-offset-5" ng-show="isError">
+			<div class="alert alert-danger fade in">
+				<a href="#" class="close" data-dismiss="alert">&times;</a> <strong>Error!</strong>
+				{{errorMsg}}
+			</div>
+		</div>
+
+			<!--// END Row -->
+	</section>
+	<!-- Modal -->
+	<div class="modal fade" id="myModal" role="dialog">
+		<div class="modal-dialog">
+
+			<!-- Modal content-->
+			<div class="modal-content">
+				<div class="modal-header">
+					<button type="button" class="close" data-dismiss="modal">&times;</button>
+					<h4 class="modal-title">{{title}}</h4>
+				</div>
+				<div class="modal-body">
+					<p>{{message}}</p>
+				</div>
+				<div class="modal-footer">
+					<button type="button" ng-click="reload()" class="btn btn-default"
+						data-dismiss="modal">Close</button>
+				</div>
+			</div>
+
+		</div>
+	</div>
+
+
+	</div>
+	<script src="/angular/angular.js"></script>
+	<script src="/angular-route/angular-route.js"></script>
+	<script src="/jquery/dist/jquery.min.js"></script>
+	<script src="/bootstrap/dist/js/bootstrap.js"></script>
+	<script src="/controller/detail-controller.js"></script>
+	<script src="/controller/navbar-controller.js"></script>
+</body>
+</html>

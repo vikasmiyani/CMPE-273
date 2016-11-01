@@ -1,0 +1,284 @@
+2016-10-23T00:01:15.389Z - info: Redirecting to home page || anonymous user
+2016-10-23T00:01:16.842Z - info: Displaying items for home page || anonymous user
+2016-10-23T00:01:18.053Z - info: Redirecting to login page
+2016-10-23T00:01:35.072Z - info: New user registration
+2016-10-23T00:01:35.507Z - info: User registered || user id :vicky.miyani@gmail.com
+2016-10-23T00:01:35.546Z - info: Redirecting to login page
+2016-10-23T00:02:01.817Z - info: New user registration
+2016-10-23T00:02:02.177Z - info: User registered || user id :v@g.com
+2016-10-23T00:02:02.196Z - info: Redirecting to login page
+2016-10-23T00:02:06.802Z - info: User logged in ||user_id :580bfddfb576ee0b387452bf
+2016-10-23T00:02:06.855Z - info: Redirecting to home page || user_id :580bfddfb576ee0b387452bf
+2016-10-23T00:02:07.861Z - info: Displaying items for home page || user_id :580bfddfb576ee0b387452bf
+2016-10-23T00:02:14.980Z - info: Redirecting to home page || anonymous user
+2016-10-23T00:02:15.762Z - info: Displaying items for home page || anonymous user
+2016-10-23T00:02:17.146Z - info: Redirecting to login page
+2016-10-23T00:02:20.536Z - info: User logged in ||user_id :580bfdfab576ee0b387452c0
+2016-10-23T00:02:20.628Z - info: Redirecting to home page || user_id :580bfdfab576ee0b387452c0
+2016-10-23T00:02:22.599Z - info: Displaying items for home page || user_id :580bfdfab576ee0b387452c0
+2016-10-23T00:02:22.702Z - info: Redirecting to sell page || user_id :580bfdfab576ee0b387452c0
+2016-10-23T00:03:01.544Z - info: storing item for sell page || user_id :580bfdfab576ee0b387452c0
+2016-10-23T00:03:01.570Z - info: Inserting sell item for seller data for sell page || user_id :580bfdfab576ee0b387452c0
+2016-10-23T00:03:01.620Z - info: Redirecting to home page || user_id :580bfdfab576ee0b387452c0
+2016-10-23T00:03:02.208Z - info: Displaying items for home page || user_id :580bfdfab576ee0b387452c0
+2016-10-23T00:03:11.246Z - info: Redirecting to home page || user_id :580bfddfb576ee0b387452bf
+2016-10-23T00:03:11.920Z - info: Displaying items for home page || user_id :580bfddfb576ee0b387452bf
+2016-10-23T00:03:13.754Z - info: Redirecting to sell page || user_id :580bfddfb576ee0b387452bf
+2016-10-23T00:03:52.995Z - info: storing item for sell page || user_id :580bfddfb576ee0b387452bf
+2016-10-23T00:03:53.015Z - info: Inserting sell item for seller data for sell page || user_id :580bfddfb576ee0b387452bf
+2016-10-23T00:03:53.097Z - info: Redirecting to home page || user_id :580bfddfb576ee0b387452bf
+2016-10-23T00:03:54.645Z - info: Displaying items for home page || user_id :580bfddfb576ee0b387452bf
+2016-10-23T00:03:55.384Z - info: Redirecting to sell page || user_id :580bfddfb576ee0b387452bf
+2016-10-23T00:04:47.651Z - info: storing item for sell page || user_id :580bfddfb576ee0b387452bf
+2016-10-23T00:04:47.673Z - info: Inserting sell item for seller data for sell page || user_id :580bfddfb576ee0b387452bf
+2016-10-23T00:04:47.741Z - info: Redirecting to home page || user_id :580bfddfb576ee0b387452bf
+2016-10-23T00:04:48.668Z - info: Displaying items for home page || user_id :580bfddfb576ee0b387452bf
+2016-10-23T00:04:53.201Z - info: Redirecting to sell page || user_id :580bfdfab576ee0b387452c0
+2016-10-23T00:05:51.599Z - info: storing item for sell page || user_id :580bfdfab576ee0b387452c0
+2016-10-23T00:05:51.621Z - info: Inserting sell item for seller data for sell page || user_id :580bfdfab576ee0b387452c0
+2016-10-23T00:05:51.680Z - info: Redirecting to home page || user_id :580bfdfab576ee0b387452c0
+2016-10-23T00:05:52.401Z - info: Displaying items for home page || user_id :580bfdfab576ee0b387452c0
+2016-10-23T00:11:19.480Z - info: Redirecting to home page || user_id :580bfddfb576ee0b387452bf
+2016-10-23T00:11:20.203Z - info: Displaying items for home page || user_id :580bfddfb576ee0b387452bf
+2016-10-23T00:11:22.404Z - info: Redirecting to sell page || user_id :580bfddfb576ee0b387452bf
+2016-10-23T00:12:06.294Z - info: storing item for sell page || user_id :580bfddfb576ee0b387452bf
+2016-10-23T00:13:30.614Z - info: Redirecting to sell page || user_id :580bfddfb576ee0b387452bf
+2016-10-23T00:13:42.075Z - info: storing item for sell page || user_id :580bfddfb576ee0b387452bf
+2016-10-23T00:14:58.247Z - info: storing item for sell page || user_id :580bfddfb576ee0b387452bf
+2016-10-23T00:14:58.329Z - info: Inserting sell item for seller data for sell page || user_id :580bfddfb576ee0b387452bf
+2016-10-23T00:14:58.431Z - info: Redirecting to home page || user_id :580bfddfb576ee0b387452bf
+2016-10-23T00:14:59.254Z - info: Displaying items for home page || user_id :580bfddfb576ee0b387452bf
+2016-10-23T00:16:07.579Z - info: Redirecting to home page || user_id :580bfdfab576ee0b387452c0
+2016-10-23T00:16:08.249Z - info: Displaying items for home page || user_id :580bfdfab576ee0b387452c0
+2016-10-23T00:16:09.472Z - info: Redirecting to detail page || user_id :580bfdfab576ee0b387452c0
+2016-10-23T00:16:10.267Z - info: Displaying items for detail page || user_id :580bfdfab576ee0b387452c0
+2016-10-23T00:20:48.095Z - info: Redirecting to home page || user_id :580bfddfb576ee0b387452bf
+2016-10-23T00:20:48.803Z - info: Displaying items for home page || user_id :580bfddfb576ee0b387452bf
+2016-10-23T00:20:55.872Z - info: Redirecting to home page || user_id :580bfdfab576ee0b387452c0
+2016-10-23T00:20:56.431Z - info: Displaying items for home page || user_id :580bfdfab576ee0b387452c0
+2016-10-23T00:20:58.030Z - info: Redirecting to sell page || user_id :580bfdfab576ee0b387452c0
+2016-10-23T00:21:26.336Z - info: storing item for sell page || user_id :580bfdfab576ee0b387452c0
+2016-10-23T00:21:26.395Z - info: Inserting sell item for seller data for sell page || user_id :580bfdfab576ee0b387452c0
+2016-10-23T00:21:26.424Z - info: Redirecting to home page || user_id :580bfdfab576ee0b387452c0
+2016-10-23T00:21:27.052Z - info: Displaying items for home page || user_id :580bfdfab576ee0b387452c0
+2016-10-23T00:21:34.734Z - info: Redirecting to home page || user_id :580bfddfb576ee0b387452bf
+2016-10-23T00:21:35.374Z - info: Displaying items for home page || user_id :580bfddfb576ee0b387452bf
+2016-10-23T00:21:36.952Z - info: Redirecting to detail page || user_id :580bfddfb576ee0b387452bf
+2016-10-23T00:21:37.771Z - info: Displaying items for detail page || user_id :580bfddfb576ee0b387452bf
+2016-10-23T00:22:38.085Z - info: Redirecting to sell page || user_id :580bfdfab576ee0b387452c0
+2016-10-23T00:22:55.732Z - info: storing item for sell page || user_id :580bfdfab576ee0b387452c0
+2016-10-23T00:22:55.803Z - info: Inserting sell item for seller data for sell page || user_id :580bfdfab576ee0b387452c0
+2016-10-23T00:22:55.876Z - info: Redirecting to home page || user_id :580bfdfab576ee0b387452c0
+2016-10-23T00:22:57.485Z - info: Displaying items for home page || user_id :580bfdfab576ee0b387452c0
+2016-10-23T00:24:52.227Z - info: Redirecting to sell page || user_id :580bfdfab576ee0b387452c0
+2016-10-23T00:25:02.669Z - info: storing item for sell page || user_id :580bfdfab576ee0b387452c0
+2016-10-23T00:25:02.741Z - info: Inserting sell item for seller data for sell page || user_id :580bfdfab576ee0b387452c0
+2016-10-23T00:25:02.790Z - info: Redirecting to home page || user_id :580bfdfab576ee0b387452c0
+2016-10-23T00:25:03.605Z - info: Displaying items for home page || user_id :580bfdfab576ee0b387452c0
+2016-10-23T00:42:18.414Z - info: Redirecting to home page || user_id :580bfdfab576ee0b387452c0
+2016-10-23T00:42:19.057Z - info: Displaying items for home page || user_id :580bfdfab576ee0b387452c0
+2016-10-23T00:42:21.852Z - info: Redirecting to detail page || user_id :580bfdfab576ee0b387452c0
+2016-10-23T00:42:22.652Z - info: Displaying items for detail page || user_id :580bfdfab576ee0b387452c0
+2016-10-23T00:42:25.385Z - info: Item add to shopping cart page || user_id :580bfdfab576ee0b387452c0
+2016-10-23T00:44:25.405Z - info: Item add to shopping cart page || user_id :580bfdfab576ee0b387452c0
+2016-10-23T00:45:11.312Z - info: Item add to shopping cart page || user_id :580bfdfab576ee0b387452c0
+2016-10-23T00:45:38.407Z - info: Item add to shopping cart page || user_id :580bfdfab576ee0b387452c0
+2016-10-23T00:46:53.879Z - info: Item add to shopping cart page || user_id :580bfdfab576ee0b387452c0
+2016-10-23T00:48:53.898Z - info: Item add to shopping cart page || user_id :580bfdfab576ee0b387452c0
+2016-10-23T00:50:43.184Z - info: Item add to shopping cart page || user_id :580bfdfab576ee0b387452c0
+2016-10-23T00:51:20.229Z - info: Item add to shopping cart page || user_id :580bfdfab576ee0b387452c0
+2016-10-23T00:52:24.033Z - info: Item add to shopping cart page || user_id :580bfdfab576ee0b387452c0
+2016-10-23T00:55:26.269Z - info: Redirecting to home page || user_id :580bfdfab576ee0b387452c0
+2016-10-23T00:55:26.942Z - info: Displaying items for home page || user_id :580bfdfab576ee0b387452c0
+2016-10-23T00:55:30.998Z - info: Redirecting to detail page || user_id :580bfdfab576ee0b387452c0
+2016-10-23T00:55:31.724Z - info: Displaying items for detail page || user_id :580bfdfab576ee0b387452c0
+2016-10-23T00:55:34.689Z - info: Item add to shopping cart page || user_id :580bfdfab576ee0b387452c0
+2016-10-23T00:55:34.743Z - info: Redirecting to shopping cart page || user_id :580bfdfab576ee0b387452c0
+2016-10-23T00:55:35.420Z - info: Fetching shopping cart items || user_id :580bfdfab576ee0b387452c0
+2016-10-23T00:57:35.503Z - info: Fetching shopping cart items || user_id :580bfdfab576ee0b387452c0
+2016-10-23T00:59:35.593Z - info: Fetching shopping cart items || user_id :580bfdfab576ee0b387452c0
+2016-10-23T01:01:35.697Z - info: Fetching shopping cart items || user_id :580bfdfab576ee0b387452c0
+2016-10-23T01:01:48.680Z - info: Redirecting to home page || user_id :580bfddfb576ee0b387452bf
+2016-10-23T01:01:49.382Z - info: Displaying items for home page || user_id :580bfddfb576ee0b387452bf
+2016-10-23T01:01:57.495Z - info: Redirecting to detail page || user_id :580bfddfb576ee0b387452bf
+2016-10-23T01:01:58.373Z - info: Displaying items for detail page || user_id :580bfddfb576ee0b387452bf
+2016-10-23T01:02:03.371Z - info: Item add to shopping cart page || user_id :580bfddfb576ee0b387452bf
+2016-10-23T01:02:03.459Z - info: Redirecting to shopping cart page || user_id :580bfddfb576ee0b387452bf
+2016-10-23T01:02:05.405Z - info: Fetching shopping cart items || user_id :580bfddfb576ee0b387452bf
+2016-10-23T01:03:15.986Z - info: Fetching shopping cart items || user_id :580bfdfab576ee0b387452c0
+2016-10-23T01:03:15.994Z - info: Fetching shopping cart items || user_id :580bfddfb576ee0b387452bf
+2016-10-23T01:03:18.224Z - info: Redirecting to shopping cart page || user_id :580bfddfb576ee0b387452bf
+2016-10-23T01:03:18.891Z - info: Fetching shopping cart items || user_id :580bfddfb576ee0b387452bf
+2016-10-23T01:03:21.910Z - info: Redirecting to home page || user_id :580bfddfb576ee0b387452bf
+2016-10-23T01:03:22.566Z - info: Displaying items for home page || user_id :580bfddfb576ee0b387452bf
+2016-10-23T01:03:33.783Z - info: Redirecting to detail page || user_id :580bfddfb576ee0b387452bf
+2016-10-23T01:03:34.566Z - info: Displaying items for detail page || user_id :580bfddfb576ee0b387452bf
+2016-10-23T01:03:37.157Z - info: Redirecting to home page || user_id :580bfddfb576ee0b387452bf
+2016-10-23T01:03:37.810Z - info: Displaying items for home page || user_id :580bfddfb576ee0b387452bf
+2016-10-23T01:03:39.369Z - info: Redirecting to detail page || user_id :580bfddfb576ee0b387452bf
+2016-10-23T01:03:40.254Z - info: Displaying items for detail page || user_id :580bfddfb576ee0b387452bf
+2016-10-23T01:03:44.134Z - info: Item add to shopping cart page || user_id :580bfddfb576ee0b387452bf
+2016-10-23T01:03:44.237Z - info: Redirecting to shopping cart page || user_id :580bfddfb576ee0b387452bf
+2016-10-23T01:03:45.919Z - info: Fetching shopping cart items || user_id :580bfddfb576ee0b387452bf
+2016-10-23T01:11:49.765Z - info: Redirecting to home page || user_id :580bfddfb576ee0b387452bf
+2016-10-23T01:11:50.504Z - info: Displaying items for home page || user_id :580bfddfb576ee0b387452bf
+2016-10-23T01:11:52.701Z - info: Redirecting to detail page || user_id :580bfddfb576ee0b387452bf
+2016-10-23T01:11:53.411Z - info: Displaying items for detail page || user_id :580bfddfb576ee0b387452bf
+2016-10-23T01:11:55.438Z - info: Item add to shopping cart page || user_id :580bfddfb576ee0b387452bf
+2016-10-23T01:11:55.472Z - info: Redirecting to shopping cart page || user_id :580bfddfb576ee0b387452bf
+2016-10-23T01:11:56.141Z - info: Fetching shopping cart items || user_id :580bfddfb576ee0b387452bf
+2016-10-23T01:12:45.322Z - info: Redirecting to home page || user_id :580bfddfb576ee0b387452bf
+2016-10-23T01:12:46.198Z - info: Displaying items for home page || user_id :580bfddfb576ee0b387452bf
+2016-10-23T01:12:47.762Z - info: Redirecting to detail page || user_id :580bfddfb576ee0b387452bf
+2016-10-23T01:12:48.456Z - info: Displaying items for detail page || user_id :580bfddfb576ee0b387452bf
+2016-10-23T01:12:50.197Z - info: Item add to shopping cart page || user_id :580bfddfb576ee0b387452bf
+2016-10-23T01:12:50.284Z - info: Redirecting to shopping cart page || user_id :580bfddfb576ee0b387452bf
+2016-10-23T01:12:51.948Z - info: Fetching shopping cart items || user_id :580bfddfb576ee0b387452bf
+2016-10-23T01:13:39.026Z - info: Redirecting to home page || user_id :580bfdfab576ee0b387452c0
+2016-10-23T01:13:39.632Z - info: Displaying items for home page || user_id :580bfdfab576ee0b387452c0
+2016-10-23T01:13:45.290Z - info: Redirecting to home page || user_id :580bfddfb576ee0b387452bf
+2016-10-23T01:13:46.009Z - info: Displaying items for home page || user_id :580bfddfb576ee0b387452bf
+2016-10-23T01:13:48.599Z - info: Redirecting to detail page || user_id :580bfddfb576ee0b387452bf
+2016-10-23T01:13:49.319Z - info: Displaying items for detail page || user_id :580bfddfb576ee0b387452bf
+2016-10-23T01:13:51.051Z - info: Item add to shopping cart page || user_id :580bfddfb576ee0b387452bf
+2016-10-23T01:13:51.118Z - info: Redirecting to shopping cart page || user_id :580bfddfb576ee0b387452bf
+2016-10-23T01:13:51.783Z - info: Fetching shopping cart items || user_id :580bfddfb576ee0b387452bf
+2016-10-23T01:15:05.406Z - info: Redirecting to home page || user_id :580bfddfb576ee0b387452bf
+2016-10-23T01:15:06.468Z - info: Displaying items for home page || user_id :580bfddfb576ee0b387452bf
+2016-10-23T01:15:08.698Z - info: Redirecting to detail page || user_id :580bfddfb576ee0b387452bf
+2016-10-23T01:15:09.627Z - info: Displaying items for detail page || user_id :580bfddfb576ee0b387452bf
+2016-10-23T01:15:10.966Z - info: Item add to shopping cart page || user_id :580bfddfb576ee0b387452bf
+2016-10-23T01:15:11.033Z - info: Redirecting to shopping cart page || user_id :580bfddfb576ee0b387452bf
+2016-10-23T01:15:11.744Z - info: Fetching shopping cart items || user_id :580bfddfb576ee0b387452bf
+2016-10-23T01:15:59.665Z - info: Redirecting to home page || user_id :580bfddfb576ee0b387452bf
+2016-10-23T01:16:00.516Z - info: Displaying items for home page || user_id :580bfddfb576ee0b387452bf
+2016-10-23T01:16:02.031Z - info: Redirecting to detail page || user_id :580bfddfb576ee0b387452bf
+2016-10-23T01:16:02.982Z - info: Displaying items for detail page || user_id :580bfddfb576ee0b387452bf
+2016-10-23T01:16:04.973Z - info: Item add to shopping cart page || user_id :580bfddfb576ee0b387452bf
+2016-10-23T01:16:05.041Z - info: Redirecting to shopping cart page || user_id :580bfddfb576ee0b387452bf
+2016-10-23T01:16:07.265Z - info: Fetching shopping cart items || user_id :580bfddfb576ee0b387452bf
+2016-10-23T01:16:43.026Z - info: Redirecting to home page || user_id :580bfddfb576ee0b387452bf
+2016-10-23T01:16:43.827Z - info: Displaying items for home page || user_id :580bfddfb576ee0b387452bf
+2016-10-23T01:16:45.605Z - info: Redirecting to detail page || user_id :580bfddfb576ee0b387452bf
+2016-10-23T01:16:46.476Z - info: Displaying items for detail page || user_id :580bfddfb576ee0b387452bf
+2016-10-23T01:16:48.284Z - info: Item add to shopping cart page || user_id :580bfddfb576ee0b387452bf
+2016-10-23T01:16:48.369Z - info: Redirecting to shopping cart page || user_id :580bfddfb576ee0b387452bf
+2016-10-23T01:16:49.066Z - info: Fetching shopping cart items || user_id :580bfddfb576ee0b387452bf
+2016-10-23T01:17:40.417Z - info: Redirecting to home page || user_id :580bfddfb576ee0b387452bf
+2016-10-23T01:17:41.230Z - info: Displaying items for home page || user_id :580bfddfb576ee0b387452bf
+2016-10-23T01:17:43.399Z - info: Redirecting to detail page || user_id :580bfddfb576ee0b387452bf
+2016-10-23T01:17:44.300Z - info: Displaying items for detail page || user_id :580bfddfb576ee0b387452bf
+2016-10-23T01:17:47.411Z - info: Item add to shopping cart page || user_id :580bfddfb576ee0b387452bf
+2016-10-23T01:17:47.485Z - info: Redirecting to shopping cart page || user_id :580bfddfb576ee0b387452bf
+2016-10-23T01:17:48.162Z - info: Fetching shopping cart items || user_id :580bfddfb576ee0b387452bf
+2016-10-23T01:18:35.911Z - info: Redirecting to home page || user_id :580bfddfb576ee0b387452bf
+2016-10-23T01:18:36.818Z - info: Displaying items for home page || user_id :580bfddfb576ee0b387452bf
+2016-10-23T01:18:38.260Z - info: Redirecting to detail page || user_id :580bfddfb576ee0b387452bf
+2016-10-23T01:18:39.154Z - info: Displaying items for detail page || user_id :580bfddfb576ee0b387452bf
+2016-10-23T01:18:41.013Z - info: Item add to shopping cart page || user_id :580bfddfb576ee0b387452bf
+2016-10-23T01:18:41.081Z - info: Redirecting to shopping cart page || user_id :580bfddfb576ee0b387452bf
+2016-10-23T01:18:41.743Z - info: Fetching shopping cart items || user_id :580bfddfb576ee0b387452bf
+2016-10-23T01:19:20.444Z - info: Redirecting to shopping cart page || user_id :580bfddfb576ee0b387452bf
+2016-10-23T01:19:21.379Z - info: Fetching shopping cart items || user_id :580bfddfb576ee0b387452bf
+2016-10-23T01:19:22.480Z - info: Redirecting to home page || user_id :580bfddfb576ee0b387452bf
+2016-10-23T01:19:23.295Z - info: Displaying items for home page || user_id :580bfddfb576ee0b387452bf
+2016-10-23T01:19:24.403Z - info: Redirecting to detail page || user_id :580bfddfb576ee0b387452bf
+2016-10-23T01:19:25.413Z - info: Displaying items for detail page || user_id :580bfddfb576ee0b387452bf
+2016-10-23T01:19:29.345Z - info: Item add to shopping cart page || user_id :580bfddfb576ee0b387452bf
+2016-10-23T01:19:29.417Z - info: Redirecting to shopping cart page || user_id :580bfddfb576ee0b387452bf
+2016-10-23T01:19:30.195Z - info: Fetching shopping cart items || user_id :580bfddfb576ee0b387452bf
+2016-10-23T01:20:16.723Z - info: Redirecting to shopping cart page || user_id :580bfddfb576ee0b387452bf
+2016-10-23T01:20:17.523Z - info: Fetching shopping cart items || user_id :580bfddfb576ee0b387452bf
+2016-10-23T01:20:18.053Z - info: Redirecting to home page || user_id :580bfddfb576ee0b387452bf
+2016-10-23T01:20:18.669Z - info: Displaying items for home page || user_id :580bfddfb576ee0b387452bf
+2016-10-23T01:20:20.379Z - info: Redirecting to detail page || user_id :580bfddfb576ee0b387452bf
+2016-10-23T01:20:21.086Z - info: Displaying items for detail page || user_id :580bfddfb576ee0b387452bf
+2016-10-23T01:20:22.639Z - info: Item add to shopping cart page || user_id :580bfddfb576ee0b387452bf
+2016-10-23T01:20:22.701Z - info: Redirecting to shopping cart page || user_id :580bfddfb576ee0b387452bf
+2016-10-23T01:20:23.379Z - info: Fetching shopping cart items || user_id :580bfddfb576ee0b387452bf
+2016-10-23T01:21:22.525Z - info: Redirecting to home page || user_id :580bfddfb576ee0b387452bf
+2016-10-23T01:21:23.323Z - info: Displaying items for home page || user_id :580bfddfb576ee0b387452bf
+2016-10-23T01:21:24.784Z - info: Redirecting to detail page || user_id :580bfddfb576ee0b387452bf
+2016-10-23T01:21:25.771Z - info: Displaying items for detail page || user_id :580bfddfb576ee0b387452bf
+2016-10-23T01:21:27.177Z - info: Item add to shopping cart page || user_id :580bfddfb576ee0b387452bf
+2016-10-23T01:21:27.241Z - info: Redirecting to shopping cart page || user_id :580bfddfb576ee0b387452bf
+2016-10-23T01:21:27.955Z - info: Fetching shopping cart items || user_id :580bfddfb576ee0b387452bf
+2016-10-23T01:24:48.811Z - info: Redirecting to shopping cart page || user_id :580bfddfb576ee0b387452bf
+2016-10-23T01:24:49.760Z - info: Fetching shopping cart items || user_id :580bfddfb576ee0b387452bf
+2016-10-23T01:36:11.612Z - info: Redirecting to shopping cart page || user_id :580bfddfb576ee0b387452bf
+2016-10-23T01:36:12.813Z - info: Fetching shopping cart items || user_id :580bfddfb576ee0b387452bf
+2016-10-23T01:37:39.325Z - info: Redirecting to shopping cart page || user_id :580bfddfb576ee0b387452bf
+2016-10-23T01:37:40.776Z - info: Fetching shopping cart items || user_id :580bfddfb576ee0b387452bf
+2016-10-23T01:37:48.093Z - info: updating item in shopping cart || user_id :580bfddfb576ee0b387452bf
+2016-10-23T01:48:54.917Z - info: Redirecting to shopping cart page || user_id :580bfddfb576ee0b387452bf
+2016-10-23T01:48:56.257Z - info: Fetching shopping cart items || user_id :580bfddfb576ee0b387452bf
+2016-10-23T01:48:59.352Z - info: Deleting item from shopping cart || user_id :580bfddfb576ee0b387452bf
+2016-10-23T01:54:48.551Z - info: Redirecting to shopping cart page || user_id :580bfddfb576ee0b387452bf
+2016-10-23T01:54:49.570Z - info: Fetching shopping cart items || user_id :580bfddfb576ee0b387452bf
+2016-10-23T01:54:53.574Z - info: Redirecting to shopping cart page || user_id :580bfdfab576ee0b387452c0
+2016-10-23T01:54:54.447Z - info: Fetching shopping cart items || user_id :580bfdfab576ee0b387452c0
+2016-10-23T01:54:57.186Z - info: Deleting item from shopping cart || user_id :580bfdfab576ee0b387452c0
+2016-10-23T04:54:01.357Z - info: Error in auction process
+2016-10-23T04:54:01.357Z - info: Error in auction process
+2016-10-23T05:59:20.103Z - info: Redirecting to sell page || user_id :580bfddfb576ee0b387452bf
+2016-10-23T05:59:37.384Z - info: storing item for sell page || user_id :580bfddfb576ee0b387452bf
+2016-10-23T05:59:37.407Z - info: Inserting sell item for seller data for sell page || user_id :580bfddfb576ee0b387452bf
+2016-10-23T05:59:37.497Z - info: Redirecting to home page || user_id :580bfddfb576ee0b387452bf
+2016-10-23T05:59:39.829Z - info: Displaying items for home page || user_id :580bfddfb576ee0b387452bf
+2016-10-23T05:59:44.114Z - info: Redirecting to home page || user_id :580bfdfab576ee0b387452c0
+2016-10-23T05:59:44.882Z - info: Displaying items for home page || user_id :580bfdfab576ee0b387452c0
+2016-10-23T05:59:48.960Z - info: Redirecting to detail page || user_id :580bfdfab576ee0b387452c0
+2016-10-23T05:59:49.757Z - info: Displaying items for detail page || user_id :580bfdfab576ee0b387452c0
+2016-10-23T06:00:00.585Z - info: Redirecting to detail page || user_id :580bfdfab576ee0b387452c0
+2016-10-23T06:00:01.267Z - info: Displaying items for detail page || user_id :580bfdfab576ee0b387452c0
+2016-10-23T06:00:07.213Z - info: Redirecting to detail page || user_id :580bfdfab576ee0b387452c0
+2016-10-23T06:00:07.795Z - info: Redirecting to detail page || user_id :580bfdfab576ee0b387452c0
+2016-10-23T06:00:07.837Z - info: Displaying items for detail page || user_id :580bfdfab576ee0b387452c0
+2016-10-23T06:01:22.497Z - info: Redirecting to home page || user_id :580bfdfab576ee0b387452c0
+2016-10-23T06:01:23.137Z - info: Displaying items for home page || user_id :580bfdfab576ee0b387452c0
+2016-10-23T06:01:24.983Z - info: Redirecting to detail page || user_id :580bfdfab576ee0b387452c0
+2016-10-23T06:01:25.813Z - info: Displaying items for detail page || user_id :580bfdfab576ee0b387452c0
+2016-10-23T06:01:29.900Z - info: Redirecting to detail page || user_id :580bfdfab576ee0b387452c0
+2016-10-23T06:01:30.585Z - info: Displaying items for detail page || user_id :580bfdfab576ee0b387452c0
+2016-10-23T06:01:37.854Z - info: Redirecting to detail page || user_id :580bfdfab576ee0b387452c0
+2016-10-23T06:01:38.523Z - info: Displaying items for detail page || user_id :580bfdfab576ee0b387452c0
+2016-10-23T06:01:43.022Z - info: bidding on item for detail page || user_id :580bfdfab576ee0b387452c0
+2016-10-23T06:01:43.032Z - info: Inserting on bidding item for detail page || user_id :580bfdfab576ee0b387452c0
+2016-10-23T06:01:44.528Z - info: Redirecting to detail page || user_id :580bfdfab576ee0b387452c0
+2016-10-23T06:01:45.357Z - info: Displaying items for detail page || user_id :580bfdfab576ee0b387452c0
+2016-10-23T06:02:11.312Z - info: bidding on item for detail page || user_id :580bfdfab576ee0b387452c0
+2016-10-23T06:02:11.322Z - info: Inserting on bidding item for detail page || user_id :580bfdfab576ee0b387452c0
+2016-10-23T06:02:12.633Z - info: Redirecting to detail page || user_id :580bfdfab576ee0b387452c0
+2016-10-23T06:02:13.309Z - info: Displaying items for detail page || user_id :580bfdfab576ee0b387452c0
+2016-10-23T22:10:44.457Z - info: User sigining out ||user_id :580bfdfab576ee0b387452c0
+2016-10-23T22:10:44.578Z - info: Redirecting to home page || anonymous user
+2016-10-23T22:10:45.436Z - info: Displaying items for home page || anonymous user
+2016-10-23T22:10:46.811Z - info: Redirecting to login page
+2016-10-23T22:10:57.939Z - info: New user registration
+2016-10-23T22:10:58.320Z - info: User registered || user id :a@b.com
+2016-10-23T22:10:58.368Z - info: Redirecting to login page
+2016-10-23T22:11:02.463Z - info: User logged in ||user_id :580d3572bd400c11b8004ba0
+2016-10-23T22:11:02.547Z - info: Redirecting to home page || user_id :580d3572bd400c11b8004ba0
+2016-10-23T22:11:06.963Z - info: Displaying items for home page || user_id :580d3572bd400c11b8004ba0
+2016-10-23T22:11:09.337Z - info: Redirecting to detail page || user_id :580d3572bd400c11b8004ba0
+2016-10-23T22:11:10.264Z - info: Displaying items for detail page || user_id :580d3572bd400c11b8004ba0
+2016-10-23T22:11:18.703Z - info: bidding on item for detail page || user_id :580d3572bd400c11b8004ba0
+2016-10-23T22:11:18.717Z - info: Inserting on bidding item for detail page || user_id :580d3572bd400c11b8004ba0
+2016-10-23T22:11:20.064Z - info: Redirecting to detail page || user_id :580d3572bd400c11b8004ba0
+2016-10-23T22:11:21.092Z - info: Displaying items for detail page || user_id :580d3572bd400c11b8004ba0
+2016-10-23T22:11:54.862Z - info: User sigining out ||user_id :580d3572bd400c11b8004ba0
+2016-10-23T22:11:54.907Z - info: Redirecting to home page || anonymous user
+2016-10-23T22:11:55.709Z - info: Displaying items for home page || anonymous user
+2016-10-23T22:11:57.390Z - info: Redirecting to login page
+2016-10-23T22:12:11.852Z - info: New user registration
+2016-10-23T22:12:12.202Z - info: User registered || user id :ayush.bhesaniya@gmail.com
+2016-10-23T22:12:12.251Z - info: Redirecting to login page
+2016-10-23T22:12:18.287Z - info: User logged in ||user_id :580d35bcbd400c11b8004ba1
+2016-10-23T22:12:18.350Z - info: Redirecting to home page || user_id :580d35bcbd400c11b8004ba1
+2016-10-23T22:12:20.904Z - info: Displaying items for home page || user_id :580d35bcbd400c11b8004ba1
+2016-10-23T22:12:22.939Z - info: Redirecting to detail page || user_id :580d35bcbd400c11b8004ba1
+2016-10-23T22:12:23.768Z - info: Displaying items for detail page || user_id :580d35bcbd400c11b8004ba1
+2016-10-23T22:12:27.708Z - info: bidding on item for detail page || user_id :580d35bcbd400c11b8004ba1
+2016-10-23T22:12:27.720Z - info: Inserting on bidding item for detail page || user_id :580d35bcbd400c11b8004ba1
+2016-10-23T22:12:29.384Z - info: Redirecting to detail page || user_id :580d35bcbd400c11b8004ba1
+2016-10-23T22:12:30.525Z - info: Displaying items for detail page || user_id :580d35bcbd400c11b8004ba1

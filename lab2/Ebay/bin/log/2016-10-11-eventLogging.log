@@ -1,0 +1,374 @@
+
+2016-10-11T19:04:39.658Z - info: Redirecting to home page || anonymous user
+2016-10-11T19:04:40.307Z - info: Displaying items for home page || anonymous user
+2016-10-11T19:05:15.810Z - info: Redirecting to detail page || anonymous user
+2016-10-11T19:05:16.450Z - info: Displaying items for detail page || anonymous user
+2016-10-11T19:06:01.787Z - info: Redirecting to search page || anonymous user
+2016-10-11T19:06:02.399Z - info: Displaying items for search page || anonymous user
+2016-10-11T19:06:58.960Z - info: Redirecting to search page || anonymous user
+2016-10-11T19:06:59.504Z - info: Displaying items for search page || anonymous user
+2016-10-11T19:07:23.834Z - info: Redirecting to detail page || anonymous user
+2016-10-11T19:07:24.496Z - info: Displaying items for detail page || anonymous user
+2016-10-11T19:07:30.115Z - info: Redirecting to detail page || anonymous user
+2016-10-11T19:07:30.680Z - info: Displaying items for detail page || anonymous user
+2016-10-11T19:07:33.062Z - info: Redirecting to home page || anonymous user
+2016-10-11T19:07:33.625Z - info: Displaying items for home page || anonymous user
+2016-10-11T19:07:35.359Z - info: Redirecting to detail page || anonymous user
+2016-10-11T19:07:36.002Z - info: Displaying items for detail page || anonymous user
+2016-10-11T19:07:45.517Z - info: Redirecting to login page
+2016-10-11T19:07:52.084Z - info: User logged in ||user_id :6
+2016-10-11T19:07:52.107Z - info: Redirecting to home page || user_id :6
+2016-10-11T19:07:52.669Z - info: Displaying items for home page || user_id :6
+2016-10-11T19:07:53.692Z - info: Redirecting to detail page || user_id :6
+2016-10-11T19:07:54.275Z - info: Displaying items for detail page || user_id :6
+2016-10-11T19:07:56.047Z - info: confirming order and redirecting to payment page || user_id :6
+2016-10-11T19:07:56.146Z - info: Redirecting to paymeny page || user_id :6
+2016-10-11T19:07:56.905Z - info: Displaying items for detail page || user_id :6
+2016-10-11T19:08:07.513Z - info: Validating card for payment page || user_id :6
+2016-10-11T19:08:07.514Z - info: Valid card || user_id :6
+2016-10-11T19:08:10.341Z - info: placing order and redirecting to home page || user_id :6
+2016-10-11T19:08:10.507Z - info: Redirecting to home page || user_id :6
+2016-10-11T19:08:11.072Z - info: Displaying items for home page || user_id :6
+2016-10-11T19:09:44.460Z - info: Redirecting to home page || anonymous user
+2016-10-11T19:09:45.059Z - info: Displaying items for home page || anonymous user
+2016-10-11T19:09:47.250Z - info: Redirecting to login page
+2016-10-11T19:09:51.340Z - info: User logged in ||user_id :5
+2016-10-11T19:09:51.366Z - info: Redirecting to home page || user_id :5
+2016-10-11T19:09:51.892Z - info: Displaying items for home page || user_id :5
+2016-10-11T19:09:53.870Z - info: Redirecting to detail page || user_id :5
+2016-10-11T19:09:54.431Z - info: Displaying items for detail page || user_id :5
+2016-10-11T19:09:56.019Z - info: confirming order and redirecting to payment page || user_id :5
+2016-10-11T19:09:56.103Z - info: Redirecting to paymeny page || user_id :5
+2016-10-11T19:09:56.684Z - info: Displaying items for detail page || user_id :5
+2016-10-11T19:10:06.566Z - info: Redirecting to detail page || anonymous user
+2016-10-11T19:10:07.269Z - info: Displaying items for detail page || anonymous user
+2016-10-11T19:10:08.445Z - info: Item add to shopping cart page || user_id :undefined
+2016-10-11T19:10:08.500Z - info: No item for the same user hence inserting to shopping cart page || user_id :undefined
+2016-10-11T19:12:22.877Z - info: Redirecting to home page || anonymous user
+2016-10-11T19:12:23.504Z - info: Displaying items for home page || anonymous user
+2016-10-11T19:12:25.279Z - info: Redirecting to login page
+2016-10-11T19:12:30.076Z - info: User logged in ||user_id :6
+2016-10-11T19:12:30.106Z - info: Redirecting to home page || user_id :6
+2016-10-11T19:12:30.625Z - info: Displaying items for home page || user_id :6
+2016-10-11T19:12:42.067Z - info: Redirecting to home page || anonymous user
+2016-10-11T19:12:42.569Z - info: Displaying items for home page || anonymous user
+2016-10-11T19:12:44.978Z - info: Redirecting to login page
+2016-10-11T19:12:50.184Z - info: User logged in ||user_id :5
+2016-10-11T19:12:50.205Z - info: Redirecting to home page || user_id :5
+2016-10-11T19:12:50.623Z - info: Displaying items for home page || user_id :5
+2016-10-11T19:12:52.809Z - info: Redirecting to detail page || user_id :5
+2016-10-11T19:12:53.391Z - info: Displaying items for detail page || user_id :5
+2016-10-11T19:12:58.688Z - info: Item add to shopping cart page || user_id :5
+2016-10-11T19:12:58.692Z - info: No item for the same user hence inserting to shopping cart page || user_id :5
+2016-10-11T19:12:58.799Z - info: Redirecting to shopping cart page || user_id :5
+2016-10-11T19:12:59.313Z - info: Fetching shopping cart items || user_id :5
+2016-10-11T19:13:02.511Z - info: confirming order and redirecting to payment page || user_id :5
+2016-10-11T19:13:02.529Z - info: Redirecting to payment page || user_id :5
+2016-10-11T19:13:03.108Z - info: Fetching shopping cart items || user_id :5
+2016-10-11T19:13:12.022Z - info: Validating card for payment page || user_id :5
+2016-10-11T19:13:12.023Z - info: Valid card || user_id :5
+2016-10-11T19:13:15.180Z - info: placing order and redirecting to home page || user_id :5
+2016-10-11T19:13:15.367Z - info: All operation done successfully for payment page || user_id :5
+2016-10-11T19:13:15.396Z - info: Redirecting to home page || user_id :5
+2016-10-11T19:13:15.898Z - info: Displaying items for home page || user_id :5
+2016-10-11T19:13:18.606Z - info: Redirecting to detail page || user_id :5
+2016-10-11T19:13:19.136Z - info: Displaying items for detail page || user_id :5
+2016-10-11T19:13:20.932Z - info: confirming order and redirecting to payment page || user_id :5
+2016-10-11T19:13:20.967Z - info: Redirecting to payment page || user_id :5
+2016-10-11T19:13:21.542Z - info: Displaying items for detail page || user_id :5
+2016-10-11T19:13:30.046Z - info: Validating card for payment page || user_id :5
+2016-10-11T19:13:30.046Z - info: Valid card || user_id :5
+2016-10-11T19:13:31.078Z - info: placing order and redirecting to home page || user_id :5
+2016-10-11T19:13:31.237Z - info: Redirecting to home page || user_id :5
+2016-10-11T19:13:31.755Z - info: Displaying items for home page || user_id :5
+2016-10-11T19:13:47.519Z - info: Redirecting to detail page || user_id :6
+2016-10-11T19:13:48.109Z - info: Displaying items for detail page || user_id :6
+2016-10-11T19:13:49.626Z - info: Item add to shopping cart page || user_id :6
+2016-10-11T19:13:49.628Z - info: No item for the same user hence inserting to shopping cart page || user_id :6
+2016-10-11T19:13:49.717Z - info: Redirecting to shopping cart page || user_id :6
+2016-10-11T19:13:50.301Z - info: Fetching shopping cart items || user_id :6
+2016-10-11T19:13:51.142Z - info: confirming order and redirecting to payment page || user_id :6
+2016-10-11T19:13:51.167Z - info: Redirecting to payment page || user_id :6
+2016-10-11T19:13:51.706Z - info: Fetching shopping cart items || user_id :6
+2016-10-11T19:14:01.660Z - info: Validating card for payment page || user_id :6
+2016-10-11T19:14:01.660Z - info: Valid card || user_id :6
+2016-10-11T19:14:03.444Z - info: placing order and redirecting to home page || user_id :6
+2016-10-11T19:14:03.738Z - info: All operation done successfully for payment page || user_id :6
+2016-10-11T19:14:03.794Z - info: Redirecting to home page || user_id :6
+2016-10-11T19:14:04.383Z - info: Displaying items for home page || user_id :6
+2016-10-11T19:15:22.002Z - info: Redirecting to home page || anonymous user
+2016-10-11T19:15:22.603Z - info: Displaying items for home page || anonymous user
+2016-10-11T19:15:23.119Z - info: Redirecting to login page
+2016-10-11T19:15:26.177Z - info: User logged in ||user_id :7
+2016-10-11T19:15:26.250Z - info: Redirecting to home page || user_id :7
+2016-10-11T19:15:26.749Z - info: Displaying items for home page || user_id :7
+2016-10-11T19:15:27.943Z - info: User sigining out ||user_id :7
+2016-10-11T19:15:27.955Z - info: Redirecting to home page || anonymous user
+2016-10-11T19:15:28.492Z - info: Displaying items for home page || anonymous user
+2016-10-11T19:16:19.845Z - info: Redirecting to home page || anonymous user
+2016-10-11T19:16:20.302Z - info: Displaying items for home page || anonymous user
+2016-10-11T19:16:21.389Z - info: Redirecting to login page
+2016-10-11T19:16:28.808Z - info: Redirecting to shopping cart page || anonymous user
+2016-10-11T19:16:31.243Z - info: Fetching shopping cart items || user_id :undefined
+2016-10-11T19:16:38.851Z - info: Redirecting to home page || anonymous user
+2016-10-11T19:16:39.363Z - info: Displaying items for home page || anonymous user
+2016-10-11T19:16:40.407Z - info: Redirecting to detail page || anonymous user
+2016-10-11T19:16:40.914Z - info: Displaying items for detail page || anonymous user
+2016-10-11T19:16:56.443Z - info: Redirecting to login page
+2016-10-11T19:17:00.283Z - info: User logged in ||user_id :6
+2016-10-11T19:17:00.306Z - info: Redirecting to home page || user_id :6
+2016-10-11T19:17:00.735Z - info: Displaying items for home page || user_id :6
+2016-10-11T19:17:32.035Z - info: Redirecting to sell page || user_id :6
+2016-10-11T19:24:28.660Z - info: Redirecting to home page || anonymous user
+2016-10-11T19:24:29.532Z - info: Displaying items for home page || anonymous user
+2016-10-11T19:24:57.383Z - info: Redirecting to home page || anonymous user
+2016-10-11T19:24:58.222Z - info: Displaying items for home page || anonymous user
+2016-10-11T19:26:15.858Z - info: Redirecting to home page || anonymous user
+2016-10-11T19:26:16.732Z - info: Displaying items for home page || anonymous user
+2016-10-11T19:26:49.215Z - info: Redirecting to home page || anonymous user
+2016-10-11T19:26:50.014Z - info: Displaying items for home page || anonymous user
+2016-10-11T19:27:01.640Z - info: Redirecting to login page
+2016-10-11T19:27:05.124Z - info: User logged in ||user_id :6
+2016-10-11T19:27:05.196Z - info: Redirecting to home page || user_id :6
+2016-10-11T19:27:06.004Z - info: Displaying items for home page || user_id :6
+2016-10-11T19:27:43.211Z - info: Redirecting to home page || user_id :6
+2016-10-11T19:27:44.038Z - info: Displaying items for home page || user_id :6
+2016-10-11T19:27:59.171Z - info: Redirecting to home page || user_id :6
+2016-10-11T19:27:59.995Z - info: Displaying items for home page || user_id :6
+2016-10-11T19:28:58.215Z - info: Redirecting to home page || user_id :6
+2016-10-11T19:28:59.099Z - info: Displaying items for home page || user_id :6
+2016-10-11T19:41:36.298Z - info: Redirecting to home page || user_id :6
+2016-10-11T19:41:37.246Z - info: Displaying items for home page || user_id :6
+2016-10-11T19:46:50.053Z - info: Redirecting to home page || user_id :6
+2016-10-11T19:46:51.058Z - info: Displaying items for home page || user_id :6
+2016-10-11T19:48:38.826Z - info: Redirecting to home page || user_id :6
+2016-10-11T19:48:39.692Z - info: Displaying items for home page || user_id :6
+2016-10-11T19:49:01.667Z - info: Redirecting to home page || user_id :6
+2016-10-11T19:49:02.535Z - info: Displaying items for home page || user_id :6
+2016-10-11T19:49:55.673Z - info: Redirecting to home page || user_id :6
+2016-10-11T19:49:56.578Z - info: Displaying items for home page || user_id :6
+2016-10-11T19:50:33.361Z - info: Redirecting to home page || user_id :6
+2016-10-11T19:50:34.335Z - info: Displaying items for home page || user_id :6
+2016-10-11T19:51:59.442Z - info: Redirecting to sell page || user_id :6
+2016-10-11T19:52:13.332Z - info: Redirecting to sell page || user_id :6
+2016-10-11T19:52:21.333Z - info: Redirecting to home page || user_id :6
+2016-10-11T19:52:21.949Z - info: Displaying items for home page || user_id :6
+2016-10-11T19:52:23.277Z - info: Redirecting to sell page || user_id :6
+2016-10-11T19:53:08.864Z - info: Redirecting to home page || user_id :6
+2016-10-11T19:53:09.407Z - info: Displaying items for home page || user_id :6
+2016-10-11T19:53:10.606Z - info: Redirecting to sell page || user_id :6
+2016-10-11T19:53:52.196Z - info: Redirecting to sell page || user_id :6
+2016-10-11T19:53:52.717Z - info: Redirecting to sell page || user_id :6
+2016-10-11T19:53:52.898Z - info: Redirecting to sell page || user_id :6
+2016-10-11T19:53:53.076Z - info: Redirecting to sell page || user_id :6
+2016-10-11T19:53:53.241Z - info: Redirecting to sell page || user_id :6
+2016-10-11T19:53:53.446Z - info: Redirecting to sell page || user_id :6
+2016-10-11T19:54:03.672Z - info: Redirecting to home page || user_id :6
+2016-10-11T19:54:05.189Z - info: Displaying items for home page || user_id :6
+2016-10-11T19:54:06.567Z - info: Redirecting to sell page || user_id :6
+2016-10-11T19:55:46.034Z - info: Redirecting to home page || anonymous user
+2016-10-11T19:55:47.661Z - info: Displaying items for home page || anonymous user
+2016-10-11T19:55:49.023Z - info: Redirecting to login page
+2016-10-11T19:55:53.760Z - info: User logged in ||user_id :6
+2016-10-11T19:55:53.814Z - info: Redirecting to home page || user_id :6
+2016-10-11T19:55:55.126Z - info: Displaying items for home page || user_id :6
+2016-10-11T19:55:57.003Z - info: Redirecting to sell page || user_id :6
+2016-10-11T19:58:58.567Z - info: Redirecting to my account page || user_id :6
+2016-10-11T19:58:59.513Z - info: Displaying account details || user_id :6
+2016-10-11T20:05:21.426Z - info: Redirecting to my account page || user_id :6
+2016-10-11T20:05:22.333Z - info: Displaying account details || user_id :6
+2016-10-11T20:07:32.435Z - info: Redirecting to my account page || user_id :6
+2016-10-11T20:07:33.368Z - info: Displaying account details || user_id :6
+2016-10-11T20:08:02.697Z - info: Redirecting to my account page || user_id :6
+2016-10-11T20:08:03.621Z - info: Displaying account details || user_id :6
+2016-10-11T20:08:16.978Z - info: Redirecting to my account page || user_id :6
+2016-10-11T20:08:17.907Z - info: Displaying account details || user_id :6
+2016-10-11T20:08:47.108Z - info: Redirecting to my account page || user_id :6
+2016-10-11T20:08:48.955Z - info: Displaying account details || user_id :6
+2016-10-11T20:10:14.523Z - info: Redirecting to my account page || user_id :6
+2016-10-11T20:10:17.664Z - info: Displaying account details || user_id :6
+2016-10-11T20:10:32.469Z - info: Redirecting to my account page || user_id :6
+2016-10-11T20:10:33.998Z - info: Displaying account details || user_id :6
+2016-10-11T20:11:39.354Z - info: Redirecting to my account page || user_id :6
+2016-10-11T20:11:40.318Z - info: Displaying account details || user_id :6
+2016-10-11T20:11:47.395Z - info: Redirecting to my account page || user_id :6
+2016-10-11T20:11:48.360Z - info: Displaying account details || user_id :6
+2016-10-11T20:13:29.099Z - info: Redirecting to my account page || user_id :6
+2016-10-11T20:13:30.049Z - info: Displaying account details || user_id :6
+2016-10-11T20:13:40.358Z - info: Redirecting to my account page || user_id :6
+2016-10-11T20:13:41.629Z - info: Displaying account details || user_id :6
+2016-10-11T20:16:26.703Z - info: Redirecting to my account page || user_id :6
+2016-10-11T20:16:27.592Z - info: Displaying account details || user_id :6
+2016-10-11T20:16:48.782Z - info: Redirecting to my account page || user_id :6
+2016-10-11T20:16:49.692Z - info: Displaying account details || user_id :6
+2016-10-11T20:18:02.721Z - info: Redirecting to my account page || user_id :6
+2016-10-11T20:18:03.701Z - info: Displaying account details || user_id :6
+2016-10-11T20:18:18.402Z - info: Redirecting to my account page || user_id :6
+2016-10-11T20:18:19.344Z - info: Displaying account details || user_id :6
+2016-10-11T20:20:07.212Z - info: Redirecting to my account page || user_id :6
+2016-10-11T20:20:08.162Z - info: Displaying account details || user_id :6
+2016-10-11T20:20:48.909Z - info: Redirecting to my account page || user_id :6
+2016-10-11T20:20:49.858Z - info: Displaying account details || user_id :6
+2016-10-11T20:22:34.702Z - info: Redirecting to my account page || user_id :6
+2016-10-11T20:22:35.625Z - info: Displaying account details || user_id :6
+2016-10-11T20:23:23.730Z - info: Redirecting to my account page || user_id :6
+2016-10-11T20:23:24.643Z - info: Displaying account details || user_id :6
+2016-10-11T20:24:43.348Z - info: Redirecting to my account page || user_id :6
+2016-10-11T20:24:44.310Z - info: Displaying account details || user_id :6
+2016-10-11T20:24:59.904Z - info: Redirecting to my account page || user_id :6
+2016-10-11T20:25:00.829Z - info: Displaying account details || user_id :6
+2016-10-11T20:25:19.761Z - info: Redirecting to my account page || user_id :6
+2016-10-11T20:25:20.694Z - info: Displaying account details || user_id :6
+2016-10-11T20:25:38.791Z - info: Redirecting to my account page || user_id :6
+2016-10-11T20:25:40.424Z - info: Displaying account details || user_id :6
+2016-10-11T20:25:45.272Z - info: Redirecting to my account page || user_id :6
+2016-10-11T20:25:46.134Z - info: Displaying account details || user_id :6
+2016-10-11T20:26:02.774Z - info: Displaying account details || user_id :6
+2016-10-11T20:26:05.875Z - info: Redirecting to home page || user_id :6
+2016-10-11T20:26:06.697Z - info: Displaying items for home page || user_id :6
+2016-10-11T20:26:12.331Z - info: Redirecting to my account page || user_id :6
+2016-10-11T20:26:13.402Z - info: Displaying account details || user_id :6
+2016-10-11T20:26:28.478Z - info: Redirecting to my account page || user_id :6
+2016-10-11T20:26:30.070Z - info: Displaying account details || user_id :6
+2016-10-11T20:26:42.062Z - info: Redirecting to my account page || user_id :6
+2016-10-11T20:26:43.012Z - info: Displaying account details || user_id :6
+2016-10-11T20:27:56.895Z - info: Displaying my collection details || user_id :6
+2016-10-11T20:27:57.585Z - info: Displaying  my collection details for order history || user_id :6
+2016-10-11T20:34:14.947Z - info: Displaying  my collection details for selling history || user_id :6
+2016-10-11T20:34:17.712Z - info: Displaying  my collection details for order history || user_id :6
+2016-10-11T20:37:24.825Z - info: Displaying  my collection details for selling history || user_id :6
+2016-10-11T20:38:02.619Z - info: Displaying  my collection details for order history || user_id :6
+2016-10-11T20:38:25.877Z - info: Displaying  my collection details for selling history || user_id :6
+2016-10-11T20:38:28.424Z - info: Displaying  my collection details for order history || user_id :6
+2016-10-11T20:46:11.701Z - info: Displaying my collection details || user_id :6
+2016-10-11T20:46:12.349Z - info: Displaying  my collection details for order history || user_id :6
+2016-10-11T20:52:17.110Z - info: Redirecting to home page || anonymous user
+2016-10-11T20:52:17.722Z - info: Displaying items for home page || anonymous user
+2016-10-11T20:52:19.256Z - info: Redirecting to login page
+2016-10-11T20:52:22.566Z - info: User logged in ||user_id :6
+2016-10-11T20:52:22.593Z - info: Redirecting to home page || user_id :6
+2016-10-11T20:52:23.092Z - info: Displaying items for home page || user_id :6
+2016-10-11T20:52:25.719Z - info: Displaying my collection details || user_id :6
+2016-10-11T20:52:26.329Z - info: Displaying  my collection details for order history || user_id :6
+2016-10-11T20:53:07.113Z - info: Displaying my collection details || user_id :6
+2016-10-11T20:53:07.220Z - info: Displaying my collection details || user_id :6
+2016-10-11T20:53:07.631Z - info: Displaying  my collection details for order history || user_id :6
+2016-10-11T20:58:04.774Z - info: Displaying my collection details || user_id :6
+2016-10-11T20:58:05.434Z - info: Displaying  my collection details for order history || user_id :6
+2016-10-11T20:58:26.344Z - info: Displaying my collection details || user_id :6
+2016-10-11T20:58:28.922Z - info: Displaying my collection details || user_id :6
+2016-10-11T20:58:31.413Z - info: Displaying  my collection details for order history || user_id :6
+2016-10-11T21:02:34.441Z - info: Displaying my collection details || user_id :6
+2016-10-11T21:02:35.521Z - info: Displaying  my collection details for order history || user_id :6
+2016-10-11T21:02:47.006Z - info: Displaying my collection details || user_id :6
+2016-10-11T21:02:47.664Z - info: Displaying  my collection details for order history || user_id :6
+2016-10-11T21:04:33.167Z - info: Displaying my collection details || user_id :6
+2016-10-11T21:04:33.887Z - info: Displaying  my collection details for order history || user_id :6
+2016-10-11T21:07:16.006Z - info: Displaying my collection details || user_id :6
+2016-10-11T21:07:16.997Z - info: Displaying  my collection details for order history || user_id :6
+2016-10-11T21:07:46.228Z - info: Displaying my collection details || user_id :6
+2016-10-11T21:07:46.811Z - info: Displaying  my collection details for order history || user_id :6
+2016-10-11T21:07:58.818Z - info: Displaying  my collection details for selling history || user_id :6
+2016-10-11T21:12:52.212Z - info: Displaying  my collection details for selling history || user_id :6
+2016-10-11T21:12:54.217Z - info: Displaying my collection details || user_id :6
+2016-10-11T21:12:54.906Z - info: Displaying  my collection details for order history || user_id :6
+2016-10-11T21:12:58.721Z - info: Displaying  my collection details for selling history || user_id :6
+2016-10-11T21:13:01.839Z - info: Displaying  my collection details for selling history || user_id :6
+2016-10-11T21:13:02.967Z - info: Displaying  my collection details for order history || user_id :6
+2016-10-11T21:13:04.655Z - info: Displaying my collection details || user_id :6
+2016-10-11T21:13:05.397Z - info: Displaying  my collection details for order history || user_id :6
+2016-10-11T21:13:07.090Z - info: Displaying  my collection details for order history || user_id :6
+2016-10-11T21:13:08.190Z - info: Displaying my collection details || user_id :6
+2016-10-11T21:13:08.821Z - info: Displaying  my collection details for order history || user_id :6
+2016-10-11T21:17:23.831Z - info: Displaying my collection details || user_id :6
+2016-10-11T21:17:24.407Z - info: Displaying  my collection details for order history || user_id :6
+2016-10-11T21:17:26.961Z - info: Displaying  my collection details for order history || user_id :6
+2016-10-11T21:17:29.580Z - info: Displaying my collection details || user_id :6
+2016-10-11T21:17:30.140Z - info: Displaying  my collection details for order history || user_id :6
+2016-10-11T21:17:32.058Z - info: Displaying my collection details || user_id :6
+2016-10-11T21:17:32.604Z - info: Displaying  my collection details for order history || user_id :6
+2016-10-11T21:17:34.236Z - info: Displaying my collection details || user_id :6
+2016-10-11T21:17:34.863Z - info: Displaying  my collection details for order history || user_id :6
+2016-10-11T21:17:36.715Z - info: Displaying  my collection details for order history || user_id :6
+2016-10-11T21:19:04.060Z - info: Displaying my collection details || user_id :6
+2016-10-11T21:19:05.451Z - info: Displaying  my collection details for order history || user_id :6
+2016-10-11T21:21:42.451Z - info: Displaying my collection details || user_id :6
+2016-10-11T21:21:43.894Z - info: Displaying  my collection details for order history || user_id :6
+2016-10-11T21:21:49.770Z - info: Displaying  my collection details for selling history || user_id :6
+2016-10-11T21:23:30.666Z - info: Displaying my collection details || user_id :6
+2016-10-11T21:23:31.292Z - info: Displaying  my collection details for order history || user_id :6
+2016-10-11T21:23:33.327Z - info: Displaying  my collection details for selling history || user_id :6
+2016-10-11T21:27:03.702Z - info: Displaying my collection details || user_id :6
+2016-10-11T21:27:04.321Z - info: Displaying  my collection details for order history || user_id :6
+2016-10-11T21:27:07.275Z - info: Displaying  my collection details for selling history || user_id :6
+2016-10-11T21:33:53.861Z - info: Displaying my collection details || user_id :6
+2016-10-11T21:33:54.409Z - info: Displaying  my collection details for order history || user_id :6
+2016-10-11T21:34:01.786Z - info: Displaying  my collection details for selling history || user_id :6
+2016-10-11T21:35:46.410Z - info: Displaying my collection details || user_id :6
+2016-10-11T21:35:47.029Z - info: Displaying  my collection details for order history || user_id :6
+2016-10-11T21:35:50.411Z - info: Displaying  my collection details for selling history || user_id :6
+2016-10-11T21:35:52.202Z - info: Displaying  my collection details for order history || user_id :6
+2016-10-11T21:35:53.921Z - info: Displaying  my collection details for selling history || user_id :6
+2016-10-11T21:37:26.247Z - info: Displaying my collection details || user_id :6
+2016-10-11T21:37:26.855Z - info: Displaying  my collection details for order history || user_id :6
+2016-10-11T21:37:29.632Z - info: Displaying  my collection details for selling history || user_id :6
+2016-10-11T21:38:49.501Z - info: Displaying  my collection details for order history || user_id :6
+2016-10-11T21:43:35.459Z - info: Redirecting to home page || anonymous user
+2016-10-11T21:43:36.162Z - info: Displaying items for home page || anonymous user
+2016-10-11T21:43:37.327Z - info: Redirecting to login page
+2016-10-11T21:43:41.307Z - info: User logged in ||user_id :6
+2016-10-11T21:43:41.339Z - info: Redirecting to home page || user_id :6
+2016-10-11T21:43:43.150Z - info: Displaying items for home page || user_id :6
+2016-10-11T21:43:44.431Z - info: Redirecting to detail page || user_id :6
+2016-10-11T21:43:45.239Z - info: Displaying items for detail page || user_id :6
+2016-10-11T21:43:48.187Z - info: confirming order and redirecting to payment page || user_id :6
+2016-10-11T21:43:48.256Z - info: Redirecting to payment page || user_id :6
+2016-10-11T21:43:48.984Z - info: Displaying items for detail page || user_id :6
+2016-10-11T21:43:57.689Z - info: Validating card for payment page || user_id :6
+2016-10-11T21:43:57.689Z - info: Valid card || user_id :6
+2016-10-11T21:43:58.718Z - info: placing order and redirecting to home page || user_id :6
+2016-10-11T21:43:58.932Z - info: Redirecting to home page || user_id :6
+2016-10-11T21:44:00.255Z - info: Displaying items for home page || user_id :6
+2016-10-11T21:44:07.899Z - info: Redirecting to my account page || user_id :6
+2016-10-11T21:44:10.340Z - info: Displaying account details || user_id :6
+2016-10-11T21:44:11.665Z - info: Displaying my collection details || user_id :6
+2016-10-11T21:44:12.296Z - info: Displaying  my collection details for order history || user_id :6
+2016-10-11T21:46:02.825Z - info: Redirecting to home page || anonymous user
+2016-10-11T21:46:03.523Z - info: Displaying items for home page || anonymous user
+2016-10-11T21:46:04.701Z - info: Redirecting to login page
+2016-10-11T21:46:08.264Z - info: User logged in ||user_id :6
+2016-10-11T21:46:08.342Z - info: Redirecting to home page || user_id :6
+2016-10-11T21:46:11.981Z - info: Displaying items for home page || user_id :6
+2016-10-11T21:46:15.272Z - info: Displaying my collection details || user_id :6
+2016-10-11T21:46:15.847Z - info: Error in displaying  my collection details for order history || user_id :6
+2016-10-11T21:46:15.848Z - info: Error in displaying  my collection details for order history || user_id :6
+2016-10-11T21:48:15.859Z - info: Error in displaying  my collection details for order history || user_id :6
+2016-10-11T21:48:15.859Z - info: Error in displaying  my collection details for order history || user_id :6
+2016-10-11T21:49:44.531Z - info: Redirecting to home page || anonymous user
+2016-10-11T21:49:45.134Z - info: Displaying items for home page || anonymous user
+2016-10-11T21:49:46.282Z - info: Redirecting to login page
+2016-10-11T21:49:50.793Z - info: User logged in ||user_id :5
+2016-10-11T21:49:50.822Z - info: Redirecting to home page || user_id :5
+2016-10-11T21:49:51.380Z - info: Displaying items for home page || user_id :5
+2016-10-11T21:49:52.840Z - info: Redirecting to my account page || user_id :5
+2016-10-11T21:49:53.465Z - info: Displaying account details || user_id :5
+2016-10-11T21:49:56.535Z - info: Displaying my collection details || user_id :5
+2016-10-11T21:49:57.233Z - info: Displaying  my collection details for order history || user_id :5
+2016-10-11T21:50:03.093Z - info: User sigining out ||user_id :5
+2016-10-11T21:50:03.109Z - info: Redirecting to home page || anonymous user
+2016-10-11T21:50:03.649Z - info: Displaying items for home page || anonymous user
+2016-10-11T21:50:04.897Z - info: Redirecting to login page
+2016-10-11T21:50:12.238Z - info: User logged in ||user_id :6
+2016-10-11T21:50:12.269Z - info: Redirecting to home page || user_id :6
+2016-10-11T21:50:12.815Z - info: Displaying items for home page || user_id :6
+2016-10-11T21:50:17.180Z - info: Displaying my collection details || user_id :6
+2016-10-11T21:50:18.887Z - info: Displaying  my collection details for order history || user_id :6
+2016-10-11T21:53:57.339Z - info: Redirecting to home page || anonymous user
+2016-10-11T21:53:58.025Z - info: Displaying items for home page || anonymous user
+2016-10-11T21:53:58.881Z - info: Redirecting to login page
+2016-10-11T21:54:03.104Z - info: User logged in ||user_id :6
+2016-10-11T21:54:03.135Z - info: Redirecting to home page || user_id :6
+2016-10-11T21:54:03.682Z - info: Displaying items for home page || user_id :6
+2016-10-11T21:54:05.749Z - info: Displaying my collection details || user_id :6
+2016-10-11T21:54:06.423Z - info: Displaying  my collection details for order history || user_id :6
+2016-10-11T21:54:11.439Z - info: Displaying  my collection details for selling history || user_id :6

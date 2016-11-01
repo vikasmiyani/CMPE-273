@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Sell your item</title>
+<link rel="shortcut icon" href="">
+<link rel="stylesheet" href="/stylesheets/style.css">
+<link rel="stylesheet" href="/bootstrap/dist/css/bootstrap.css">
+</head>
+<body ng-app="app">
+	<% include navbar.ejs %>
+	<div class="container marginTop40" ng-controller="sellItemController">
+		<div class = "row whiteBg col-md-8 col-md-offset-2" style="padding:30px; border-radius: 10px;" >
+		<form name="myForm" ng-submit="save()" role="form">
+			<div class="form-group row col-xs-10"
+				ng-class="{ 'has-error' : myForm.iname.$invalid && !myForm.iname.$pristine }">
+				<label for="item_name" class="col-xs-2 col-form-label">Item
+					name</label>
+				<div class="col-xs-5">
+					<input class="form-control" type="text"  id="item_name"
+						name="iname" ng-model="item_name" ng-minlength="3"
+						ng-maxlength="20" placeholder="Item name" required>
+					<p ng-show="myForm.iname.$invalid && !myForm.iname.$pristine"
+						class="help-block">Item name is required.</p>
+					<p ng-show="myForm.iname.$error.minlength" class="help-block">Item
+						name is too short.</p>
+					<p ng-show="myForm.iname.$error.maxlength" class="help-block">Item
+						name is too long.</p>
+				</div>
+			</div>
+			<div class="form-group row col-xs-10"
+				ng-class="{ 'has-error' : myForm.idesc.$invalid && !myForm.idesc.$pristine }">
+				<label for="item_desc" class="col-xs-2 col-form-label">Description</label>
+				<div class="col-xs-5">
+					<textarea class="form-control" id="item_desc" ng-model="item_desc"
+						name="idesc" rows="3" placeholder="Item description"
+						ng-maxlength="180"></textarea>
+					<p ng-show="myForm.idesc.$error.maxlength" class="help-block">Item
+						description is too long.</p>
+				</div>
+			</div>
+
+			<div class="form-group row col-xs-10">
+				<div class="col-xs-2 col-form-label"></div>
+				<div class="radio-inline">
+					<label><input type="radio" name="buyOpt" ng-value="false"
+						ng-model="result">Buy it Now</label>
+				</div>
+				<div class="radio-inline">
+					<label><input type="radio" name="buyOpt" ng-value="true"
+						ng-model="result">Bid it</label>
+				</div>
+			</div>
+			<div ng-if="result === true">
+			<div class="form-group row col-xs-10">
+				<label for="bidding_price" class="col-xs-2 col-form-label">Bidding
+					price</label>
+				<div class="col-xs-5">
+					<input class="form-control" type="number" ng-value="0"
+						id="bid_price" ng-model="$parent.bid_price" min="0" step="0.01">
+				</div>
+			</div>
+	        </div>
+			
+			<div ng-if="result === false">
+			<div class="form-group row col-xs-10">
+				<label for="price" class="col-xs-2 col-form-label">Price</label>
+				<div class="col-xs-5">
+					<input class="form-control" type="number" ng-value="0" id="price"
+						ng-model="$parent.price" min="0" step="0.01">
+				</div>
+			</div>
+			<div class="form-group  row col-xs-10"
+				ng-class="{ 'has-error' : myForm.qty.$invalid && !myForm.qty.$pristine }">
+				<label for="qty" class="col-xs-2 col-form-label">Quantity</label>
+				<div class="col-xs-5">
+					<input class="form-control" type="number" ng-value="1" id="qty"
+						name="qty" ng-model="$parent.qty" min="1" required>
+					<p ng-show="myForm.qty.$invalid && !myForm.qty.$pristine"
+						class="help-block">Quantity should be more than or equal to one.</p>
+				</div>
+			</div>
+			</div>
+			<div class="row col-xs-10 form-group">
+				<div class="col-xs-2">
+					<input type="submit" class="btn btn-primary"
+						ng-disabled="myForm.$invalid" value="Submit" />
+				</div>
+				<div class="col-xs-2">
+					<input type="reset" class="btn btn-default" value="Reset" />
+				</div>
+			</div>
+		</form>
+		</div>
+		<div class="bs-example marginTop10" ng-show="isError">
+			<div class="alert alert-danger fade in">
+				<a href="#" class="close" data-dismiss="alert">&times;</a> <strong>Error!</strong>
+				{{errorMsg}}
+			</div>
+		</div>
+	</div>
+	
+	<script src="/angular/angular.js"></script>
+	<script src="/angular-route/angular-route.js"></script>
+	<script src="/jquery/dist/jquery.min.js"></script>
+	<script src="/bootstrap/dist/js/bootstrap.js"></script>
+	<script src="/controller/sellingItem_controller.js"></script>
+	<script src="/controller/navbar-controller.js"></script>
+</body>
+</html>

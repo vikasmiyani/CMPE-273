@@ -1,0 +1,136 @@
+2016-10-21T00:27:08.116Z - info: Redirecting to home page || user_id :580950dbc3a940248c547e5c
+2016-10-21T00:27:08.899Z - info: Displaying items for home page || user_id :580950dbc3a940248c547e5c
+2016-10-21T00:27:09.998Z - info: Redirecting to sell page || user_id :580950dbc3a940248c547e5c
+2016-10-21T00:27:14.084Z - info: User sigining out ||user_id :580950dbc3a940248c547e5c
+2016-10-21T00:27:14.136Z - info: Redirecting to home page || anonymous user
+2016-10-21T00:27:16.669Z - info: Displaying items for home page || anonymous user
+2016-10-21T00:27:17.917Z - info: Redirecting to login page
+2016-10-21T00:27:21.491Z - info: User logged in ||user_id :580950dbc3a940248c547e5c
+2016-10-21T00:27:21.549Z - info: Redirecting to home page || user_id :580950dbc3a940248c547e5c
+2016-10-21T00:27:22.267Z - info: Displaying items for home page || user_id :580950dbc3a940248c547e5c
+2016-10-21T00:27:23.752Z - info: Redirecting to sell page || user_id :580950dbc3a940248c547e5c
+2016-10-21T00:27:54.598Z - info: storing item for sell page || user_id :580950dbc3a940248c547e5c
+2016-10-21T00:30:06.665Z - info: Redirecting to sell page || user_id :580950dbc3a940248c547e5c
+2016-10-21T00:30:13.440Z - info: Redirecting to sell page || user_id :580950dbc3a940248c547e5c
+2016-10-21T00:31:07.702Z - info: Redirecting to sell page || user_id :580950dbc3a940248c547e5c
+2016-10-21T00:31:41.599Z - info: storing item for sell page || user_id :580950dbc3a940248c547e5c
+2016-10-21T00:34:34.436Z - info: Redirecting to sell page || user_id :580950dbc3a940248c547e5c
+2016-10-21T00:34:55.169Z - info: storing item for sell page || user_id :580950dbc3a940248c547e5c
+2016-10-21T00:37:21.782Z - info: User sigining out ||user_id :580950dbc3a940248c547e5c
+2016-10-21T00:37:21.850Z - info: Redirecting to home page || anonymous user
+2016-10-21T00:37:22.657Z - info: Displaying items for home page || anonymous user
+2016-10-21T00:37:23.340Z - info: Redirecting to login page
+2016-10-21T00:37:42.333Z - info: User logged in ||user_id :580950dbc3a940248c547e5c
+2016-10-21T00:37:42.598Z - info: Redirecting to home page || user_id :580950dbc3a940248c547e5c
+2016-10-21T00:37:43.338Z - info: Displaying items for home page || user_id :580950dbc3a940248c547e5c
+2016-10-21T00:43:27.266Z - info: Redirecting to home page || user_id :580950dbc3a940248c547e5c
+2016-10-21T00:43:27.972Z - info: Displaying items for home page || user_id :580950dbc3a940248c547e5c
+2016-10-21T00:43:30.301Z - info: Redirecting to sell page || user_id :580950dbc3a940248c547e5c
+2016-10-21T00:43:56.077Z - info: storing item for sell page || user_id :580950dbc3a940248c547e5c
+2016-10-21T00:44:45.129Z - info: Redirecting to sell page || user_id :580950dbc3a940248c547e5c
+2016-10-21T00:45:14.904Z - info: storing item for sell page || user_id :580950dbc3a940248c547e5c
+2016-10-21T00:46:16.914Z - info: Redirecting to sell page || user_id :580950dbc3a940248c547e5c
+2016-10-21T00:46:33.029Z - info: storing item for sell page || user_id :580950dbc3a940248c547e5c
+2016-10-21T00:46:33.082Z - info: Error in inserting sell item for sell page || user_id :580950dbc3a940248c547e5c
+2016-10-21T00:48:44.724Z - info: Redirecting to sell page || user_id :580950dbc3a940248c547e5c
+2016-10-21T00:48:59.456Z - info: storing item for sell page || user_id :580950dbc3a940248c547e5c
+2016-10-21T00:48:59.509Z - info: Error in inserting sell item for sell page || user_id :580950dbc3a940248c547e5c
+2016-10-21T00:50:32.383Z - info: Redirecting to sell page || user_id :580950dbc3a940248c547e5c
+2016-10-21T00:50:45.467Z - info: storing item for sell page || user_id :580950dbc3a940248c547e5c
+2016-10-21T00:50:45.485Z - info: Error in inserting sell item for sell page || user_id :580950dbc3a940248c547e5c
+2016-10-21T00:51:12.899Z - info: Redirecting to sell page || user_id :580950dbc3a940248c547e5c
+2016-10-21T00:51:21.563Z - info: storing item for sell page || user_id :580950dbc3a940248c547e5c
+2016-10-21T00:56:27.296Z - info: Redirecting to sell page || user_id :580950dbc3a940248c547e5c
+2016-10-21T00:56:48.920Z - info: storing item for sell page || user_id :580950dbc3a940248c547e5c
+2016-10-21T00:56:48.936Z - info: Error in inserting sell item for sell page || user_id :580950dbc3a940248c547e5c
+2016-10-21T00:58:28.926Z - info: Redirecting to sell page || user_id :580950dbc3a940248c547e5c
+2016-10-21T00:58:38.799Z - info: storing item for sell page || user_id :580950dbc3a940248c547e5c
+2016-10-21T00:58:38.814Z - info: Error in inserting sell item for sell page || user_id :580950dbc3a940248c547e5c
+2016-10-21T00:59:24.414Z - info: Redirecting to sell page || user_id :580950dbc3a940248c547e5c
+2016-10-21T00:59:32.629Z - info: storing item for sell page || user_id :580950dbc3a940248c547e5c
+2016-10-21T01:00:01.276Z - info: Redirecting to sell page || user_id :580950dbc3a940248c547e5c
+2016-10-21T01:00:08.168Z - info: storing item for sell page || user_id :580950dbc3a940248c547e5c
+2016-10-21T01:01:16.961Z - info: Redirecting to sell page || user_id :580950dbc3a940248c547e5c
+2016-10-21T01:01:27.428Z - info: storing item for sell page || user_id :580950dbc3a940248c547e5c
+2016-10-21T01:08:03.297Z - info: Redirecting to sell page || user_id :580950dbc3a940248c547e5c
+2016-10-21T01:08:10.780Z - info: storing item for sell page || user_id :580950dbc3a940248c547e5c
+2016-10-21T01:09:05.912Z - info: Redirecting to sell page || user_id :580950dbc3a940248c547e5c
+2016-10-21T01:09:17.344Z - info: storing item for sell page || user_id :580950dbc3a940248c547e5c
+2016-10-21T01:09:46.252Z - info: Redirecting to sell page || user_id :580950dbc3a940248c547e5c
+2016-10-21T01:09:52.614Z - info: storing item for sell page || user_id :580950dbc3a940248c547e5c
+2016-10-21T01:13:03.358Z - info: Redirecting to sell page || user_id :580950dbc3a940248c547e5c
+2016-10-21T01:13:09.541Z - info: storing item for sell page || user_id :580950dbc3a940248c547e5c
+2016-10-21T01:14:35.184Z - info: Redirecting to sell page || user_id :580950dbc3a940248c547e5c
+2016-10-21T01:15:01.214Z - info: storing item for sell page || user_id :580950dbc3a940248c547e5c
+2016-10-21T01:15:01.403Z - info: Inserting sell item for seller data for sell page || user_id :580950dbc3a940248c547e5c
+2016-10-21T01:15:01.466Z - info: Redirecting to home page || user_id :580950dbc3a940248c547e5c
+2016-10-21T01:15:02.278Z - info: Displaying items for home page || user_id :580950dbc3a940248c547e5c
+2016-10-21T01:15:57.376Z - info: Redirecting to sell page || user_id :580950dbc3a940248c547e5c
+2016-10-21T01:16:27.436Z - info: storing item for sell page || user_id :580950dbc3a940248c547e5c
+2016-10-21T01:16:27.455Z - info: Inserting sell item for seller data for sell page || user_id :580950dbc3a940248c547e5c
+2016-10-21T01:16:27.484Z - info: Redirecting to home page || user_id :580950dbc3a940248c547e5c
+2016-10-21T01:16:28.150Z - info: Displaying items for home page || user_id :580950dbc3a940248c547e5c
+2016-10-21T18:56:50.998Z - info: Displaying items for home page || user_id :vikas
+2016-10-21T18:59:18.042Z - info: Displaying items for home page || user_id :vikas
+2016-10-21T19:00:40.814Z - info: Displaying items for home page || user_id :580950dbc3a940248c547e5c
+2016-10-21T19:02:57.792Z - info: Displaying items for home page || user_id :580950dbc3a940248c547e5c
+2016-10-21T19:05:16.612Z - info: Displaying items for home page || anonymous user
+2016-10-21T19:06:12.436Z - info: Displaying items for home page || anonymous user
+2016-10-21T19:06:30.581Z - info: Displaying items for home page || anonymous user
+2016-10-21T19:12:27.470Z - info: Displaying items for home page || anonymous user
+2016-10-21T19:19:21.359Z - info: Redirecting to home page || anonymous user
+2016-10-21T19:19:22.906Z - info: Displaying items for home page || anonymous user
+2016-10-21T19:21:06.269Z - info: Redirecting to home page || anonymous user
+2016-10-21T19:21:07.285Z - info: Displaying items for home page || anonymous user
+2016-10-21T19:21:19.249Z - info: Redirecting to login page
+2016-10-21T19:21:23.447Z - info: User logged in ||user_id :580950dbc3a940248c547e5c
+2016-10-21T19:21:23.530Z - info: Redirecting to home page || user_id :580950dbc3a940248c547e5c
+2016-10-21T19:21:24.345Z - info: Displaying items for home page || user_id :580950dbc3a940248c547e5c
+2016-10-21T22:45:54.691Z - info: Displaying items for detail page || anonymous user
+2016-10-21T22:46:04.667Z - info: User sigining out ||user_id :580950dbc3a940248c547e5c
+2016-10-21T22:46:04.725Z - info: Redirecting to home page || user_id :580950dbc3a940248c547e5c
+2016-10-21T22:46:05.689Z - info: Displaying items for home page || anonymous user
+2016-10-21T22:46:07.271Z - info: Redirecting to detail page || anonymous user
+2016-10-21T22:46:08.016Z - info: Displaying items for detail page || anonymous user
+2016-10-21T22:46:12.589Z - info: Redirecting to home page || anonymous user
+2016-10-21T22:46:13.115Z - info: Displaying items for home page || anonymous user
+2016-10-21T22:46:14.881Z - info: Redirecting to detail page || anonymous user
+2016-10-21T22:46:15.672Z - info: Displaying items for detail page || anonymous user
+2016-10-21T22:46:17.185Z - info: Redirecting to home page || anonymous user
+2016-10-21T22:46:17.762Z - info: Displaying items for home page || anonymous user
+2016-10-21T22:46:28.402Z - info: Redirecting to detail page || anonymous user
+2016-10-21T22:46:29.137Z - info: Displaying items for detail page || anonymous user
+2016-10-21T22:48:31.800Z - info: Redirecting to detail page || anonymous user
+2016-10-21T22:48:32.455Z - info: Displaying items for detail page || anonymous user
+2016-10-21T22:48:36.935Z - info: Redirecting to home page || anonymous user
+2016-10-21T22:48:37.472Z - info: Displaying items for home page || anonymous user
+2016-10-21T22:48:38.701Z - info: Redirecting to detail page || anonymous user
+2016-10-21T22:48:39.301Z - info: Displaying items for detail page || anonymous user
+2016-10-21T22:50:08.491Z - info: Redirecting to detail page || anonymous user
+2016-10-21T22:50:09.242Z - info: Displaying items for detail page || anonymous user
+2016-10-21T22:50:17.247Z - info: Displaying items for detail page || anonymous user
+2016-10-21T22:50:19.045Z - info: Displaying items for detail page || anonymous user
+2016-10-21T22:50:53.518Z - info: Displaying items for detail page || anonymous user
+2016-10-21T22:50:59.142Z - info: Redirecting to detail page || anonymous user
+2016-10-21T22:50:59.843Z - info: Displaying items for detail page || anonymous user
+2016-10-21T22:51:02.167Z - info: Redirecting to home page || anonymous user
+2016-10-21T22:51:06.208Z - info: Redirecting to home page || anonymous user
+2016-10-21T22:51:07.679Z - info: Redirecting to home page || anonymous user
+2016-10-21T22:51:13.052Z - info: Redirecting to home page || anonymous user
+2016-10-21T22:51:32.475Z - info: Redirecting to home page || anonymous user
+2016-10-21T23:56:08.085Z - info: Displaying items for detail page || anonymous user
+2016-10-21T23:56:19.125Z - info: Redirecting to detail page || anonymous user
+2016-10-21T23:56:20.113Z - info: Displaying items for detail page || anonymous user
+2016-10-21T23:58:19.394Z - info: Redirecting to detail page || anonymous user
+2016-10-21T23:58:20.211Z - info: Displaying items for detail page || anonymous user
+2016-10-21T23:58:20.612Z - info: Redirecting to login page
+2016-10-21T23:58:42.878Z - info: New user registration
+2016-10-21T23:58:43.246Z - info: User registered || user id :v@g.com
+2016-10-21T23:58:43.266Z - info: Redirecting to login page
+2016-10-21T23:58:48.842Z - info: User logged in ||user_id :580aabb394abca2838a39c80
+2016-10-21T23:58:48.898Z - info: Redirecting to home page || user_id :580aabb394abca2838a39c80
+2016-10-21T23:58:49.432Z - info: Displaying items for home page || user_id :580aabb394abca2838a39c80
+2016-10-21T23:58:51.171Z - info: Redirecting to detail page || user_id :580aabb394abca2838a39c80
+2016-10-21T23:58:51.933Z - info: Displaying items for detail page || user_id :580aabb394abca2838a39c80
+2016-10-21T23:58:54.018Z - info: confirming order and redirecting to payment page || user_id :580aabb394abca2838a39c80
+2016-10-21T23:58:54.069Z - info: Redirecting to payment page || user_id :580aabb394abca2838a39c80

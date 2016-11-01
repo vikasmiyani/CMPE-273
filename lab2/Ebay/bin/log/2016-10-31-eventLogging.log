@@ -1,0 +1,101 @@
+2016-10-31T16:50:54.245Z - info: Redirecting to home page || anonymous user
+2016-10-31T16:50:55.273Z - info: Displaying items for home page || anonymous user
+2016-10-31T16:51:10.922Z - info: Redirecting to login page
+2016-10-31T16:58:12.941Z - info: Redirecting to login page
+2016-10-31T17:01:53.623Z - info: Redirecting to login page
+2016-10-31T17:16:03.820Z - info: Redirecting to home page || anonymous user
+2016-10-31T17:16:04.550Z - info: Displaying items for home page || anonymous user
+2016-10-31T17:16:07.063Z - info: Redirecting to login page
+2016-10-31T17:17:16.147Z - info: Redirecting to login page
+2016-10-31T17:21:33.232Z - info: Redirecting to home page || anonymous user
+2016-10-31T17:21:33.995Z - info: Displaying items for home page || anonymous user
+2016-10-31T17:21:35.592Z - info: Redirecting to login page
+2016-10-31T17:27:42.634Z - info: Redirecting to login page
+2016-10-31T17:28:13.549Z - info: Redirecting to home page || anonymous user
+2016-10-31T17:28:14.252Z - info: Displaying items for home page || anonymous user
+2016-10-31T17:28:15.770Z - info: Redirecting to login page
+2016-10-31T17:34:14.644Z - info: Redirecting to login page
+2016-10-31T17:36:43.758Z - info: Redirecting to login page
+2016-10-31T17:38:09.215Z - info: Redirecting to login page
+2016-10-31T17:40:56.802Z - info: Redirecting to login page
+2016-10-31T17:41:00.574Z - info: User logged in ||user_id :580da1f36558be29d4cbde2f
+2016-10-31T17:41:00.622Z - info: Redirecting to home page || user_id :580da1f36558be29d4cbde2f
+2016-10-31T17:41:01.467Z - info: Displaying items for home page || user_id :580da1f36558be29d4cbde2f
+2016-10-31T17:41:20.672Z - info: User sigining out ||user_id :580da1f36558be29d4cbde2f
+2016-10-31T17:41:20.723Z - info: Redirecting to home page || anonymous user
+2016-10-31T17:41:21.452Z - info: Displaying items for home page || anonymous user
+2016-10-31T17:41:22.532Z - info: Redirecting to login page
+2016-10-31T17:41:27.800Z - info: User logged in ||user_id :580da1f36558be29d4cbde2f
+2016-10-31T17:41:27.943Z - info: Redirecting to home page || user_id :580da1f36558be29d4cbde2f
+2016-10-31T17:41:28.775Z - info: Displaying items for home page || user_id :580da1f36558be29d4cbde2f
+2016-10-31T17:48:39.526Z - info: Redirecting to home page || user_id :580da1f36558be29d4cbde2f
+2016-10-31T17:48:40.256Z - info: Displaying items for home page || user_id :580da1f36558be29d4cbde2f
+2016-10-31T17:48:43.038Z - info: User sigining out ||user_id :580da1f36558be29d4cbde2f
+2016-10-31T17:48:43.098Z - info: Redirecting to home page || anonymous user
+2016-10-31T17:48:43.996Z - info: Displaying items for home page || anonymous user
+2016-10-31T17:48:45.023Z - info: Redirecting to login page
+2016-10-31T17:48:49.342Z - info: User logged in ||user_id :580da1f36558be29d4cbde2f
+2016-10-31T17:48:49.372Z - info: Redirecting to home page || user_id :580da1f36558be29d4cbde2f
+2016-10-31T17:48:50.009Z - info: Displaying items for home page || user_id :580da1f36558be29d4cbde2f
+2016-10-31T17:48:55.682Z - info: Redirecting to home page || anonymous user
+2016-10-31T17:48:56.466Z - info: Displaying items for home page || anonymous user
+2016-10-31T17:51:40.312Z - info: Redirecting to home page || user_id :580da1f36558be29d4cbde2f
+2016-10-31T17:51:40.979Z - info: Displaying items for home page || user_id :580da1f36558be29d4cbde2f
+2016-10-31T17:51:54.195Z - info: Redirecting to home page || user_id :580da1f36558be29d4cbde2f
+2016-10-31T17:51:57.044Z - info: Displaying items for home page || user_id :580da1f36558be29d4cbde2f
+2016-10-31T17:52:00.630Z - info: User sigining out ||user_id :580da1f36558be29d4cbde2f
+2016-10-31T17:52:00.657Z - info: Redirecting to home page || anonymous user
+2016-10-31T17:52:01.295Z - info: Displaying items for home page || anonymous user
+2016-10-31T17:52:05.132Z - info: Redirecting to login page
+2016-10-31T17:52:10.022Z - info: User logged in ||user_id :580da1f36558be29d4cbde2f
+2016-10-31T17:52:10.083Z - info: Redirecting to home page || user_id :580da1f36558be29d4cbde2f
+2016-10-31T17:52:12.970Z - info: Displaying items for home page || user_id :580da1f36558be29d4cbde2f
+2016-10-31T20:21:33.457Z - info: Redirecting to home page || user_id :580da1f36558be29d4cbde2f
+2016-10-31T20:21:34.878Z - info: Displaying items for home page || user_id :580da1f36558be29d4cbde2f
+2016-10-31T20:23:45.758Z - info: User sigining out ||user_id :580da1f36558be29d4cbde2f
+2016-10-31T20:23:45.788Z - info: Redirecting to home page || anonymous user
+2016-10-31T20:23:46.551Z - info: Displaying items for home page || anonymous user
+2016-10-31T20:34:05.612Z - info: Redirecting to detail page || anonymous user
+2016-10-31T20:34:06.473Z - info: Displaying items for detail page || anonymous user
+2016-10-31T22:13:39.706Z - info: Redirecting to home page || anonymous user
+2016-10-31T22:13:40.698Z - info: Displaying items for home page || anonymous user
+2016-10-31T22:13:43.779Z - info: Redirecting to detail page || anonymous user
+2016-10-31T22:13:44.743Z - info: Displaying items for detail page || anonymous user
+2016-10-31T22:38:05.448Z - info: Redirecting to detail page || anonymous user
+2016-10-31T22:38:06.530Z - info: Displaying items for detail page || anonymous user
+2016-10-31T22:38:08.022Z - info: Redirecting to home page || anonymous user
+2016-10-31T22:38:12.282Z - info: Displaying items for home page || anonymous user
+2016-10-31T22:38:24.860Z - info: Redirecting to detail page || anonymous user
+2016-10-31T22:38:25.717Z - info: Displaying items for detail page || anonymous user
+2016-10-31T22:38:32.231Z - info: Redirecting to detail page || anonymous user
+2016-10-31T22:38:33.028Z - info: Displaying items for detail page || anonymous user
+2016-10-31T22:38:35.711Z - info: Redirecting to login page
+2016-10-31T22:38:40.661Z - info: User logged in ||user_id :580da1f36558be29d4cbde2f
+2016-10-31T22:38:40.702Z - info: Redirecting to home page || user_id :580da1f36558be29d4cbde2f
+2016-10-31T22:38:41.412Z - info: Displaying items for home page || user_id :580da1f36558be29d4cbde2f
+2016-10-31T22:38:43.384Z - info: Redirecting to detail page || user_id :580da1f36558be29d4cbde2f
+2016-10-31T22:38:44.249Z - info: Displaying items for detail page || user_id :580da1f36558be29d4cbde2f
+2016-10-31T22:38:58.654Z - info: Redirecting to home page || anonymous user
+2016-10-31T22:39:00.284Z - info: Displaying items for home page || anonymous user
+2016-10-31T22:39:01.583Z - info: Redirecting to login page
+2016-10-31T22:39:06.054Z - info: User logged in ||user_id :580da2226558be29d4cbde32
+2016-10-31T22:39:06.084Z - info: Redirecting to home page || user_id :580da2226558be29d4cbde32
+2016-10-31T22:39:06.710Z - info: Displaying items for home page || user_id :580da2226558be29d4cbde32
+2016-10-31T22:39:08.284Z - info: Redirecting to sell page || user_id :580da2226558be29d4cbde32
+2016-10-31T22:39:29.984Z - info: storing item for sell page || user_id :580da2226558be29d4cbde32
+2016-10-31T22:39:30.010Z - info: Inserting sell item for seller data for sell page || user_id :580da2226558be29d4cbde32
+2016-10-31T22:39:30.046Z - info: Redirecting to home page || user_id :580da2226558be29d4cbde32
+2016-10-31T22:39:30.653Z - info: Displaying items for home page || user_id :580da2226558be29d4cbde32
+2016-10-31T22:39:35.558Z - info: Redirecting to detail page || user_id :580da1f36558be29d4cbde2f
+2016-10-31T22:39:36.296Z - info: Displaying items for detail page || user_id :580da1f36558be29d4cbde2f
+2016-10-31T22:39:37.269Z - info: Redirecting to home page || user_id :580da1f36558be29d4cbde2f
+2016-10-31T22:39:39.409Z - info: Displaying items for home page || user_id :580da1f36558be29d4cbde2f
+2016-10-31T22:39:41.208Z - info: Redirecting to detail page || user_id :580da1f36558be29d4cbde2f
+2016-10-31T22:39:42.095Z - info: Displaying items for detail page || user_id :580da1f36558be29d4cbde2f
+2016-10-31T22:39:47.004Z - info: bidding on item for detail page || user_id :580da1f36558be29d4cbde2f
+2016-10-31T22:39:47.046Z - info: Inserting on bidding item for detail page || user_id :580da1f36558be29d4cbde2f
+2016-10-31T22:39:49.065Z - info: Redirecting to detail page || user_id :580da1f36558be29d4cbde2f
+2016-10-31T22:39:49.881Z - info: Displaying items for detail page || user_id :580da1f36558be29d4cbde2f
+2016-10-31T23:02:48.187Z - info: Displaying my collection details || user_id :580da1f36558be29d4cbde2f
+2016-10-31T23:02:48.961Z - info: Displaying  my collection details for order history || user_id :580da1f36558be29d4cbde2f
+2016-10-31T23:03:03.739Z - info: Redirecting to my account page || user_id :580da1f36558be29d4cbde2f

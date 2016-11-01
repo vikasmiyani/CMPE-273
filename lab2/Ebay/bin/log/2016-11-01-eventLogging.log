@@ -1,0 +1,257 @@
+2016-11-01T04:51:52.250Z - info: Redirecting to my account page || user_id :580da1f36558be29d4cbde2f
+2016-11-01T04:52:24.304Z - info: Redirecting to home page || user_id :580da1f36558be29d4cbde2f
+2016-11-01T04:52:25.036Z - info: Displaying items for home page || user_id :580da1f36558be29d4cbde2f
+2016-11-01T05:05:29.655Z - info: Displaying my collection details || user_id :580da1f36558be29d4cbde2f
+2016-11-01T05:06:49.814Z - info: Displaying my collection details || user_id :580da1f36558be29d4cbde2f
+2016-11-01T05:06:50.709Z - info: Displaying  my collection details for order history || user_id :580da1f36558be29d4cbde2f
+2016-11-01T05:36:53.772Z - info: Displaying my collection details || user_id :580da1f36558be29d4cbde2f
+2016-11-01T05:36:54.679Z - info: Displaying  my collection details for order history || user_id :580da1f36558be29d4cbde2f
+2016-11-01T05:36:56.000Z - info: Redirecting to home page || user_id :580da1f36558be29d4cbde2f
+2016-11-01T05:36:56.744Z - info: Displaying items for home page || user_id :580da1f36558be29d4cbde2f
+2016-11-01T05:37:21.121Z - info: Redirecting to detail page || user_id :580da1f36558be29d4cbde2f
+2016-11-01T05:37:22.083Z - info: Displaying items for detail page || user_id :580da1f36558be29d4cbde2f
+2016-11-01T05:40:11.728Z - info: Redirecting to home page || user_id :580da1f36558be29d4cbde2f
+2016-11-01T05:40:12.476Z - info: Displaying items for home page || user_id :580da1f36558be29d4cbde2f
+2016-11-01T05:40:13.999Z - info: Redirecting to detail page || user_id :580da1f36558be29d4cbde2f
+2016-11-01T05:40:15.863Z - info: Displaying items for detail page || user_id :580da1f36558be29d4cbde2f
+2016-11-01T05:40:19.452Z - info: confirming order and redirecting to payment page || user_id :580da1f36558be29d4cbde2f
+2016-11-01T05:40:19.582Z - info: Redirecting to payment page || user_id :580da1f36558be29d4cbde2f
+2016-11-01T05:40:20.476Z - info: Displaying items for detail page || user_id :580da1f36558be29d4cbde2f
+2016-11-01T05:40:33.621Z - info: Validating card for payment page || user_id :580da1f36558be29d4cbde2f
+2016-11-01T05:40:33.621Z - info: Valid card || user_id :580da1f36558be29d4cbde2f
+2016-11-01T05:40:41.439Z - info: placing order and redirecting to home page || user_id :580da1f36558be29d4cbde2f
+2016-11-01T05:40:41.599Z - info: Redirecting to home page || user_id :580da1f36558be29d4cbde2f
+2016-11-01T05:40:42.297Z - info: Displaying items for home page || user_id :580da1f36558be29d4cbde2f
+2016-11-01T05:40:48.044Z - info: Displaying my collection details || user_id :580da1f36558be29d4cbde2f
+2016-11-01T05:40:48.941Z - info: Displaying  my collection details for order history || user_id :580da1f36558be29d4cbde2f
+2016-11-01T05:41:28.974Z - info: Displaying  my collection details for order history || user_id :580da1f36558be29d4cbde2f
+2016-11-01T05:41:35.822Z - info: Redirecting to home page || user_id :580da1f36558be29d4cbde2f
+2016-11-01T05:41:36.475Z - info: Displaying items for home page || user_id :580da1f36558be29d4cbde2f
+2016-11-01T05:41:38.304Z - info: Redirecting to detail page || user_id :580da1f36558be29d4cbde2f
+2016-11-01T05:41:39.060Z - info: Displaying items for detail page || user_id :580da1f36558be29d4cbde2f
+2016-11-01T05:41:45.406Z - info: confirming order and redirecting to payment page || user_id :580da1f36558be29d4cbde2f
+2016-11-01T05:41:45.449Z - info: Redirecting to payment page || user_id :580da1f36558be29d4cbde2f
+2016-11-01T05:41:46.235Z - info: Displaying items for detail page || user_id :580da1f36558be29d4cbde2f
+2016-11-01T05:42:00.662Z - info: Validating card for payment page || user_id :580da1f36558be29d4cbde2f
+2016-11-01T05:42:00.662Z - info: Valid card || user_id :580da1f36558be29d4cbde2f
+2016-11-01T05:42:09.866Z - info: placing order and redirecting to home page || user_id :580da1f36558be29d4cbde2f
+2016-11-01T05:42:09.926Z - info: Redirecting to home page || user_id :580da1f36558be29d4cbde2f
+2016-11-01T05:42:10.601Z - info: Displaying items for home page || user_id :580da1f36558be29d4cbde2f
+2016-11-01T05:42:14.149Z - info: Displaying my collection details || user_id :580da1f36558be29d4cbde2f
+2016-11-01T05:42:14.789Z - info: Displaying  my collection details for order history || user_id :580da1f36558be29d4cbde2f
+2016-11-01T05:42:17.414Z - info: Displaying  my collection details for order history || user_id :580da1f36558be29d4cbde2f
+2016-11-01T05:43:41.124Z - info: Redirecting to home page || user_id :580da1f36558be29d4cbde2f
+2016-11-01T05:43:41.940Z - info: Displaying items for home page || user_id :580da1f36558be29d4cbde2f
+2016-11-01T05:43:44.680Z - info: Displaying my collection details || user_id :580da1f36558be29d4cbde2f
+2016-11-01T05:43:45.415Z - info: Displaying  my collection details for order history || user_id :580da1f36558be29d4cbde2f
+2016-11-01T05:44:39.127Z - info: Displaying  my collection details for order history || user_id :580da1f36558be29d4cbde2f
+2016-11-01T05:44:45.346Z - info: Displaying my collection details || user_id :580da1f36558be29d4cbde2f
+2016-11-01T05:44:46.006Z - info: Displaying  my collection details for order history || user_id :580da1f36558be29d4cbde2f
+2016-11-01T05:45:47.539Z - info: Displaying my collection details || user_id :580da1f36558be29d4cbde2f
+2016-11-01T05:45:48.293Z - info: Displaying  my collection details for order history || user_id :580da1f36558be29d4cbde2f
+2016-11-01T05:46:13.872Z - info: Redirecting to home page || user_id :580da1f36558be29d4cbde2f
+2016-11-01T05:46:14.555Z - info: Displaying items for home page || user_id :580da1f36558be29d4cbde2f
+2016-11-01T05:46:16.926Z - info: Redirecting to detail page || user_id :580da1f36558be29d4cbde2f
+2016-11-01T05:46:17.805Z - info: Displaying items for detail page || user_id :580da1f36558be29d4cbde2f
+2016-11-01T05:46:20.940Z - info: Item add to shopping cart page || user_id :580da1f36558be29d4cbde2f
+2016-11-01T05:46:21.003Z - info: Redirecting to shopping cart page || user_id :580da1f36558be29d4cbde2f
+2016-11-01T05:46:21.700Z - info: Fetching shopping cart items || user_id :580da1f36558be29d4cbde2f
+2016-11-01T05:46:24.998Z - info: confirming order and redirecting to payment page || user_id :580da1f36558be29d4cbde2f
+2016-11-01T05:46:25.027Z - info: Redirecting to payment page || user_id :580da1f36558be29d4cbde2f
+2016-11-01T05:46:25.672Z - info: Fetching shopping cart items || user_id :580da1f36558be29d4cbde2f
+2016-11-01T05:46:36.359Z - info: Validating card for payment page || user_id :580da1f36558be29d4cbde2f
+2016-11-01T05:46:36.359Z - info: Valid card || user_id :580da1f36558be29d4cbde2f
+2016-11-01T05:46:37.499Z - info: placing order and redirecting to home page || user_id :580da1f36558be29d4cbde2f
+2016-11-01T05:46:37.552Z - info: Redirecting to home page || user_id :580da1f36558be29d4cbde2f
+2016-11-01T05:46:38.246Z - info: Displaying items for home page || user_id :580da1f36558be29d4cbde2f
+2016-11-01T05:46:40.819Z - info: Displaying my collection details || user_id :580da1f36558be29d4cbde2f
+2016-11-01T05:46:41.459Z - info: Displaying  my collection details for order history || user_id :580da1f36558be29d4cbde2f
+2016-11-01T06:14:59.729Z - info: Redirecting to home page || user_id :580da1f36558be29d4cbde2f
+2016-11-01T06:15:00.662Z - info: Displaying items for home page || user_id :580da1f36558be29d4cbde2f
+2016-11-01T06:15:12.851Z - info: Redirecting to sell page || user_id :580da1f36558be29d4cbde2f
+2016-11-01T06:15:44.107Z - info: storing item for sell page || user_id :580da1f36558be29d4cbde2f
+2016-11-01T06:15:44.137Z - info: Inserting sell item for seller data for sell page || user_id :580da1f36558be29d4cbde2f
+2016-11-01T06:15:44.164Z - info: Redirecting to home page || user_id :580da1f36558be29d4cbde2f
+2016-11-01T06:15:44.845Z - info: Displaying items for home page || user_id :580da1f36558be29d4cbde2f
+2016-11-01T06:15:47.846Z - info: Displaying my collection details || user_id :580da1f36558be29d4cbde2f
+2016-11-01T06:15:48.499Z - info: Displaying  my collection details for order history || user_id :580da1f36558be29d4cbde2f
+2016-11-01T06:18:13.923Z - info: Redirecting to home page || user_id :580da1f36558be29d4cbde2f
+2016-11-01T06:18:14.746Z - info: Displaying items for home page || user_id :580da1f36558be29d4cbde2f
+2016-11-01T06:18:15.523Z - info: Redirecting to sell page || user_id :580da1f36558be29d4cbde2f
+2016-11-01T06:18:45.504Z - info: storing item for sell page || user_id :580da1f36558be29d4cbde2f
+2016-11-01T06:18:45.534Z - info: Inserting sell item for seller data for sell page || user_id :580da1f36558be29d4cbde2f
+2016-11-01T06:18:45.573Z - info: Redirecting to home page || user_id :580da1f36558be29d4cbde2f
+2016-11-01T06:18:46.294Z - info: Displaying items for home page || user_id :580da1f36558be29d4cbde2f
+2016-11-01T06:20:13.194Z - info: Redirecting to sell page || user_id :580da1f36558be29d4cbde2f
+2016-11-01T06:20:34.359Z - info: storing item for sell page || user_id :580da1f36558be29d4cbde2f
+2016-11-01T06:20:34.482Z - info: Inserting sell item for seller data for sell page || user_id :580da1f36558be29d4cbde2f
+2016-11-01T06:20:34.519Z - info: Redirecting to home page || user_id :580da1f36558be29d4cbde2f
+2016-11-01T06:20:35.306Z - info: Displaying items for home page || user_id :580da1f36558be29d4cbde2f
+2016-11-01T06:22:59.677Z - info: Redirecting to sell page || user_id :580da1f36558be29d4cbde2f
+2016-11-01T06:23:08.564Z - info: storing item for sell page || user_id :580da1f36558be29d4cbde2f
+2016-11-01T06:23:08.701Z - info: Inserting sell item for seller data for sell page || user_id :580da1f36558be29d4cbde2f
+2016-11-01T06:23:08.727Z - info: Redirecting to home page || user_id :580da1f36558be29d4cbde2f
+2016-11-01T06:23:09.470Z - info: Displaying items for home page || user_id :580da1f36558be29d4cbde2f
+2016-11-01T06:23:10.607Z - info: Displaying my collection details || user_id :580da1f36558be29d4cbde2f
+2016-11-01T06:23:11.369Z - info: Displaying  my collection details for order history || user_id :580da1f36558be29d4cbde2f
+2016-11-01T06:23:16.629Z - info: Redirecting to home page || user_id :580da1f36558be29d4cbde2f
+2016-11-01T06:23:17.707Z - info: Displaying items for home page || user_id :580da1f36558be29d4cbde2f
+2016-11-01T06:23:23.162Z - info: Redirecting to sell page || user_id :580da1f36558be29d4cbde2f
+2016-11-01T06:23:39.475Z - info: storing item for sell page || user_id :580da1f36558be29d4cbde2f
+2016-11-01T06:23:39.489Z - info: Inserting sell item for seller data for sell page || user_id :580da1f36558be29d4cbde2f
+2016-11-01T06:23:39.522Z - info: Redirecting to home page || user_id :580da1f36558be29d4cbde2f
+2016-11-01T06:23:40.183Z - info: Displaying items for home page || user_id :580da1f36558be29d4cbde2f
+2016-11-01T06:23:42.382Z - info: Displaying my collection details || user_id :580da1f36558be29d4cbde2f
+2016-11-01T06:23:43.020Z - info: Displaying  my collection details for order history || user_id :580da1f36558be29d4cbde2f
+2016-11-01T06:39:32.738Z - info: Redirecting to home page || user_id :580da1f36558be29d4cbde2f
+2016-11-01T06:39:33.788Z - info: Displaying items for home page || user_id :580da1f36558be29d4cbde2f
+2016-11-01T06:39:35.864Z - info: Redirecting to detail page || user_id :580da1f36558be29d4cbde2f
+2016-11-01T06:39:37.099Z - info: Displaying items for detail page || user_id :580da1f36558be29d4cbde2f
+2016-11-01T06:39:38.729Z - info: Item add to shopping cart page || user_id :580da1f36558be29d4cbde2f
+2016-11-01T06:39:40.452Z - info: Item add to shopping cart page || user_id :580da1f36558be29d4cbde2f
+2016-11-01T06:39:41.177Z - info: Item add to shopping cart page || user_id :580da1f36558be29d4cbde2f
+2016-11-01T06:39:41.434Z - info: Item add to shopping cart page || user_id :580da1f36558be29d4cbde2f
+2016-11-01T06:39:41.623Z - info: Item add to shopping cart page || user_id :580da1f36558be29d4cbde2f
+2016-11-01T06:39:41.836Z - info: Item add to shopping cart page || user_id :580da1f36558be29d4cbde2f
+2016-11-01T06:40:35.070Z - info: Item add to shopping cart page || user_id :580da1f36558be29d4cbde2f
+2016-11-01T06:40:35.074Z - info: Item add to shopping cart page || user_id :580da1f36558be29d4cbde2f
+2016-11-01T06:40:35.080Z - info: Item add to shopping cart page || user_id :580da1f36558be29d4cbde2f
+2016-11-01T06:40:35.086Z - info: Item add to shopping cart page || user_id :580da1f36558be29d4cbde2f
+2016-11-01T06:40:35.091Z - info: Item add to shopping cart page || user_id :580da1f36558be29d4cbde2f
+2016-11-01T06:40:35.093Z - info: Item add to shopping cart page || user_id :580da1f36558be29d4cbde2f
+2016-11-01T06:40:35.246Z - info: Item add to shopping cart page || user_id :580da1f36558be29d4cbde2f
+2016-11-01T06:40:35.274Z - info: Item add to shopping cart page || user_id :580da1f36558be29d4cbde2f
+2016-11-01T06:40:35.318Z - info: Item add to shopping cart page || user_id :580da1f36558be29d4cbde2f
+2016-11-01T06:40:35.321Z - info: Item add to shopping cart page || user_id :580da1f36558be29d4cbde2f
+2016-11-01T06:40:35.323Z - info: Item add to shopping cart page || user_id :580da1f36558be29d4cbde2f
+2016-11-01T06:40:35.325Z - info: Item add to shopping cart page || user_id :580da1f36558be29d4cbde2f
+2016-11-01T06:42:14.134Z - info: Redirecting to home page || user_id :580da1f36558be29d4cbde2f
+2016-11-01T06:42:15.010Z - info: Displaying items for home page || user_id :580da1f36558be29d4cbde2f
+2016-11-01T06:42:15.997Z - info: Redirecting to detail page || user_id :580da1f36558be29d4cbde2f
+2016-11-01T06:42:16.729Z - info: Displaying items for detail page || user_id :580da1f36558be29d4cbde2f
+2016-11-01T06:42:36.948Z - info: Item add to shopping cart page || user_id :580da1f36558be29d4cbde2f
+2016-11-01T06:43:19.386Z - info: Redirecting to home page || user_id :580da1f36558be29d4cbde2f
+2016-11-01T06:43:20.118Z - info: Displaying items for home page || user_id :580da1f36558be29d4cbde2f
+2016-11-01T06:43:20.921Z - info: Redirecting to detail page || user_id :580da1f36558be29d4cbde2f
+2016-11-01T06:43:21.701Z - info: Displaying items for detail page || user_id :580da1f36558be29d4cbde2f
+2016-11-01T06:43:42.477Z - info: Item add to shopping cart page || user_id :580da1f36558be29d4cbde2f
+2016-11-01T06:43:42.545Z - info: Redirecting to shopping cart page || user_id :580da1f36558be29d4cbde2f
+2016-11-01T06:43:43.263Z - info: Fetching shopping cart items || user_id :580da1f36558be29d4cbde2f
+2016-11-01T07:04:59.639Z - info: Redirecting to home page || user_id :580da1f36558be29d4cbde2f
+2016-11-01T07:05:00.400Z - info: Displaying items for home page || user_id :580da1f36558be29d4cbde2f
+2016-11-01T07:05:03.069Z - info: Redirecting to shopping cart page || user_id :580da1f36558be29d4cbde2f
+2016-11-01T07:05:03.717Z - info: Fetching shopping cart items || user_id :580da1f36558be29d4cbde2f
+2016-11-01T07:05:06.103Z - info: Redirecting to home page || user_id :580da1f36558be29d4cbde2f
+2016-11-01T07:05:06.731Z - info: Displaying items for home page || user_id :580da1f36558be29d4cbde2f
+2016-11-01T07:05:07.878Z - info: Redirecting to detail page || user_id :580da1f36558be29d4cbde2f
+2016-11-01T07:05:08.728Z - info: Displaying items for detail page || user_id :580da1f36558be29d4cbde2f
+2016-11-01T07:05:12.150Z - info: Item add to shopping cart page || user_id :580da1f36558be29d4cbde2f
+2016-11-01T07:05:12.246Z - info: Redirecting to shopping cart page || user_id :580da1f36558be29d4cbde2f
+2016-11-01T07:05:14.272Z - info: Fetching shopping cart items || user_id :580da1f36558be29d4cbde2f
+2016-11-01T16:41:18.436Z - info: Redirecting to home page || user_id :580da1f36558be29d4cbde2f
+2016-11-01T16:41:55.728Z - info: User sigining out ||user_id :580da1f36558be29d4cbde2f
+2016-11-01T16:41:55.786Z - info: Redirecting to home page || anonymous user
+2016-11-01T16:41:56.701Z - info: Displaying items for home page || anonymous user
+2016-11-01T16:41:59.302Z - info: Redirecting to login page
+2016-11-01T16:42:05.683Z - info: User logged in ||user_id :580da1f36558be29d4cbde2f
+2016-11-01T16:42:05.729Z - info: Redirecting to home page || user_id :580da1f36558be29d4cbde2f
+2016-11-01T16:42:06.562Z - info: Displaying items for home page || user_id :580da1f36558be29d4cbde2f
+2016-11-01T16:42:11.550Z - info: Redirecting to detail page || user_id :580da1f36558be29d4cbde2f
+2016-11-01T16:42:12.628Z - info: Displaying items for detail page || user_id :580da1f36558be29d4cbde2f
+2016-11-01T16:42:19.008Z - info: Item add to shopping cart page || user_id :580da1f36558be29d4cbde2f
+2016-11-01T16:42:19.175Z - info: Redirecting to shopping cart page || user_id :580da1f36558be29d4cbde2f
+2016-11-01T16:42:21.216Z - info: Fetching shopping cart items || user_id :580da1f36558be29d4cbde2f
+2016-11-01T16:43:47.588Z - info: Redirecting to home page || user_id :580da1f36558be29d4cbde2f
+2016-11-01T16:43:48.388Z - info: Displaying items for home page || user_id :580da1f36558be29d4cbde2f
+2016-11-01T16:45:05.361Z - info: Redirecting to detail page || user_id :580da1f36558be29d4cbde2f
+2016-11-01T16:45:06.438Z - info: Displaying items for detail page || user_id :580da1f36558be29d4cbde2f
+2016-11-01T16:45:09.671Z - info: Item add to shopping cart page || user_id :580da1f36558be29d4cbde2f
+2016-11-01T16:45:09.728Z - info: Redirecting to shopping cart page || user_id :580da1f36558be29d4cbde2f
+2016-11-01T16:45:11.221Z - info: Fetching shopping cart items || user_id :580da1f36558be29d4cbde2f
+2016-11-01T16:56:40.867Z - info: Redirecting to home page || user_id :580da1f36558be29d4cbde2f
+2016-11-01T16:56:41.686Z - info: Displaying items for home page || user_id :580da1f36558be29d4cbde2f
+2016-11-01T16:56:42.576Z - info: Redirecting to shopping cart page || user_id :580da1f36558be29d4cbde2f
+2016-11-01T16:56:43.215Z - info: Fetching shopping cart items || user_id :580da1f36558be29d4cbde2f
+2016-11-01T16:56:47.434Z - info: updating item in shopping cart || user_id :580da1f36558be29d4cbde2f
+2016-11-01T16:56:57.553Z - info: updating item in shopping cart || user_id :580da1f36558be29d4cbde2f
+2016-11-01T16:56:57.555Z - info: confirming order and redirecting to payment page || user_id :580da1f36558be29d4cbde2f
+2016-11-01T16:56:57.665Z - info: Redirecting to payment page || user_id :580da1f36558be29d4cbde2f
+2016-11-01T16:56:58.766Z - info: Fetching shopping cart items || user_id :580da1f36558be29d4cbde2f
+2016-11-01T16:57:01.897Z - info: Redirecting to shopping cart page || user_id :580da1f36558be29d4cbde2f
+2016-11-01T16:57:02.508Z - info: Fetching shopping cart items || user_id :580da1f36558be29d4cbde2f
+2016-11-01T16:57:09.088Z - info: Deleting item from shopping cart || user_id :580da1f36558be29d4cbde2f
+2016-11-01T16:57:16.351Z - info: Redirecting to home page || user_id :580da1f36558be29d4cbde2f
+2016-11-01T16:57:17.000Z - info: Displaying items for home page || user_id :580da1f36558be29d4cbde2f
+2016-11-01T16:57:18.415Z - info: Redirecting to detail page || user_id :580da1f36558be29d4cbde2f
+2016-11-01T16:57:19.110Z - info: Displaying items for detail page || user_id :580da1f36558be29d4cbde2f
+2016-11-01T16:57:21.266Z - info: Item add to shopping cart page || user_id :580da1f36558be29d4cbde2f
+2016-11-01T16:57:21.320Z - info: Redirecting to shopping cart page || user_id :580da1f36558be29d4cbde2f
+2016-11-01T16:57:22.045Z - info: Fetching shopping cart items || user_id :580da1f36558be29d4cbde2f
+2016-11-01T16:57:25.150Z - info: Redirecting to home page || user_id :580da1f36558be29d4cbde2f
+2016-11-01T16:57:26.538Z - info: Displaying items for home page || user_id :580da1f36558be29d4cbde2f
+2016-11-01T16:57:27.472Z - info: Redirecting to detail page || user_id :580da1f36558be29d4cbde2f
+2016-11-01T16:57:28.216Z - info: Displaying items for detail page || user_id :580da1f36558be29d4cbde2f
+2016-11-01T16:57:29.935Z - info: Item add to shopping cart page || user_id :580da1f36558be29d4cbde2f
+2016-11-01T16:57:29.985Z - info: Redirecting to shopping cart page || user_id :580da1f36558be29d4cbde2f
+2016-11-01T16:57:30.691Z - info: Fetching shopping cart items || user_id :580da1f36558be29d4cbde2f
+2016-11-01T16:57:32.796Z - info: Deleting item from shopping cart || user_id :580da1f36558be29d4cbde2f
+2016-11-01T16:57:35.417Z - info: Redirecting to home page || user_id :580da1f36558be29d4cbde2f
+2016-11-01T16:57:36.011Z - info: Displaying items for home page || user_id :580da1f36558be29d4cbde2f
+2016-11-01T16:57:49.301Z - info: Redirecting to home page || anonymous user
+2016-11-01T16:57:50.813Z - info: Displaying items for home page || anonymous user
+2016-11-01T17:19:47.929Z - info: Redirecting to home page || user_id :580da1f36558be29d4cbde2f
+2016-11-01T17:19:48.739Z - info: Displaying items for home page || user_id :580da1f36558be29d4cbde2f
+2016-11-01T17:19:54.031Z - info: Redirecting to search page || user_id :580da1f36558be29d4cbde2f
+2016-11-01T17:19:54.786Z - info: Displaying items for search page || anonymous user
+2016-11-01T17:23:37.111Z - info: Redirecting to home page || user_id :580da1f36558be29d4cbde2f
+2016-11-01T17:23:37.824Z - info: Displaying items for home page || user_id :580da1f36558be29d4cbde2f
+2016-11-01T17:31:52.822Z - info: Redirecting to home page || user_id :580da1f36558be29d4cbde2f
+2016-11-01T17:31:53.803Z - info: Displaying items for home page || user_id :580da1f36558be29d4cbde2f
+2016-11-01T17:32:05.586Z - info: Redirecting to search page || user_id :580da1f36558be29d4cbde2f
+2016-11-01T17:32:06.357Z - info: Displaying items for search page || anonymous user
+2016-11-01T17:40:55.838Z - info: Redirecting to home page || user_id :580da1f36558be29d4cbde2f
+2016-11-01T17:40:56.604Z - info: Displaying items for home page || user_id :580da1f36558be29d4cbde2f
+2016-11-01T17:41:02.280Z - info: Redirecting to search page || user_id :580da1f36558be29d4cbde2f
+2016-11-01T17:41:02.896Z - info: Displaying items for search page || anonymous user
+2016-11-01T17:41:07.677Z - info: Redirecting to search page || user_id :580da1f36558be29d4cbde2f
+2016-11-01T17:41:08.282Z - info: Displaying items for search page || anonymous user
+2016-11-01T17:41:10.403Z - info: Redirecting to home page || user_id :580da1f36558be29d4cbde2f
+2016-11-01T17:41:11.749Z - info: Displaying items for home page || user_id :580da1f36558be29d4cbde2f
+2016-11-01T17:42:01.915Z - info: Redirecting to search page || user_id :580da1f36558be29d4cbde2f
+2016-11-01T17:42:25.515Z - info: Displaying items for search page || anonymous user
+2016-11-01T17:45:05.988Z - info: Redirecting to home page || user_id :580da1f36558be29d4cbde2f
+2016-11-01T17:45:06.726Z - info: Displaying items for home page || user_id :580da1f36558be29d4cbde2f
+2016-11-01T17:45:11.426Z - info: Redirecting to search page || user_id :580da1f36558be29d4cbde2f
+2016-11-01T17:45:12.222Z - info: Displaying items for search page || anonymous user
+2016-11-01T17:45:15.495Z - info: Redirecting to search page || user_id :580da1f36558be29d4cbde2f
+2016-11-01T17:45:16.348Z - info: Displaying items for search page || anonymous user
+2016-11-01T17:47:07.716Z - info: Redirecting to search page || user_id :580da1f36558be29d4cbde2f
+2016-11-01T17:47:09.099Z - info: Displaying items for search page || anonymous user
+2016-11-01T17:49:18.816Z - info: Redirecting to search page || user_id :580da1f36558be29d4cbde2f
+2016-11-01T17:49:20.277Z - info: Displaying items for search page || anonymous user
+2016-11-01T17:49:22.212Z - info: Redirecting to detail page || user_id :580da1f36558be29d4cbde2f
+2016-11-01T17:49:23.630Z - info: Displaying items for detail page || user_id :580da1f36558be29d4cbde2f
+2016-11-01T17:49:25.847Z - info: Redirecting to home page || user_id :580da1f36558be29d4cbde2f
+2016-11-01T17:49:28.437Z - info: Displaying items for home page || user_id :580da1f36558be29d4cbde2f
+2016-11-01T17:49:30.889Z - info: Redirecting to detail page || user_id :580da1f36558be29d4cbde2f
+2016-11-01T17:49:33.198Z - info: Displaying items for detail page || user_id :580da1f36558be29d4cbde2f
+2016-11-01T17:49:34.672Z - info: Redirecting to home page || user_id :580da1f36558be29d4cbde2f
+2016-11-01T17:49:37.232Z - info: Displaying items for home page || user_id :580da1f36558be29d4cbde2f
+2016-11-01T17:49:45.844Z - info: Redirecting to search page || user_id :580da1f36558be29d4cbde2f
+2016-11-01T17:49:47.252Z - info: Displaying items for search page || anonymous user
+2016-11-01T17:51:22.707Z - info: Redirecting to search page || user_id :580da1f36558be29d4cbde2f
+2016-11-01T17:51:24.229Z - info: Displaying items for search page || anonymous user
+2016-11-01T18:03:25.085Z - info: Redirecting to detail page || user_id :580da1f36558be29d4cbde2f
+2016-11-01T18:03:26.204Z - info: Displaying items for detail page || user_id :580da1f36558be29d4cbde2f
+2016-11-01T18:23:55.487Z - info: Redirecting to home page || user_id :580da1f36558be29d4cbde2f
+2016-11-01T18:23:57.595Z - info: Displaying items for home page || user_id :580da1f36558be29d4cbde2f
+2016-11-01T18:24:04.730Z - info: User sigining out ||user_id :580da1f36558be29d4cbde2f
+2016-11-01T18:24:04.749Z - info: Redirecting to home page || anonymous user
+2016-11-01T18:24:05.549Z - info: Displaying items for home page || anonymous user
+2016-11-01T18:24:06.640Z - info: Redirecting to login page
+2016-11-01T18:24:29.288Z - info: New user registration
+2016-11-01T18:24:29.659Z - info: User registered || user id :test@test.com
+2016-11-01T18:24:29.689Z - info: Redirecting to login page
+2016-11-01T18:24:39.655Z - info: User logged in ||user_id :5818dddd41ac380ca06b8a4b
+2016-11-01T18:24:39.711Z - info: Redirecting to home page || user_id :5818dddd41ac380ca06b8a4b
+2016-11-01T18:24:40.525Z - info: Displaying items for home page || user_id :5818dddd41ac380ca06b8a4b

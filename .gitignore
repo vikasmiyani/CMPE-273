@@ -11,7 +11,11 @@ HomeworkJava/.classpath
 HomeworkJava/.project
 HomeworkJava/src/com/permutation
 
-node_module
+**/Ebay/.project
+**/Ebay/.settings/
+**/Ebay/node_modules/
+**/Ebay/bower_components/
+**/Calculator/bower_components/
 # Windows image file caches
 Thumbs.db
 ehthumbs.db

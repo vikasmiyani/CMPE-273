@@ -24,7 +24,7 @@ exports.handle_request = function(msg, callback){
 		});
 	  }else{
 		  coll.find().toArray(function(err, user) {
-			  if(err){
+			  	if(err){
 					callback(err,null);
 				}
 				if(user){

@@ -10,7 +10,7 @@ var sellItem = require('./service/sellItem');
 var shoppingcart = require('./service/shoppingcart');
 var searchItem = require('./service/search');
 var signup = require('./service/signup');
-
+var signin = require('./service/signin');
 var cnn = amqp.createConnection({host:'127.0.0.1'});
 
 cnn.on('ready', function(){
@@ -246,4 +246,21 @@ cnn.on('ready', function(){
 			});
 		});
 	});
-});
+	
+	cnn.queue('login_queue', function(q){
+		q.subscribe(function(message, headers, deliveryInfo, m){
+			util.log(util.format( deliveryInfo.routingKey, message));
+			util.log("Message: "+JSON.stringify(message));
+			util.log("DeliveryInfo: "+JSON.stringify(deliveryInfo));
+			signin.doLogin(message, function(err,res){
+				//return index sent
+				cnn.publish(m.replyTo, res, {
+					contentType:'application/json',
+					contentEncoding:'utf-8',
+					correlationId:m.correlationId
+				});
+			});
+		});
+	});
+});	
+	

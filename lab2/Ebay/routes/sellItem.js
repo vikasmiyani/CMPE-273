@@ -97,6 +97,14 @@ exports.storingToSell = function(req, res) {
 					message : 'Item added successfully'
 				});
 				res.end();
+			}else{
+				log.logger.info("Error in inserting sell item for sell page || user_id :"+user_id);
+//				res.statusCode = 404;	
+				res.json({
+						success : false,
+						message : 'Issue in adding items'
+					});
+				res.end();
 			}	
 		});
 	}else{

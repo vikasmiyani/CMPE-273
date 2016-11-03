@@ -69,6 +69,10 @@ exports.addToCart = function(req,res){
 				          message: 'added to shopping cart'
 				        });
 				res.end();
+			}else{
+//				res.statusCode = 404;
+				res.json({ success: false, message: 'Error in adding to shopping cart.' });
+				res.end();
 			}	
 	});
 	}else{
@@ -94,6 +98,10 @@ exports.fetchShoppingDetail = function(req, res){
 //				res.statusCode = 200;
 				res.send(results.shoppingcart);
 				res.end();
+			}else{
+				log.logger.info("Error in fetching shopping cart items || user_id :"+user_id);
+//				res.statusCode = 404;
+				 res.end();
 			}
 	});
 	}	
@@ -123,6 +131,11 @@ exports.updateShoppingcart = function(req,res){
 //				res.statusCode = 200;
 				 res.json({ success: true, message: 'cart updated' });
 				 res.end();
+			}else{
+//				res.statusCode = 404;
+				log.logger.info("Error updating item in shopping cart || user_id :"+req.session.user_id);
+				 res.json({ success: false, message: 'Issue in upadting cart' });
+				res.end();
 			}
 		});
 	}else{
@@ -155,6 +168,11 @@ exports.deleteShoppingCartItem = function(req,res){
 //					res.statusCode = 200;
 					 res.json({ success: true, message: 'Item deleted from cart' });
 					 res.end();
+				}else{
+					log.logger.info("Error in deleting item from shopping cart || user_id :"+req.session.user_id);
+//					res.statusCode = 404;
+					res.json({ success: false, message: 'Issue in deleting item in cart' });
+					res.end();
 				}
 			});
 		

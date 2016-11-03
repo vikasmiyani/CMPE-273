@@ -4,9 +4,6 @@
 
 var ejs = require("ejs");
 var log = require("./log");
-var mongo = require("./mongo");  
-var config = require('./config.js');
-var ObjectID = require('mongodb').ObjectID;
 var mq_client = require('../rpc/client');
 
 exports.loadDetailPg = function(req, res) {
@@ -68,6 +65,15 @@ exports.fetchDetail = function(req, res) {
 //				res.statusCode = 200;
 				res.send(results);
 				res.end();
+		}else{
+			if(req.session.user_id){
+        		log.logger.info("Error occured in displaying items for detail page || user_id :"+req.session.user_id);
+        	}else{
+        		log.logger.info("Error occured in displaying items for detail page || anonymous user");
+        	}
+//			res.statusCode = 404;
+			res.json({ success: false, message: 'Error occured in displaying items for detail page' });
+			res.end();
 		}
 });
 		
@@ -100,42 +106,13 @@ exports.placeBid = function(req,res){
 				          message: 'Bidding placed'
 				        });
 				res.end();
+			}else{
+				log.logger.info("Error in bidding on item for detail page || user_id :"+user_id);
+//				res.statusCode = 404;
+				res.json({ success: false, message: 'Issue in updating biddin price' });
+				res.end();
 			}
-		
-		
-		
-		/*mongo.connect(config.mongo.dbURL,function(){
 
-			var coll = mongo.collection('items');
-				coll.findOne({_id:new ObjectID(id)},function(err, item) {
-					if(err){
-						log.logger.info("Error in bidding on item for detail page || user_id :"+req.session.user_id);
-//						res.statusCode = 404;
-						res.json({ success: false, message: 'Issue in updating biddin price' });
-						res.end();
-					}
-					if(item.isBidding && item.bidding_price < bidding_price){
-							if(item.bidder){
-									item.bidder.push(bidder_data);
-							}else{
-								var bidder = [];
-								bidder.push(bidder_data);
-								item.bidder = bidder;
-							}
-							coll.update({_id:new ObjectID(id)}, {$set:{bidding_price:bidding_price,bidder:item.bidder}},function(err, item) {
-								if(item){
-									log.logger.info("Inserting on bidding item for detail page || user_id :"+user_id);
-//									res.statusCode = 200;
-									res.json({
-									          success: true,
-									          message: 'Bidding placed'
-									        });
-									res.end();
-								}
-							});
-					}
-				});	
-			});*/
 		});		
 	}else{
 		res.redirect("/");

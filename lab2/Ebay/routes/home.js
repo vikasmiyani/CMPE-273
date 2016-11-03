@@ -76,6 +76,7 @@ exports.fetchItems = function(req,res){
 	var user_id = req.session.user_id;
 	var msg_payload = { "user_id": user_id};
 	
+	//console.log(msg_payload);
 	mq_client.make_request('home_item_queue',msg_payload, function(err,results){
 		if(err){
 			if(user_id){
@@ -95,6 +96,14 @@ exports.fetchItems = function(req,res){
 //					res.statusCode = 200;
 					res.send(results);
 					res.end();
+		}else{
+			if(user_id){
+	    		log.logger.info("Error occured in displaying items for home page || user_id :"+user_id);
+	    	}else{
+	    		log.logger.info("Error occured in displaying items for home page || anonymous user");
+	    	}
+			res.statusCode = 404;
+			res.end();
 		}	
 });
 

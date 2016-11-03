@@ -75,6 +75,14 @@ exports.getsearchItem = function(req,res){
 //				res.statusCode = 404;
 				res.end();
 			}
+		}else{
+			if(user_id){
+        		log.logger.info("Error occured in displaying items for search page || user_id :"+user_id);
+        	}else{
+        		log.logger.info("Error occured in displaying items for search page || anonymous user");
+        	}
+//			res.statusCode = 404;
+			res.end();
 		}	
 	});
 };

@@ -64,6 +64,10 @@ exports.confirmOrder = function(req, res) {
 		
 		mq_client.make_request('payment_queue',msg_payload, function(err,user){
 			if(err){
+				res.json({
+					success : false,
+					message : 'error in confirming order'
+				});
 				res.end();
 			}
 			 if(user){
@@ -84,6 +88,8 @@ exports.confirmOrder = function(req, res) {
 						message : 'confirming order before payment'
 					});
 					res.end();
+			 }else{
+				 res.end();
 			 }
 		});
 	}else{
@@ -105,12 +111,22 @@ exports.order = function(req, res) {
 		
 		mq_client.make_request('payment_queue',msg_payload, function(err,order){
 			if(err){
+				res.json({
+					success : false,
+					message : 'Error in payment Done'
+				});
 				res.end();
 			}
 			if(order){
 				res.json({
 					success : true,
 					message : 'Payment Done'
+				});
+				res.end();
+			}else{
+				res.json({
+					success : false,
+					message : 'Error in payment Done'
 				});
 				res.end();
 			}

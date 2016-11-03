@@ -1,9 +1,7 @@
 /**
  * http://usejsdoc.org/
  */
-var mongo = require("./mongo");  
-var config = require('./config.js');
-var ObjectID = require('mongodb').ObjectID;
+
 var ejs = require("ejs");
 var fecha = require('fecha');
 var log = require("./log");
@@ -25,6 +23,11 @@ exports.accountDetails = function(req, res) {
 			if(results){
 //				res.statusCode = 200;
 				res.send(results);
+				res.end();
+			}else{
+				log.logger
+				.info("Error in displaying account details || user_id :"
+						+ user_id);
 				res.end();
 			}	
 	});
@@ -76,6 +79,15 @@ exports.accountUpdate = function(req, res) {
 					success : true,
 					message : 'Account updated successfully'
 				});
+				res.end();
+			}else{
+				log.logger
+				.info("Error in updating account details || user_id :"+ user_id);
+				res.json({
+					success : false,
+					message : 'Issue in updating account'
+				});
+//				res.statusCode = 404;
 				res.end();
 			}	
 	});
@@ -135,6 +147,11 @@ exports.sellingHis = function(req, res) {
 //			res.statusCode = 200;
 			res.send(results);
 			res.end();
+		}else{
+			log.logger
+			.info("Error in displaying  my collection details for selling history || user_id :"+ user_id);
+//			res.statusCode = 404;
+			res.end();
 		}	
    });
 		
@@ -157,6 +174,11 @@ exports.orderHis = function(req, res) {
 			.info("Displaying  my collection details for order history || user_id :"+ user_id);
 //			res.statusCode = 200;
 			res.send(results);
+			res.end();
+		}else{
+			log.logger
+			.info("Error in displaying  my collection details for order history || user_id :"+ user_id);
+//			res.statusCode = 404;
 			res.end();
 		}	
    });

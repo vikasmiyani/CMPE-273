@@ -49,6 +49,14 @@ exports.registerUser = function(req, res) {
 					message : 'Registered'
 				});
 				res.end();
+			}else{
+				log.logger.info("Error in user registration");
+//				res.statusCode = 404;
+				res.json({
+					success : false,
+					message : 'Error in registration.'
+				});
+				res.end();
 			}	
 	 });
 	} else {

@@ -10,7 +10,13 @@ exports.accountDetails = function(msg,callback) {
 
 		var user_id = msg.user_id;
 		mongo.connect(config.mongo.dbURL, function() {
-			var coll = mongo.collection('users');
+			var coll;
+			try{
+				 coll = mongo.collection('users');
+				}catch(e){
+					console.log(e);
+					callback(e,null);
+				}
 			coll.findOne({_id:new ObjectID(user_id)}, function(err, user) {
 				if(err){
 					callback(err,null);
@@ -27,7 +33,11 @@ exports.accountUpdate = function(msg,callback) {
 		var first_name = msg.first_name;
 		var last_name = msg.last_name;
 		var dob = msg.dob;
-		var bdate = fecha.format(new Date(dob), 'YYYY-MM-DD HH:mm:ss');
+		var bdate;
+		if(dob){
+			bdate = fecha.format(new Date(dob), 'YYYY-MM-DD HH:mm:ss');
+		}
+		
 		var email_id = msg.email_id;
 		var contact_info = msg.contact_info;
 		var address = msg.address;
@@ -36,7 +46,7 @@ exports.accountUpdate = function(msg,callback) {
 
 		mongo.connect(config.mongo.dbURL, function() {
 			var coll = mongo.collection('users');
-			coll.updateOne({_id:new ObjectID(user_id)},{$set:{first_name:first_name,
+			coll.update({_id:new ObjectID(user_id)},{$set:{first_name:first_name,
 				last_name:last_name,
 				dob:dob,
 				email_id:email_id,

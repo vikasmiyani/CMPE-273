@@ -23,7 +23,7 @@ exports.confirmOrder = function(msg, callback) {
 };
 
 exports.order = function(msg,callback) {
-	
+
 	var user_id = msg.user_id;
 		var items = msg.items;
 		var ids = [];
@@ -76,7 +76,7 @@ exports.order = function(msg,callback) {
 							}
 							bulk.execute();
 							coll = mongo.collection('order');
-							coll.insertOne(order_data,function(err,order){
+							coll.insert(order_data,function(err,order){
 								if(order){
 									if(isBuyItNow === 'false'){
 										coll = mongo.collection('users');
@@ -89,9 +89,7 @@ exports.order = function(msg,callback) {
 									}else{
 										callback(null,order);
 									}
-									
 								}
-								
 							});
 						}
 				  }

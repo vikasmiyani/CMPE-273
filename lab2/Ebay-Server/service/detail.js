@@ -12,7 +12,13 @@ exports.fetchDetail = function(msg, callback) {
 	var item_id = msg.item_id;
 	mongo.connect(config.mongo.dbURL,function(){
 
-		var coll = mongo.collection('items');
+		var coll ;
+		try{
+			 coll = mongo.collection('items');
+		}catch(e){
+			console.log(e);
+			callback(e,null);
+		}
 			coll.find({_id:new ObjectID(item_id)}).toArray(function(err, item) {
 				if(err){
 					callback(err,null);

@@ -13,13 +13,25 @@ exports.addToCart = function(msg,callback){
 		var cart_data = {quantity:qty,item_id:item_id,user_id:user_id};
 		console.log(cart_data);
 		mongo.connect(config.mongo.dbURL,function(){
-			var coll = mongo.collection('items');
+			var coll ;
+			try{
+				 coll = mongo.collection('items');
+			}catch(e){
+				console.log(e);
+				callback(null,null);
+			}
 				coll.findOne({_id:new ObjectID(item_id)},function(err, item) {
 					if(err){
 						callback(err,null);
 					}
 					if(item){
-						coll = mongo.collection('users');
+						var coll ;
+						try{
+							 coll = mongo.collection('users');
+						}catch(e){
+							console.log(e);
+							callback(e,null);
+						}
 						coll.findOne({_id:new ObjectID(user_id)},function(err,user){
 							item.ord_quantity = qty;
 							if(user.shoppingcart){

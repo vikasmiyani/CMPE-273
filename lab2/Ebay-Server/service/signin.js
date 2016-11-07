@@ -6,7 +6,6 @@ var fecha = require('fecha');
 var mongo = require("./mongo");  
 var config = require('./config.js');
 
-
 exports.doLogin=function(msg, callback) {
 
     var username = msg.username;

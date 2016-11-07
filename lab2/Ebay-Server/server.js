@@ -11,7 +11,29 @@ var shoppingcart = require('./service/shoppingcart');
 var searchItem = require('./service/search');
 var signup = require('./service/signup');
 var signin = require('./service/signin');
+var mongo = require('./service/mongo');
+var config = require('./service/config');
+var auction = require('./service/auction');
 var cnn = amqp.createConnection({host:'127.0.0.1'});
+var db;
+
+mongo.open();
+
+/*if(mongo.db){
+	db = mongo.db;
+	console.log("connection available");
+}else{
+	
+		try{
+			mongo.connect(config.mongo.dbURL, function(err){});
+		}catch(e){
+			console.log("hello");
+		}
+	
+		db = mongo.db;
+		console.log("new connection created");
+}*/
+
 
 cnn.on('ready', function(){
 
@@ -28,6 +50,14 @@ cnn.on('ready', function(){
 					correlationId:m.correlationId
 				});
 			});
+		/*	home.test(message, function(err,res){
+				//return index sent
+				cnn.publish(m.replyTo, res, {
+					contentType:'application/json',
+					contentEncoding:'utf-8',
+					correlationId:m.correlationId
+				});
+			});*/
 		});
 	});
 	
@@ -80,7 +110,7 @@ cnn.on('ready', function(){
 			}
 			
 			if(message.method === "accountUpdate"){
-				account.accountDetails(message, function(err,res){
+				account.accountUpdate(message, function(err,res){
 					//return index sent
 					cnn.publish(m.replyTo, res, {
 						contentType:'application/json',
@@ -262,5 +292,22 @@ cnn.on('ready', function(){
 			});
 		});
 	});
+	
+	cnn.queue('auction_queue', function(q){
+		q.subscribe(function(message, headers, deliveryInfo, m){
+			util.log(util.format( deliveryInfo.routingKey, message));
+			util.log("Message: "+JSON.stringify(message));
+			util.log("DeliveryInfo: "+JSON.stringify(deliveryInfo));
+			auction.checkAuction(message, function(err,res){
+				//return index sent
+				cnn.publish(m.replyTo, res, {
+					contentType:'application/json',
+					contentEncoding:'utf-8',
+					correlationId:m.correlationId
+				});
+			});
+		});
+	});
+	
 });	
 	

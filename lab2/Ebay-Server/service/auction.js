@@ -1,14 +1,12 @@
 /**
  * http://usejsdoc.org/
  */
-
-var log = require("./log");
 var mongo = require("./mongo");  
 var config = require('./config.js');
 var ObjectID = require('mongodb').ObjectID;
 var fecha = require('fecha');
 
-exports.checkAuction = function(){
+exports.checkAuction = function(msg,callback){
 
 	var current_timestamp  = fecha.format(new Date(),
 	'YYYY-MM-DD HH:mm:ss');
@@ -39,7 +37,7 @@ exports.checkAuction = function(){
 					}
 					if(dataAvailable){
 						dataAvailable = false;
-						coll.update({_id:{ $in: item_ids}},{$set:{isSold:1,sold_quantity:1}},{multi:true});
+						coll.update({_id:{ $in: item_ids}},{$set:{isSold:1,sold_quantity:1}},{multi:true},function(err,items){});
 						coll = mongo.collection('order');
 						for (var j = 0; j < user_ids.length; j++) {
 							var order_data = {};
@@ -47,11 +45,14 @@ exports.checkAuction = function(){
 							var ordered_items = [];
 							ordered_items.push(item_list[j]);
 							order_data.ordered_items = ordered_items ; 
-							coll.insertOne(order_data);
+							coll.insert(order_data);
 						}
 					}
 				
 				}
 			});	
 		});	
+		
+	callback(true,true);
+	
 };

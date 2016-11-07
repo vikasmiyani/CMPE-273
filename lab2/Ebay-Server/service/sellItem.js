@@ -41,7 +41,7 @@ exports.storingToSell = function(msg,callback) {
 					 	itemData.seller.email_id = user.email_id;
 					 	itemData.seller.ebay_handle = user.ebay_handle;
 					 	coll = mongo.collection('items');
-						coll.insertOne(itemData,function(err,item){
+						coll.insert(itemData,function(err,item){
 							if(err){
 								callback(err,null);
 							}

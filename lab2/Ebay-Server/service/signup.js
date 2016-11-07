@@ -20,7 +20,7 @@ exports.registerUser = function(msg,callback) {
 				if (user) {
 					callback(err,null);
 				} else {
-					coll.insertOne(user_data,function(err,user){
+					coll.insert(user_data,function(err,user){
 						if(err){
 							callback(err,null);
 						}

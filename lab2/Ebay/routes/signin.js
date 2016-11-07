@@ -23,6 +23,7 @@ exports.authenticateUser = function(req, res, next) {
 //	var pwd = req.body.password;
 	var sess = req.session;
 	  passport.authenticate('login', function(err, user) {
+		  console.log(user);
 	    if(err) {
 	      return next(err);
 	    }
@@ -32,7 +33,7 @@ exports.authenticateUser = function(req, res, next) {
 	    }
 	   
 	    if(user){
-	    	console.log(user);
+	    	
 	    	sess.first_name =user.first_name;
 			sess.last_name = user.last_name;
 			sess.user_id = user._id;

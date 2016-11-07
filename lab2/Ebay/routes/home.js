@@ -77,6 +77,7 @@ exports.fetchItems = function(req,res){
 	var msg_payload = { "user_id": user_id};
 	
 	//console.log(msg_payload);
+	
 	mq_client.make_request('home_item_queue',msg_payload, function(err,results){
 		if(err){
 			if(user_id){

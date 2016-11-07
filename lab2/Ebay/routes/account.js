@@ -40,14 +40,20 @@ exports.accountUpdate = function(req, res) {
 		var first_name = req.body.first_name;
 		var last_name = req.body.last_name;
 		var dob = req.body.dob;
-		var bdate = fecha.format(new Date(dob), 'YYYY-MM-DD HH:mm:ss');
+		var bdate;
+		if(dob){
+			bdate = fecha.format(new Date(dob), 'YYYY-MM-DD HH:mm:ss');	
+		}
+		
 		var email_id = req.body.email_id;
 		var contact_info = req.body.contact_info;
 		var address = req.body.address;
 		var city = req.body.city;
 		var zip = req.body.zip;
 		
-
+		
+		
+		
 		var msg_payload = {
 			"method" : "accountUpdate",
 			"user_id" : user_id,

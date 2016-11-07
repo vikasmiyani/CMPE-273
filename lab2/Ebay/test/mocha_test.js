@@ -35,7 +35,7 @@ describe('Signin test', function(){
 	
 	it('Unit Test for fetching single item for detailpage', function(done) {
 		request.get(
-			    'http://localhost:3000/fetchDetail?item_id=53',
+			    'http://localhost:3000/fetchDetail/581ed512609dded458da6774',
 			    function (error, response, body) {
 			    	assert.equal(200, response.statusCode);
 			    	done();
@@ -55,7 +55,7 @@ describe('Signin test', function(){
 	
 	it('Unit Test for searching items', function(done) {
 		request.get(
-			    'http://localhost:3000/searchItemList/i',
+			    'http://localhost:3000/searchItemList/ta',
 			    function (error, response, body) {
 			    	assert.equal(200, response.statusCode);
 			    	done();

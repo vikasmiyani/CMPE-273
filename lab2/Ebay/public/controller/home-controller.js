@@ -23,9 +23,7 @@ app.controller('homeController', function($scope,$window,$location,$http) {
 	  if($scope.items === undefined){
 		  $http.get('http://localhost:3000/itemList/')
 	      .then(function (data) {
-	          console.log("Success" + data);
 	          $scope.items = data.data;
-	      
 	      })
 	      .catch(function(data) {
 	          console.log("Erro: "+data);

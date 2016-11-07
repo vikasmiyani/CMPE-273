@@ -3,14 +3,17 @@
  */
 
 var log = require("./log");
-var mongo = require("./mongo");  
-var config = require('./config.js');
-var ObjectID = require('mongodb').ObjectID;
-var fecha = require('fecha');
+var mq_client = require('../rpc/client');
 
 exports.checkAuction = function(){
 
-	var current_timestamp  = fecha.format(new Date(),
+	var msg_payload = {};
+	mq_client.make_request('auction_queue',msg_payload, function(err,results){
+		console.log("response");
+});
+	
+	
+	/*var current_timestamp  = fecha.format(new Date(),
 	'YYYY-MM-DD HH:mm:ss');
 	mongo.connect(config.mongo.dbURL,function(){
 		var coll = mongo.collection('items');
@@ -53,5 +56,5 @@ exports.checkAuction = function(){
 				
 				}
 			});	
-		});	
+		});	*/
 };

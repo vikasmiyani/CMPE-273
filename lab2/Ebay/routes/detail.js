@@ -5,6 +5,7 @@
 var ejs = require("ejs");
 var log = require("./log");
 var mq_client = require('../rpc/client');
+var ObjectID = require('mongodb').ObjectID;
 
 exports.loadDetailPg = function(req, res) {
 

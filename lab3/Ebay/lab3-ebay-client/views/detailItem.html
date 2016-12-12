@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Detail</title>
+<link rel="stylesheet" href="style.css">
+<link rel="stylesheet"
+	href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+<script
+	src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+<script
+	src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+</head>
+<body ng-app="detail" ng-controller="detailController">
+	<!-- <% include navbar.ejs %> -->
+	<div class="container">
+		<section id="content-1-2" class="content-block content-1-2">
+			<div class="container topMargin100">
+				<!-- Start Row -->
+				<form>
+					<div class="row">
+						<div class="col-md-5">
+							<img class="img-rounded img-responsive"
+								src="http://placehold.it/600x400">
+						</div>
+						<div class="col-md-5">
+							<div class="editContent">
+								<h2><%= item_detail.item_name%></h2>
+							</div>
+							<hr style="width: 150%; border-top: 1px solid #c6c4c4;">
+							<div class="editContent">
+								<p class="lead"><%= item_detail.item_desc%></p>
+							</div>
+							<div class="editContent">
+
+								<div style="background-color: #c8c8c8;">
+									<table>
+										<tr style="width:100%">
+											<td style="width:40%">
+												<table class="marginR">
+													<tr>
+														<td><p>Price:</p></td>
+														<td><p><%= item_detail.price%></p></td>
+													</tr>
+													<tr>
+														<td><p>Item left:</p></td>
+														<td><p><%= item_detail.quantity%></p></td>
+													</tr>
+													<tr>
+														<td><p>Quantity:</p></td>
+														<td><p><input type="number" ng-model="oreder_qty" id="oreder_qty"
+															name="oreder_qty"></p></td>
+													</tr>
+												</table>
+											</td>
+											<td style="width:60%">
+												<table>
+													<tr>
+														<td><a href="#" class="btn btn-block btn-primary bottomMargin10 width150"><span
+															class="fa fa-cloud-upload"></span> Try FREE</a></td>
+													</tr>
+													<tr>
+														<td><a href="#" class="btn btn-block btn-warning bottomMargin10 width150"><span
+															class="fa fa-check"></span> Buy NOW</a></td>
+													</tr>
+												</table>
+											</td>
+										</tr>
+
+									</table>
+
+
+								</div>
+							
+						</div>
+				</form>
+			</div>
+			
+			<!--// END Row -->
+	</div>
+	</section>
+	</div>
+</body>
+</html>

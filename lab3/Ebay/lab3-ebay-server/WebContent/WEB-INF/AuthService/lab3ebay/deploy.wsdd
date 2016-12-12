@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?><!-- Use this file to deploy some handlers/chains and services      --><!-- Two ways to do this:                                           --><!--   java org.apache.axis.client.AdminClient deploy.wsdd          --><!--      after the axis server is running                          --><!-- or                                                             --><!--   java org.apache.axis.utils.Admin client|server deploy.wsdd   --><!--      from the same directory that the Axis engine runs         --><deployment xmlns="http://xml.apache.org/axis/wsdd/" xmlns:java="http://xml.apache.org/axis/wsdd/providers/java">
+
+  <!-- Services from AuthService WSDL service -->
+
+  <service name="Auth" provider="java:RPC" style="wrapped" use="literal">
+      <parameter name="wsdlTargetNamespace" value="http://lab3ebay"/>
+      <parameter name="wsdlServiceElement" value="AuthService"/>
+      <parameter name="schemaQualified" value="http://lab3ebay"/>
+      <parameter name="wsdlServicePort" value="Auth"/>
+      <parameter name="className" value="lab3ebay.Auth"/>
+      <parameter name="wsdlPortType" value="Auth"/>
+      <parameter name="typeMappingVersion" value="1.2"/>
+      <operation xmlns:operNS="http://lab3ebay" xmlns:retNS="http://lab3ebay" xmlns:rtns="http://www.w3.org/2001/XMLSchema" name="register" qname="operNS:register" returnQName="retNS:registerReturn" returnType="rtns:string" soapAction="">
+        <parameter xmlns:pns="http://lab3ebay" xmlns:tns="http://www.w3.org/2001/XMLSchema" qname="pns:fname" type="tns:string"/>
+        <parameter xmlns:pns="http://lab3ebay" xmlns:tns="http://www.w3.org/2001/XMLSchema" qname="pns:lname" type="tns:string"/>
+        <parameter xmlns:pns="http://lab3ebay" xmlns:tns="http://www.w3.org/2001/XMLSchema" qname="pns:email" type="tns:string"/>
+        <parameter xmlns:pns="http://lab3ebay" xmlns:tns="http://www.w3.org/2001/XMLSchema" qname="pns:bdate" type="tns:string"/>
+        <parameter xmlns:pns="http://lab3ebay" xmlns:tns="http://www.w3.org/2001/XMLSchema" qname="pns:phone" type="tns:string"/>
+        <parameter xmlns:pns="http://lab3ebay" xmlns:tns="http://www.w3.org/2001/XMLSchema" qname="pns:password" type="tns:string"/>
+        <parameter xmlns:pns="http://lab3ebay" xmlns:tns="http://www.w3.org/2001/XMLSchema" qname="pns:line_1" type="tns:string"/>
+        <parameter xmlns:pns="http://lab3ebay" xmlns:tns="http://www.w3.org/2001/XMLSchema" qname="pns:city" type="tns:string"/>
+        <parameter xmlns:pns="http://lab3ebay" xmlns:tns="http://www.w3.org/2001/XMLSchema" qname="pns:state" type="tns:string"/>
+        <parameter xmlns:pns="http://lab3ebay" xmlns:tns="http://www.w3.org/2001/XMLSchema" qname="pns:zipcode" type="tns:string"/>
+      </operation>
+      <operation xmlns:operNS="http://lab3ebay" xmlns:retNS="http://lab3ebay" xmlns:rtns="http://www.w3.org/2001/XMLSchema" name="signin" qname="operNS:signin" returnQName="retNS:signinReturn" returnType="rtns:string" soapAction="">
+        <parameter xmlns:pns="http://lab3ebay" xmlns:tns="http://www.w3.org/2001/XMLSchema" qname="pns:username" type="tns:string"/>
+        <parameter xmlns:pns="http://lab3ebay" xmlns:tns="http://www.w3.org/2001/XMLSchema" qname="pns:password" type="tns:string"/>
+      </operation>
+      <parameter name="allowedMethods" value="signin register"/>
+
+  </service>
+</deployment>

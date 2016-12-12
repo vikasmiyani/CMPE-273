@@ -1,0 +1,338 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wsdl:definitions targetNamespace="http://lab3ebay" xmlns:apachesoap="http://xml.apache.org/xml-soap" xmlns:impl="http://lab3ebay" xmlns:intf="http://lab3ebay" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/" xmlns:wsdlsoap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+<!--WSDL created by Apache Axis version: 1.4
+Built on Apr 22, 2006 (06:55:48 PDT)-->
+ <wsdl:types>
+  <schema elementFormDefault="qualified" targetNamespace="http://lab3ebay" xmlns="http://www.w3.org/2001/XMLSchema">
+   <element name="getBaughtItems">
+    <complexType>
+     <sequence>
+      <element name="user_id" type="xsd:int"/>
+     </sequence>
+    </complexType>
+   </element>
+   <element name="getBaughtItemsResponse">
+    <complexType>
+     <sequence>
+      <element name="getBaughtItemsReturn" type="xsd:string"/>
+     </sequence>
+    </complexType>
+   </element>
+   <element name="saveUserDetails">
+    <complexType>
+     <sequence>
+      <element name="user_id" type="xsd:int"/>
+      <element name="fname" type="xsd:string"/>
+      <element name="lname" type="xsd:string"/>
+      <element name="phone" type="xsd:string"/>
+      <element name="bdate" type="xsd:string"/>
+      <element name="line_1" type="xsd:string"/>
+      <element name="cartty" type="xsd:string"/>
+      <element name="state" type="xsd:string"/>
+      <element name="zipcode" type="xsd:string"/>
+     </sequence>
+    </complexType>
+   </element>
+   <element name="saveUserDetailsResponse">
+    <complexType>
+     <sequence>
+      <element name="saveUserDetailsReturn" type="xsd:string"/>
+     </sequence>
+    </complexType>
+   </element>
+   <element name="getUserDetails">
+    <complexType>
+     <sequence>
+      <element name="user_id" type="xsd:int"/>
+     </sequence>
+    </complexType>
+   </element>
+   <element name="getUserDetailsResponse">
+    <complexType>
+     <sequence>
+      <element name="getUserDetailsReturn" type="xsd:string"/>
+     </sequence>
+    </complexType>
+   </element>
+   <element name="getSoldItems">
+    <complexType>
+     <sequence>
+      <element name="user_id" type="xsd:int"/>
+     </sequence>
+    </complexType>
+   </element>
+   <element name="getSoldItemsResponse">
+    <complexType>
+     <sequence>
+      <element name="getSoldItemsReturn" type="xsd:string"/>
+     </sequence>
+    </complexType>
+   </element>
+   <element name="getAuctionItems">
+    <complexType>
+     <sequence>
+      <element name="user_id" type="xsd:int"/>
+     </sequence>
+    </complexType>
+   </element>
+   <element name="getAuctionItemsResponse">
+    <complexType>
+     <sequence>
+      <element name="getAuctionItemsReturn" type="xsd:string"/>
+     </sequence>
+    </complexType>
+   </element>
+  </schema>
+ </wsdl:types>
+
+   <wsdl:message name="getSoldItemsResponse">
+
+      <wsdl:part element="impl:getSoldItemsResponse" name="parameters">
+
+      </wsdl:part>
+
+   </wsdl:message>
+
+   <wsdl:message name="getUserDetailsRequest">
+
+      <wsdl:part element="impl:getUserDetails" name="parameters">
+
+      </wsdl:part>
+
+   </wsdl:message>
+
+   <wsdl:message name="getBaughtItemsRequest">
+
+      <wsdl:part element="impl:getBaughtItems" name="parameters">
+
+      </wsdl:part>
+
+   </wsdl:message>
+
+   <wsdl:message name="getAuctionItemsRequest">
+
+      <wsdl:part element="impl:getAuctionItems" name="parameters">
+
+      </wsdl:part>
+
+   </wsdl:message>
+
+   <wsdl:message name="getUserDetailsResponse">
+
+      <wsdl:part element="impl:getUserDetailsResponse" name="parameters">
+
+      </wsdl:part>
+
+   </wsdl:message>
+
+   <wsdl:message name="getSoldItemsRequest">
+
+      <wsdl:part element="impl:getSoldItems" name="parameters">
+
+      </wsdl:part>
+
+   </wsdl:message>
+
+   <wsdl:message name="getBaughtItemsResponse">
+
+      <wsdl:part element="impl:getBaughtItemsResponse" name="parameters">
+
+      </wsdl:part>
+
+   </wsdl:message>
+
+   <wsdl:message name="saveUserDetailsRequest">
+
+      <wsdl:part element="impl:saveUserDetails" name="parameters">
+
+      </wsdl:part>
+
+   </wsdl:message>
+
+   <wsdl:message name="getAuctionItemsResponse">
+
+      <wsdl:part element="impl:getAuctionItemsResponse" name="parameters">
+
+      </wsdl:part>
+
+   </wsdl:message>
+
+   <wsdl:message name="saveUserDetailsResponse">
+
+      <wsdl:part element="impl:saveUserDetailsResponse" name="parameters">
+
+      </wsdl:part>
+
+   </wsdl:message>
+
+   <wsdl:portType name="User">
+
+      <wsdl:operation name="getBaughtItems">
+
+         <wsdl:input message="impl:getBaughtItemsRequest" name="getBaughtItemsRequest">
+
+       </wsdl:input>
+
+         <wsdl:output message="impl:getBaughtItemsResponse" name="getBaughtItemsResponse">
+
+       </wsdl:output>
+
+      </wsdl:operation>
+
+      <wsdl:operation name="saveUserDetails">
+
+         <wsdl:input message="impl:saveUserDetailsRequest" name="saveUserDetailsRequest">
+
+       </wsdl:input>
+
+         <wsdl:output message="impl:saveUserDetailsResponse" name="saveUserDetailsResponse">
+
+       </wsdl:output>
+
+      </wsdl:operation>
+
+      <wsdl:operation name="getUserDetails">
+
+         <wsdl:input message="impl:getUserDetailsRequest" name="getUserDetailsRequest">
+
+       </wsdl:input>
+
+         <wsdl:output message="impl:getUserDetailsResponse" name="getUserDetailsResponse">
+
+       </wsdl:output>
+
+      </wsdl:operation>
+
+      <wsdl:operation name="getSoldItems">
+
+         <wsdl:input message="impl:getSoldItemsRequest" name="getSoldItemsRequest">
+
+       </wsdl:input>
+
+         <wsdl:output message="impl:getSoldItemsResponse" name="getSoldItemsResponse">
+
+       </wsdl:output>
+
+      </wsdl:operation>
+
+      <wsdl:operation name="getAuctionItems">
+
+         <wsdl:input message="impl:getAuctionItemsRequest" name="getAuctionItemsRequest">
+
+       </wsdl:input>
+
+         <wsdl:output message="impl:getAuctionItemsResponse" name="getAuctionItemsResponse">
+
+       </wsdl:output>
+
+      </wsdl:operation>
+
+   </wsdl:portType>
+
+   <wsdl:binding name="UserSoapBinding" type="impl:User">
+
+      <wsdlsoap:binding style="document" transport="http://schemas.xmlsoap.org/soap/http"/>
+
+      <wsdl:operation name="getBaughtItems">
+
+         <wsdlsoap:operation soapAction=""/>
+
+         <wsdl:input name="getBaughtItemsRequest">
+
+            <wsdlsoap:body use="literal"/>
+
+         </wsdl:input>
+
+         <wsdl:output name="getBaughtItemsResponse">
+
+            <wsdlsoap:body use="literal"/>
+
+         </wsdl:output>
+
+      </wsdl:operation>
+
+      <wsdl:operation name="saveUserDetails">
+
+         <wsdlsoap:operation soapAction=""/>
+
+         <wsdl:input name="saveUserDetailsRequest">
+
+            <wsdlsoap:body use="literal"/>
+
+         </wsdl:input>
+
+         <wsdl:output name="saveUserDetailsResponse">
+
+            <wsdlsoap:body use="literal"/>
+
+         </wsdl:output>
+
+      </wsdl:operation>
+
+      <wsdl:operation name="getUserDetails">
+
+         <wsdlsoap:operation soapAction=""/>
+
+         <wsdl:input name="getUserDetailsRequest">
+
+            <wsdlsoap:body use="literal"/>
+
+         </wsdl:input>
+
+         <wsdl:output name="getUserDetailsResponse">
+
+            <wsdlsoap:body use="literal"/>
+
+         </wsdl:output>
+
+      </wsdl:operation>
+
+      <wsdl:operation name="getSoldItems">
+
+         <wsdlsoap:operation soapAction=""/>
+
+         <wsdl:input name="getSoldItemsRequest">
+
+            <wsdlsoap:body use="literal"/>
+
+         </wsdl:input>
+
+         <wsdl:output name="getSoldItemsResponse">
+
+            <wsdlsoap:body use="literal"/>
+
+         </wsdl:output>
+
+      </wsdl:operation>
+
+      <wsdl:operation name="getAuctionItems">
+
+         <wsdlsoap:operation soapAction=""/>
+
+         <wsdl:input name="getAuctionItemsRequest">
+
+            <wsdlsoap:body use="literal"/>
+
+         </wsdl:input>
+
+         <wsdl:output name="getAuctionItemsResponse">
+
+            <wsdlsoap:body use="literal"/>
+
+         </wsdl:output>
+
+      </wsdl:operation>
+
+   </wsdl:binding>
+
+   <wsdl:service name="UserService">
+
+      <wsdl:port binding="impl:UserSoapBinding" name="User">
+
+         <wsdlsoap:address location="http://localhost:8080/lab3-ebay-server/services/User"/>
+
+      </wsdl:port>
+
+   </wsdl:service>
+
+</wsdl:definitions>

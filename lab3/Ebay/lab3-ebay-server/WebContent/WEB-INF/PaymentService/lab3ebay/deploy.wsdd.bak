@@ -1,0 +1,32 @@
+<!-- Use this file to deploy some handlers/chains and services      -->
+<!-- Two ways to do this:                                           -->
+<!--   java org.apache.axis.client.AdminClient deploy.wsdd          -->
+<!--      after the axis server is running                          -->
+<!-- or                                                             -->
+<!--   java org.apache.axis.utils.Admin client|server deploy.wsdd   -->
+<!--      from the same directory that the Axis engine runs         -->
+
+<deployment
+    xmlns="http://xml.apache.org/axis/wsdd/"
+    xmlns:java="http://xml.apache.org/axis/wsdd/providers/java">
+
+  <!-- Services from PaymentService WSDL service -->
+
+  <service name="Payment" provider="java:RPC" style="wrapped" use="literal">
+      <parameter name="wsdlTargetNamespace" value="http://lab3ebay"/>
+      <parameter name="wsdlServiceElement" value="PaymentService"/>
+      <parameter name="schemaQualified" value="http://lab3ebay"/>
+      <parameter name="wsdlServicePort" value="Payment"/>
+      <parameter name="className" value="lab3ebay.PaymentSoapBindingImpl"/>
+      <parameter name="wsdlPortType" value="Payment"/>
+      <parameter name="typeMappingVersion" value="1.2"/>
+      <operation name="pay" qname="operNS:pay" xmlns:operNS="http://lab3ebay" returnQName="retNS:payReturn" xmlns:retNS="http://lab3ebay" returnType="rtns:string" xmlns:rtns="http://www.w3.org/2001/XMLSchema" soapAction="" >
+        <parameter qname="pns:user_id" xmlns:pns="http://lab3ebay" type="tns:int" xmlns:tns="http://www.w3.org/2001/XMLSchema"/>
+        <parameter qname="pns:is_cart" xmlns:pns="http://lab3ebay" type="tns:boolean" xmlns:tns="http://www.w3.org/2001/XMLSchema"/>
+        <parameter qname="pns:item_id" xmlns:pns="http://lab3ebay" type="tns:int" xmlns:tns="http://www.w3.org/2001/XMLSchema"/>
+        <parameter qname="pns:quantity" xmlns:pns="http://lab3ebay" type="tns:int" xmlns:tns="http://www.w3.org/2001/XMLSchema"/>
+      </operation>
+      <parameter name="allowedMethods" value="pay"/>
+
+  </service>
+</deployment>

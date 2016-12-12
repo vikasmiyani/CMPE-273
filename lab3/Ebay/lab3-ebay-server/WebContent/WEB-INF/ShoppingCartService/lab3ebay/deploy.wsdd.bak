@@ -1,0 +1,43 @@
+<!-- Use this file to deploy some handlers/chains and services      -->
+<!-- Two ways to do this:                                           -->
+<!--   java org.apache.axis.client.AdminClient deploy.wsdd          -->
+<!--      after the axis server is running                          -->
+<!-- or                                                             -->
+<!--   java org.apache.axis.utils.Admin client|server deploy.wsdd   -->
+<!--      from the same directory that the Axis engine runs         -->
+
+<deployment
+    xmlns="http://xml.apache.org/axis/wsdd/"
+    xmlns:java="http://xml.apache.org/axis/wsdd/providers/java">
+
+  <!-- Services from ShoppingCartService WSDL service -->
+
+  <service name="ShoppingCart" provider="java:RPC" style="wrapped" use="literal">
+      <parameter name="wsdlTargetNamespace" value="http://lab3ebay"/>
+      <parameter name="wsdlServiceElement" value="ShoppingCartService"/>
+      <parameter name="schemaQualified" value="http://lab3ebay"/>
+      <parameter name="wsdlServicePort" value="ShoppingCart"/>
+      <parameter name="className" value="lab3ebay.ShoppingCartSoapBindingImpl"/>
+      <parameter name="wsdlPortType" value="ShoppingCart"/>
+      <parameter name="typeMappingVersion" value="1.2"/>
+      <operation name="removeCartItem" qname="operNS:removeCartItem" xmlns:operNS="http://lab3ebay" returnQName="retNS:removeCartItemReturn" xmlns:retNS="http://lab3ebay" returnType="rtns:string" xmlns:rtns="http://www.w3.org/2001/XMLSchema" soapAction="" >
+        <parameter qname="pns:user_id" xmlns:pns="http://lab3ebay" type="tns:int" xmlns:tns="http://www.w3.org/2001/XMLSchema"/>
+        <parameter qname="pns:item_id" xmlns:pns="http://lab3ebay" type="tns:int" xmlns:tns="http://www.w3.org/2001/XMLSchema"/>
+      </operation>
+      <operation name="addToCart" qname="operNS:addToCart" xmlns:operNS="http://lab3ebay" returnQName="retNS:addToCartReturn" xmlns:retNS="http://lab3ebay" returnType="rtns:string" xmlns:rtns="http://www.w3.org/2001/XMLSchema" soapAction="" >
+        <parameter qname="pns:user_id" xmlns:pns="http://lab3ebay" type="tns:int" xmlns:tns="http://www.w3.org/2001/XMLSchema"/>
+        <parameter qname="pns:item_id" xmlns:pns="http://lab3ebay" type="tns:int" xmlns:tns="http://www.w3.org/2001/XMLSchema"/>
+        <parameter qname="pns:quantity" xmlns:pns="http://lab3ebay" type="tns:int" xmlns:tns="http://www.w3.org/2001/XMLSchema"/>
+      </operation>
+      <operation name="placeBid" qname="operNS:placeBid" xmlns:operNS="http://lab3ebay" returnQName="retNS:placeBidReturn" xmlns:retNS="http://lab3ebay" returnType="rtns:string" xmlns:rtns="http://www.w3.org/2001/XMLSchema" soapAction="" >
+        <parameter qname="pns:user_id" xmlns:pns="http://lab3ebay" type="tns:int" xmlns:tns="http://www.w3.org/2001/XMLSchema"/>
+        <parameter qname="pns:item_id" xmlns:pns="http://lab3ebay" type="tns:int" xmlns:tns="http://www.w3.org/2001/XMLSchema"/>
+        <parameter qname="pns:bid" xmlns:pns="http://lab3ebay" type="tns:double" xmlns:tns="http://www.w3.org/2001/XMLSchema"/>
+      </operation>
+      <operation name="getCartItems" qname="operNS:getCartItems" xmlns:operNS="http://lab3ebay" returnQName="retNS:getCartItemsReturn" xmlns:retNS="http://lab3ebay" returnType="rtns:string" xmlns:rtns="http://www.w3.org/2001/XMLSchema" soapAction="" >
+        <parameter qname="pns:user_id" xmlns:pns="http://lab3ebay" type="tns:int" xmlns:tns="http://www.w3.org/2001/XMLSchema"/>
+      </operation>
+      <parameter name="allowedMethods" value="removeCartItem getCartItems addToCart placeBid"/>
+
+  </service>
+</deployment>

@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Payment</title>
+<link rel="stylesheet" href="style.css">
+<link rel="stylesheet"
+	href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+<script
+	src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+<script
+	src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+</head>
+<body>
+
+	<div class="container col-md-offset-3 col-md-9">
+		<div class="globalHeader">
+			<a href></a>
+			<h1>Checkout</h1>
+
+		</div>
+
+		<div class="mainContent">
+			<div class="left col-md-7">
+				<div>
+					<span class="fontLargeGray">Pay with</span>
+					<div class="row">
+						<div>
+							<div class="whiteBg borderRound">
+								<div class="radio-inline">
+									<label><input type="radio" name="group1" value="1"
+										data-toggle="collapse" data-parent="#credit_input"
+										href="#collapseOne">Credit or debit card</label>
+								</div>
+							</div>
+							<div class="panel-group" id="credit_input">
+								<div class="panel panel-default">
+									<div id="collapseOne" class="panel-collapse collapse out">
+										<div class="panel-body">
+											<form class="form-horizontal" role="form">
+												<fieldset>
+													<legend>Card detail</legend>
+													<div class="form-group">
+														<label class="col-sm-3 control-label" for="card-number">Card
+															Number</label>
+														<div class="col-sm-9">
+															<input type="text" class="form-control" name="cardnumber"
+																id="cardnumber" placeholder="Credit Card Number">
+														</div>
+													</div>
+													<div class="form-group">
+														<label class="col-sm-3 control-label">Expiration
+															Date</label>
+														<div class="col-xs-3">
+															<input type="text" class="form-control" placeholder="mm"
+																id="expMonth" name="expMonth" />
+														</div>
+														<div class="col-xs-3">
+															<input type="textcvv" class="form-control"
+																placeholder="yyyy" id="expYear" name="expYear" />
+														</div>
+													</div>
+													<div class="form-group">
+														<label class="col-sm-3 control-label" for="cvv">Card
+															CVV</label>
+														<div class="col-sm-3">
+															<input type="text" class="form-control" name="cvv"
+																id="cvv" placeholder="Security Code">
+														</div>
+													</div>
+													<div class="form-group">
+														<div class="col-sm-offset-3 col-sm-9">
+															<input type="submit" class="btn btn-success" value="done">
+														</div>
+													</div>
+												</fieldset>
+											</form>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+
+				</div>
+
+				<div>
+					<span class="fontLargeGray">Ship to</span>
+					<div class="row">
+						<div class="whiteBg borderRound">
+							<div>
+							<span id="address"
+							ng-model="address">{{address}}</span>
+							</div>
+							<div>
+						<a href ng-click="change()"><span style="color: green;">change</span></a>
+						</div>
+						</div>
+						
+					</div>
+				</div>
+
+				<div>
+
+
+					<span class="fontLargeGray">Review item and shipping</span>						
+					
+					<div ng-repeat =" i in item_list">
+					
+						<div class="panel panel-default row" >
+							<div class="panel-heading"><span ng-model="seller_info">Seller: {{i[0].first_name}}</span></div>
+							<div style="background-color: #f5f5f5;">
+								<table class="table table-hover" style="margin-bottom: 0px">
+									<tr>
+										<td class="col-md-2">
+											<div class="media">
+												<span class="thumbnail pull-left" href> <img
+													class="media-object"
+													src="/image/600x400.png"
+													style="width: 72px; height: 72px;">
+												</span>
+											
+											</div>
+										</td>
+										<td class="col-md-3">
+										<div class="media-body">
+													<h4 class="media-heading">
+														<span ng-model="item_name">{{i[0].item_name}}</span>
+													</h4>
+													<h5 class="media-heading">
+														<span ng-model="item_desc">{{i[0].item_desc}}<span>
+													</h5>
+
+												</div>
+										</td>
+										<td class="col-md-1" style="text-align: center">
+											<lable>quantity</lable>
+										</td>
+										<td class="col-md-1">
+										<input type="number" class="form-control"
+											id="quantity" ng-model="sc_quantity" value={{i[0].quantity}}>
+										</td>
+										<td class="col-md-1 text-center"><strong><span ng-model="price">{{i[0].price * i[0].quantity}}</span></strong></td>
+										<input type="hidden" ng-init="$parent.total = $parent.total + (i[0].price * i[0].quantity)"/>
+									</tr>
+									<tr>
+										<td colspan="5" class="col-md-1" style="text-align: right">
+											<a href>
+												<span class="glyphicon glyphicon-remove"></span> Remove
+											</a>
+										</td>
+									</tr>
+
+								</table>
+							</div>
+						</div>
+					</div> 	
+						
+				</div>
+			</div>
+			<div class="right col-md-4">
+				<div class="in-right">
+					<div class="upper-in-right">
+						<table>
+							<tr>
+								<td><span>Total amount: </span></td>
+								<td><span id="total" ng-model="total">{{total}}</span></td>
+							</tr>
+						</table>
+					</div class="bottom-in-right">
+					<div>
+						<div class="col-md-12">
+							<a href="#" class="btn btn-block btn-primary"><span
+								class="fa fa-check"></span>Confirm and Pay</a>
+						</div>
+
+					</div>
+				</div>
+			</div>
+
+		</div>
+
+
+	</div>
+</body>
+</html>

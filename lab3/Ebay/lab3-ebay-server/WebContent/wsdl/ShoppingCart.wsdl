@@ -1,0 +1,275 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wsdl:definitions targetNamespace="http://lab3ebay" xmlns:apachesoap="http://xml.apache.org/xml-soap" xmlns:impl="http://lab3ebay" xmlns:intf="http://lab3ebay" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/" xmlns:wsdlsoap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+<!--WSDL created by Apache Axis version: 1.4
+Built on Apr 22, 2006 (06:55:48 PDT)-->
+ <wsdl:types>
+  <schema elementFormDefault="qualified" targetNamespace="http://lab3ebay" xmlns="http://www.w3.org/2001/XMLSchema">
+   <element name="removeCartItem">
+    <complexType>
+     <sequence>
+      <element name="user_id" type="xsd:int"/>
+      <element name="item_id" type="xsd:int"/>
+     </sequence>
+    </complexType>
+   </element>
+   <element name="removeCartItemResponse">
+    <complexType>
+     <sequence>
+      <element name="removeCartItemReturn" type="xsd:string"/>
+     </sequence>
+    </complexType>
+   </element>
+   <element name="addToCart">
+    <complexType>
+     <sequence>
+      <element name="user_id" type="xsd:int"/>
+      <element name="item_id" type="xsd:int"/>
+      <element name="quantity" type="xsd:int"/>
+     </sequence>
+    </complexType>
+   </element>
+   <element name="addToCartResponse">
+    <complexType>
+     <sequence>
+      <element name="addToCartReturn" type="xsd:string"/>
+     </sequence>
+    </complexType>
+   </element>
+   <element name="placeBid">
+    <complexType>
+     <sequence>
+      <element name="user_id" type="xsd:int"/>
+      <element name="item_id" type="xsd:int"/>
+      <element name="bid" type="xsd:double"/>
+     </sequence>
+    </complexType>
+   </element>
+   <element name="placeBidResponse">
+    <complexType>
+     <sequence>
+      <element name="placeBidReturn" type="xsd:string"/>
+     </sequence>
+    </complexType>
+   </element>
+   <element name="getCartItems">
+    <complexType>
+     <sequence>
+      <element name="user_id" type="xsd:int"/>
+     </sequence>
+    </complexType>
+   </element>
+   <element name="getCartItemsResponse">
+    <complexType>
+     <sequence>
+      <element name="getCartItemsReturn" type="xsd:string"/>
+     </sequence>
+    </complexType>
+   </element>
+  </schema>
+ </wsdl:types>
+
+   <wsdl:message name="removeCartItemResponse">
+
+      <wsdl:part element="impl:removeCartItemResponse" name="parameters">
+
+      </wsdl:part>
+
+   </wsdl:message>
+
+   <wsdl:message name="getCartItemsResponse">
+
+      <wsdl:part element="impl:getCartItemsResponse" name="parameters">
+
+      </wsdl:part>
+
+   </wsdl:message>
+
+   <wsdl:message name="getCartItemsRequest">
+
+      <wsdl:part element="impl:getCartItems" name="parameters">
+
+      </wsdl:part>
+
+   </wsdl:message>
+
+   <wsdl:message name="addToCartResponse">
+
+      <wsdl:part element="impl:addToCartResponse" name="parameters">
+
+      </wsdl:part>
+
+   </wsdl:message>
+
+   <wsdl:message name="addToCartRequest">
+
+      <wsdl:part element="impl:addToCart" name="parameters">
+
+      </wsdl:part>
+
+   </wsdl:message>
+
+   <wsdl:message name="placeBidRequest">
+
+      <wsdl:part element="impl:placeBid" name="parameters">
+
+      </wsdl:part>
+
+   </wsdl:message>
+
+   <wsdl:message name="removeCartItemRequest">
+
+      <wsdl:part element="impl:removeCartItem" name="parameters">
+
+      </wsdl:part>
+
+   </wsdl:message>
+
+   <wsdl:message name="placeBidResponse">
+
+      <wsdl:part element="impl:placeBidResponse" name="parameters">
+
+      </wsdl:part>
+
+   </wsdl:message>
+
+   <wsdl:portType name="ShoppingCart">
+
+      <wsdl:operation name="removeCartItem">
+
+         <wsdl:input message="impl:removeCartItemRequest" name="removeCartItemRequest">
+
+       </wsdl:input>
+
+         <wsdl:output message="impl:removeCartItemResponse" name="removeCartItemResponse">
+
+       </wsdl:output>
+
+      </wsdl:operation>
+
+      <wsdl:operation name="addToCart">
+
+         <wsdl:input message="impl:addToCartRequest" name="addToCartRequest">
+
+       </wsdl:input>
+
+         <wsdl:output message="impl:addToCartResponse" name="addToCartResponse">
+
+       </wsdl:output>
+
+      </wsdl:operation>
+
+      <wsdl:operation name="placeBid">
+
+         <wsdl:input message="impl:placeBidRequest" name="placeBidRequest">
+
+       </wsdl:input>
+
+         <wsdl:output message="impl:placeBidResponse" name="placeBidResponse">
+
+       </wsdl:output>
+
+      </wsdl:operation>
+
+      <wsdl:operation name="getCartItems">
+
+         <wsdl:input message="impl:getCartItemsRequest" name="getCartItemsRequest">
+
+       </wsdl:input>
+
+         <wsdl:output message="impl:getCartItemsResponse" name="getCartItemsResponse">
+
+       </wsdl:output>
+
+      </wsdl:operation>
+
+   </wsdl:portType>
+
+   <wsdl:binding name="ShoppingCartSoapBinding" type="impl:ShoppingCart">
+
+      <wsdlsoap:binding style="document" transport="http://schemas.xmlsoap.org/soap/http"/>
+
+      <wsdl:operation name="removeCartItem">
+
+         <wsdlsoap:operation soapAction=""/>
+
+         <wsdl:input name="removeCartItemRequest">
+
+            <wsdlsoap:body use="literal"/>
+
+         </wsdl:input>
+
+         <wsdl:output name="removeCartItemResponse">
+
+            <wsdlsoap:body use="literal"/>
+
+         </wsdl:output>
+
+      </wsdl:operation>
+
+      <wsdl:operation name="addToCart">
+
+         <wsdlsoap:operation soapAction=""/>
+
+         <wsdl:input name="addToCartRequest">
+
+            <wsdlsoap:body use="literal"/>
+
+         </wsdl:input>
+
+         <wsdl:output name="addToCartResponse">
+
+            <wsdlsoap:body use="literal"/>
+
+         </wsdl:output>
+
+      </wsdl:operation>
+
+      <wsdl:operation name="placeBid">
+
+         <wsdlsoap:operation soapAction=""/>
+
+         <wsdl:input name="placeBidRequest">
+
+            <wsdlsoap:body use="literal"/>
+
+         </wsdl:input>
+
+         <wsdl:output name="placeBidResponse">
+
+            <wsdlsoap:body use="literal"/>
+
+         </wsdl:output>
+
+      </wsdl:operation>
+
+      <wsdl:operation name="getCartItems">
+
+         <wsdlsoap:operation soapAction=""/>
+
+         <wsdl:input name="getCartItemsRequest">
+
+            <wsdlsoap:body use="literal"/>
+
+         </wsdl:input>
+
+         <wsdl:output name="getCartItemsResponse">
+
+            <wsdlsoap:body use="literal"/>
+
+         </wsdl:output>
+
+      </wsdl:operation>
+
+   </wsdl:binding>
+
+   <wsdl:service name="ShoppingCartService">
+
+      <wsdl:port binding="impl:ShoppingCartSoapBinding" name="ShoppingCart">
+
+         <wsdlsoap:address location="http://localhost:8080/lab3-ebay-server/services/ShoppingCart"/>
+
+      </wsdl:port>
+
+   </wsdl:service>
+
+</wsdl:definitions>

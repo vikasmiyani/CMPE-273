@@ -1,0 +1,66 @@
+!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+	<link rel="shortcut icon" href="">
+	<link rel="stylesheet"  href="/stylesheets/style.css">
+    <link rel="stylesheet" href="/bootstrap/dist/css/bootstrap.css">
+    <script> 
+    window.isOrderHis = "<%=isOrderHis%>";
+    window.history = "<%=history%>";
+    alert(window.isOrderHis);
+    </script>
+    
+</head>
+<body ng-app="mycollection" ng-controller="mycollectionController" ng-init="displayHis()">
+<% include navbar.js %>
+    <div class="container">
+        <h2>Your history</h2>
+ 		
+ 		  <div class="dropdown">
+            <button class="btn btn-default dropdown-toggle" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">Dropdown Example
+                <span class="caret"></span>
+            </button>
+            <ul class="dropdown-menu" aria-labelledby="dropdownMenu1">
+            	<li><a href="/orderHis">Order history</a></li>
+                <li><a href="/sellingHis">Selling history</a></li>
+               
+            </ul>
+        </div>
+ 	
+ 		<br><br>
+        <!--table-->
+        <div>{{title}}</div>
+       <table class="table table-striped">
+       <thead>
+            <tr class="info">
+                <th>Name</th>
+                <th>Description</th>
+                <th>Price</th>
+                <th>Bidding price</th>
+                <th>Bidding due</th>
+                <th>Quantity</th>
+            </tr>
+        </thead>
+        <tbody>
+        <div ng-repeat = "i in hisList tack by $index">
+            <tr>
+            <td>{{i[0].item_name}}</td>
+            <td>{{i[0].item_desc}}</td>
+            <td>{{i[0].price}}</td>
+            <td>{{i[0].bidding_price}}</td>
+            <td>{{i[0].bidding_due_time_stamp}}</td>
+            <td>{{i[0].quantity}}</td>
+        </tr>
+        </div>
+        </tbody>
+    </table>
+    </div>
+    <script src="/angular/angular.js"></script>
+	<script src="/angular-route/angular-route.js"></script>
+	<script src="/jquery/dist/jquery.min.js"></script>
+	<script src="/bootstrap/dist/js/bootstrap.js"></script>
+	<script src="/controller/mycollection-controller.js"></script> 
+</body>
+
+</html>
